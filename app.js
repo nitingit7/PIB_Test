@@ -257,6 +257,7 @@ function renderResult() {
         <div class="top-actions">
           <button class="btn" data-action="retry">Retake Test</button>
           <button class="btn btn-outline" data-action="home">Back to Test List</button>
+          ${test.resourceLink ? `<a class="btn btn-outline" href="${test.resourceLink}" target="_blank" rel="noopener">Revise These Concepts →</a>` : ''}
         </div>
       </div>
       <div class="section-label">Answer Review</div>
