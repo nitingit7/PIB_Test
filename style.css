@@ -125,6 +125,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .btn {
+  display: inline-block;
   border: 1.5px solid var(--ink);
   background: var(--ink);
   color: var(--paper);
@@ -375,6 +376,21 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 13.5px;
   letter-spacing: 0.03em;
 }
+
+.exit-btn {
+  width: 100%;
+  background: transparent;
+  color: var(--ink-soft);
+  border: 1.5px solid var(--line);
+  padding: 11px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  margin-top: 10px;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.exit-btn:hover { border-color: var(--red); color: var(--red); }
 
 /* ---------- Result screen ---------- */
 
