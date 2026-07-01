@@ -8,6 +8,16 @@ if (!test) {
   location.href = 'index.html';
 }
 
+const FONT_SCALE_KEY = 'ga_practice_font_scale';
+const FONT_SCALE_MIN = 0.85;
+const FONT_SCALE_MAX = 1.5;
+let fontScale = parseFloat(localStorage.getItem(FONT_SCALE_KEY)) || 1;
+
+function applyFontScale() {
+  document.documentElement.style.setProperty('--font-scale', fontScale.toFixed(2));
+}
+applyFontScale();
+
 let exam = {
   current: 0,
   answers: new Array(test.questions.length).fill(null),
@@ -60,6 +70,7 @@ function startTimer() {
 function renderExam() {
   const { current, answers, marked } = exam;
   const q = test.questions[current];
+  const unanswered = answers.filter(a => a === null).length;
 
   const optionsHtml = q.options.map((opt, i) => `
     <div class="option ${answers[current] === i ? 'selected' : ''}" data-opt="${i}">
@@ -83,7 +94,13 @@ function renderExam() {
       <div class="q-panel">
         <div class="q-number-row">
           <div class="qn">QUESTION ${current + 1} OF ${test.questions.length}</div>
-          <div class="qn">+${MARK_CORRECT} / −${MARK_NEGATIVE}</div>
+          <div class="q-toolbar-right">
+            <div class="qn">+${MARK_CORRECT} / −${MARK_NEGATIVE}</div>
+            <div class="font-controls">
+              <button data-action="font-dec" aria-label="Decrease font size">A−</button>
+              <button data-action="font-inc" aria-label="Increase font size">A+</button>
+            </div>
+          </div>
         </div>
         <div class="q-text">${q.q}</div>
         <div class="options">${optionsHtml}</div>
@@ -95,7 +112,10 @@ function renderExam() {
         </div>
       </div>
       <div class="palette-panel">
-        <div class="palette-title">Question Palette</div>
+        <div class="palette-header">
+          <div class="palette-title">Question Palette</div>
+          <button class="palette-close" data-action="close-palette" aria-label="Close">✕</button>
+        </div>
         <div class="palette-grid">
           ${test.questions.map((_, i) => {
             let cls = 'palette-cell';
@@ -116,6 +136,11 @@ function renderExam() {
         <button class="exit-btn" data-action="exit">Cancel / Exit Test</button>
       </div>
     </div>
+    <button class="palette-fab" data-action="toggle-palette" aria-label="Open question palette">
+      ☰
+      ${unanswered > 0 ? `<span class="fab-badge">${unanswered}</span>` : ''}
+    </button>
+    <div class="palette-backdrop" data-action="close-palette"></div>
   `;
 
   app.querySelectorAll('.option').forEach(el => {
@@ -128,6 +153,7 @@ function renderExam() {
     el.addEventListener('click', () => {
       exam.current = parseInt(el.dataset.goto, 10);
       exam.visited[exam.current] = true;
+      document.body.classList.remove('palette-open');
       renderExam();
     });
   });
@@ -150,6 +176,23 @@ function renderExam() {
     if (confirm('Submit the test? You cannot change answers after submitting.')) submitTest(false);
   });
   app.querySelector('[data-action="exit"]').addEventListener('click', exitToHome);
+
+  app.querySelector('[data-action="font-inc"]').addEventListener('click', () => {
+    fontScale = Math.min(FONT_SCALE_MAX, +(fontScale + 0.1).toFixed(2));
+    localStorage.setItem(FONT_SCALE_KEY, fontScale);
+    applyFontScale();
+  });
+  app.querySelector('[data-action="font-dec"]').addEventListener('click', () => {
+    fontScale = Math.max(FONT_SCALE_MIN, +(fontScale - 0.1).toFixed(2));
+    localStorage.setItem(FONT_SCALE_KEY, fontScale);
+    applyFontScale();
+  });
+
+  const fab = app.querySelector('[data-action="toggle-palette"]');
+  if (fab) fab.addEventListener('click', () => document.body.classList.toggle('palette-open'));
+  app.querySelectorAll('[data-action="close-palette"]').forEach(el => {
+    el.addEventListener('click', () => document.body.classList.remove('palette-open'));
+  });
 }
 
 function submitTest(autoSubmitted) {
