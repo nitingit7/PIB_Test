@@ -118,6 +118,12 @@ button { font-family: inherit; cursor: pointer; }
   font-weight: 600;
 }
 
+.card-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .btn {
   border: 1.5px solid var(--ink);
   background: var(--ink);
@@ -268,6 +274,27 @@ button { font-family: inherit; cursor: pointer; }
   line-height: 1.5;
 }
 
+.status-pill {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+.status-pill.status-correct { background: var(--green-soft); color: var(--green); }
+.status-pill.status-wrong { background: var(--red-soft); color: var(--red); }
+.status-pill.status-skipped { background: var(--mustard-soft); color: var(--mustard); }
+
+.overview-grid .palette-cell {
+  text-decoration: none;
+  cursor: pointer;
+}
+.overview-grid .palette-cell.status-correct { background: var(--green); color: #fff; border-color: var(--green); }
+.overview-grid .palette-cell.status-wrong { background: var(--red); color: #fff; border-color: var(--red); }
+.overview-grid .palette-cell.status-skipped { background: var(--mustard); color: #fff; border-color: var(--mustard); }
+
 .q-footer {
   display: flex;
   gap: 10px;
@@ -309,7 +336,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .palette-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
   gap: 8px;
   margin-bottom: 18px;
 }
@@ -408,4 +435,53 @@ button { font-family: inherit; cursor: pointer; }
   padding: 20px 22px;
 }
 
-.top-actions { display: flex; gap: 10px; margin-top: 22px; }
+.top-actions { display: flex; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
+
+/* ---------- Responsive: tablets ---------- */
+
+@media (max-width: 640px) {
+  .wrap { padding: 24px 16px 60px; }
+  .masthead { padding: 14px 16px; }
+  .masthead .brand { font-size: 21px; }
+
+  .test-card { padding: 16px; flex-direction: column; align-items: stretch; }
+  .test-card .card-actions { width: 100%; }
+  .test-card .card-actions .btn { flex: 1; text-align: center; }
+
+  .exam-bar { padding: 10px 16px; font-size: 12px; }
+  .timer { font-size: 16px; }
+
+  .exam-layout { padding: 0 12px 90px; margin-top: 14px; gap: 14px; }
+  .q-panel { padding: 18px; }
+  .q-text { font-size: 16px; margin-bottom: 20px; }
+
+  .option { padding: 10px 12px; gap: 10px; }
+  .option .bubble { width: 26px; height: 26px; min-width: 26px; font-size: 12px; }
+  .option .otext { font-size: 14px; }
+
+  .q-footer { gap: 8px; }
+  .q-footer button { flex: 1 1 calc(50% - 8px); padding: 10px 8px; font-size: 12px; }
+
+  .palette-panel { padding: 14px; }
+  .palette-grid { grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); }
+
+  .scorecard { padding: 22px 18px; }
+  .scorecard .headline { font-size: 20px; }
+  .stat-grid { gap: 10px; }
+  .stat { padding: 10px; }
+  .stat .num { font-size: 21px; }
+
+  .review-item { padding: 16px; }
+  .top-actions { flex-direction: column; }
+  .top-actions .btn, .top-actions a.btn { width: 100%; text-align: center; }
+}
+
+/* ---------- Responsive: small phones ---------- */
+
+@media (max-width: 400px) {
+  .masthead .brand { font-size: 19px; }
+  .masthead .tagline { font-size: 10.5px; }
+  .q-text { font-size: 15px; }
+  .exam-bar { font-size: 11px; }
+  .qn { font-size: 11px; }
+}

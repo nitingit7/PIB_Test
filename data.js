@@ -1,5 +1,5 @@
 /*
-  GA ARENA — Question Bank
+  Daily GA Practice — Question Bank
   =========================
   Add one entry per date. Key = "YYYY-MM-DD" (this also controls sort order,
   newest first, on the home screen).

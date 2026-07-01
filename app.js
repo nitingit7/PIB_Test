@@ -1,11 +1,11 @@
-/* GA ARENA — app logic */
+/* Daily GA Practice — app logic */
 
 const SEC_PER_Q = 45;      // exam time budget per question
 const MARK_CORRECT = 1;
 const MARK_NEGATIVE = 0.5; // deducted per wrong attempt
 
 const app = document.getElementById('app');
-const STORAGE_KEY = 'ga_arena_attempts';
+const STORAGE_KEY = 'ga_practice_attempts';
 
 let state = null;   // active exam state
 let timerId = null;
@@ -24,6 +24,31 @@ function fmtTime(sec) {
   return `${m}:${s}`;
 }
 
+/* ---------------- ROUTING ----------------
+   Every screen change pushes a history entry so the browser Back button
+   moves within the app (always landing safely on the home list) instead
+   of leaving the page entirely. */
+
+function goHome() {
+  history.pushState({ view: 'home' }, '', '');
+  renderHome();
+}
+
+function goExam(dateKey) {
+  history.pushState({ view: 'exam', dateKey }, '', '');
+  startTest(dateKey);
+}
+
+function goResult() {
+  history.pushState({ view: 'result', dateKey: state.dateKey }, '', '');
+  renderResult();
+}
+
+window.addEventListener('popstate', () => {
+  // Keep this simple and predictable: Back always returns to the home list.
+  renderHome();
+});
+
 /* ---------------- HOME ---------------- */
 
 function renderHome() {
@@ -35,23 +60,28 @@ function renderHome() {
     ? dates.map(dateKey => {
         const test = window.MOCK_TESTS[dateKey];
         const record = store[dateKey];
+        const attempted = record && record.lastResult;
         const bestLine = record
           ? `<span class="best">Best: ${record.best.toFixed(2)} / ${test.questions.length}</span> · Attempts: ${record.attempts}`
           : 'Not attempted yet';
+        const actionBtn = attempted
+          ? `<button class="btn" data-view-result="${dateKey}">View Result</button>
+             <button class="btn btn-outline" data-start="${dateKey}">Retake</button>`
+          : `<button class="btn" data-start="${dateKey}">Start Test</button>`;
         return `
           <div class="test-card">
             <div class="info">
               <div class="date serif">${test.label}</div>
               <div class="meta">${test.questions.length} questions · Source: ${test.source || 'PIB'} · ${bestLine}</div>
             </div>
-            <button class="btn" data-start="${dateKey}">Start Test</button>
+            <div class="card-actions">${actionBtn}</div>
           </div>`;
       }).join('')
     : `<div class="empty-state">No mock tests yet. Add a dated question set in <span class="mono">data.js</span> to see it here.</div>`;
 
   app.innerHTML = `
     <div class="masthead">
-      <div class="brand">GA <span>ARENA</span></div>
+      <div class="brand">Daily <span>GA</span> Practice</div>
       <div class="tagline">Daily General Awareness · Mock Test Series</div>
     </div>
     <div class="wrap">
@@ -61,7 +91,21 @@ function renderHome() {
   `;
 
   app.querySelectorAll('[data-start]').forEach(btn => {
-    btn.addEventListener('click', () => startTest(btn.dataset.start));
+    btn.addEventListener('click', () => goExam(btn.dataset.start));
+  });
+  app.querySelectorAll('[data-view-result]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const dateKey = btn.dataset.viewResult;
+      const record = getStore()[dateKey];
+      if (!record || !record.lastResult) return;
+      state = {
+        dateKey,
+        test: window.MOCK_TESTS[dateKey],
+        answers: record.lastAnswers,
+        result: record.lastResult
+      };
+      goResult();
+    });
   });
 }
 
@@ -203,25 +247,40 @@ function submitTest(autoSubmitted) {
   });
 
   const score = correct * MARK_CORRECT - wrong * MARK_NEGATIVE;
+  const result = { correct, wrong, skipped, score, autoSubmitted };
 
   const store = getStore();
   const prev = store[state.dateKey] || { best: -Infinity, attempts: 0 };
   store[state.dateKey] = {
     best: Math.max(prev.best, score),
-    attempts: prev.attempts + 1
+    attempts: prev.attempts + 1,
+    lastAnswers: answers.slice(),
+    lastResult: result
   };
   setStore(store);
 
   state.submitted = true;
-  state.result = { correct, wrong, skipped, score, autoSubmitted };
-  renderResult();
+  state.result = result;
+  goResult();
+}
+
+function statusOf(q, userAns) {
+  if (userAns === null || userAns === undefined) return 'skipped';
+  return userAns === q.answer ? 'correct' : 'wrong';
 }
 
 function renderResult() {
   const { test, answers, result, dateKey } = state;
 
+  const overviewHtml = test.questions.map((q, i) => {
+    const st = statusOf(q, answers[i]);
+    return `<a href="#rev-${i}" class="palette-cell status-${st}">${i + 1}</a>`;
+  }).join('');
+
   const reviewHtml = test.questions.map((q, i) => {
     const userAns = answers[i];
+    const st = statusOf(q, userAns);
+    const pillLabel = st === 'skipped' ? 'Skipped' : (st === 'correct' ? 'Correct' : 'Incorrect');
     const optionsHtml = q.options.map((opt, j) => {
       let cls = 'option';
       if (j === q.answer) cls += ' correct-answer';
@@ -229,9 +288,9 @@ function renderResult() {
       return `<div class="${cls}"><div class="bubble">${String.fromCharCode(65 + j)}</div><div class="otext">${opt}</div></div>`;
     }).join('');
     return `
-      <div class="review-item">
+      <div class="review-item" id="rev-${i}">
         <div class="q-number-row"><div class="qn">QUESTION ${i + 1}</div>
-          <div class="qn">${userAns === null ? 'SKIPPED' : (userAns === q.answer ? 'CORRECT' : 'INCORRECT')}</div>
+          <div class="status-pill status-${st}">${pillLabel}</div>
         </div>
         <div class="q-text" style="font-size:16px">${q.q}</div>
         <div class="options">${optionsHtml}</div>
@@ -241,7 +300,7 @@ function renderResult() {
 
   app.innerHTML = `
     <div class="masthead">
-      <div class="brand">GA <span>ARENA</span></div>
+      <div class="brand">Daily <span>GA</span> Practice</div>
       <div class="tagline">Result · ${test.label}</div>
     </div>
     <div class="wrap">
@@ -254,6 +313,15 @@ function renderResult() {
           <div class="stat wrong"><div class="num">${result.wrong}</div><div class="lbl">Wrong</div></div>
           <div class="stat skipped"><div class="num">${result.skipped}</div><div class="lbl">Skipped</div></div>
         </div>
+
+        <div class="palette-title" style="margin-top:22px">Question-wise Status</div>
+        <div class="palette-grid overview-grid">${overviewHtml}</div>
+        <div class="legend" style="flex-direction:row;flex-wrap:wrap;gap:16px;margin-top:12px">
+          <div class="row"><span class="swatch" style="background:var(--green)"></span> Correct</div>
+          <div class="row"><span class="swatch" style="background:var(--red)"></span> Wrong</div>
+          <div class="row"><span class="swatch" style="background:var(--mustard)"></span> Skipped</div>
+        </div>
+
         <div class="top-actions">
           <button class="btn" data-action="retry">Retake Test</button>
           <button class="btn btn-outline" data-action="home">Back to Test List</button>
@@ -265,8 +333,11 @@ function renderResult() {
     </div>
   `;
 
-  app.querySelector('[data-action="retry"]').addEventListener('click', () => startTest(dateKey));
-  app.querySelector('[data-action="home"]').addEventListener('click', renderHome);
+  app.querySelector('[data-action="retry"]').addEventListener('click', () => goExam(dateKey));
+  app.querySelector('[data-action="home"]').addEventListener('click', goHome);
 }
 
+/* ---------------- INIT ---------------- */
+
+history.replaceState({ view: 'home' }, '', '');
 renderHome();
