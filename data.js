@@ -215,5 +215,242 @@ window.MOCK_TESTS = {
         "explanation": "ESIC signed an MoU with the Ministry of Ayush to bring holistic, lifestyle-focused care to insured persons."
       }
     ]
+  },
+  "2026-07-02": {
+    "label": "2 July 2026",
+    "source": "PIB",
+    "questions": [
+      {
+        "q": "Which flagship higher education funding scheme's implementation in West Bengal was recently reviewed in New Delhi by Union Minister Dharmendra Pradhan?",
+        "options": [
+          "PM-USHA (Pradhan Mantri Uchchatar Shiksha Abhiyan)",
+          "RUSA (Rashtriya Uchchatar Shiksha Abhiyan)",
+          "Sarva Shiksha Abhiyan",
+          "PM SHRI Yojana"
+        ],
+        "answer": 0,
+        "explanation": "PM-USHA (Pradhan Mantri Uchchatar Shiksha Abhiyan), the Ministry of Education's flagship higher education funding scheme, was reviewed for West Bengal by Union Minister Dharmendra Pradhan."
+      },
+      {
+        "q": "Under the Ministry of Education's digital and adult literacy initiatives, what does the acronym 'ULLAS' stand for?",
+        "options": [
+          "United Literacy and Lifelong Learning for All Society",
+          "Understanding Lifelong Learning for All in Society",
+          "Understanding of Lifelong Learning and Adult Studies",
+          "Universal Learning for Life and Adult Skills"
+        ],
+        "answer": 1,
+        "explanation": "ULLAS stands for Understanding Lifelong Learning for All in Society, the Ministry of Education's adult literacy scheme."
+      },
+      {
+        "q": "Who is the current Secretary of the Departments of Higher Education and School Education and Literacy who recently attended the bilateral educational review meeting with West Bengal's ministers?",
+        "options": [
+          "Smt. Anita Karwal",
+          "Dr. Vineet Joshi",
+          "Shri K. Sanjay Murthy",
+          "Shri Rajesh Kumar Chaturvedi"
+        ],
+        "answer": 1,
+        "explanation": "Dr. Vineet Joshi, Secretary of Higher Education and School Education and Literacy, attended the review meeting on West Bengal's education initiatives."
+      },
+      {
+        "q": "It was recently decided to expand the network of PM SHRI Schools to which specific administrative regions in West Bengal?",
+        "options": [
+          "Tribal blocks and rural panchayats",
+          "Minority-concentrated districts",
+          "Aspirational districts only",
+          "Uncovered blocks and urban local bodies"
+        ],
+        "answer": 3,
+        "explanation": "The PM SHRI network in West Bengal is being expanded to cover blocks and urban local bodies that were not yet included."
+      },
+      {
+        "q": "India's first Private Point-in-Space (PinS) Instrument Approach Procedure for helicopter operations has been approved for which of the following heliports?",
+        "options": [
+          "Jaisalmer Heliport, Rajasthan",
+          "Undavalli Heliport, Andhra Pradesh",
+          "Shirdi Heliport, Maharashtra",
+          "Nashik Heliport, Maharashtra"
+        ],
+        "answer": 1,
+        "explanation": "Undavalli Heliport in Andhra Pradesh became the first private heliport to get a PinS Instrument Approach Procedure."
+      },
+      {
+        "q": "Who is the current Union Minister for Civil Aviation who has been closely monitoring the implementation of the PinS procedure and the GAGAN satellite-based system?",
+        "options": [
+          "Shri Ram Mohan Naidu",
+          "Shri Jyotiraditya Scindia",
+          "Shri Hardeep Singh Puri",
+          "Shri Ashwini Vaishnaw"
+        ],
+        "answer": 0,
+        "explanation": "Union Minister for Civil Aviation Ram Mohan Naidu has been monitoring the rollout of PinS procedures and the GAGAN system."
+      },
+      {
+        "q": "In civil aviation terminology, what does the acronym 'PinS' stand for?",
+        "options": [
+          "Point-in-Sector",
+          "Point-in-Space",
+          "Precision-in-Space",
+          "Path-in-Sky"
+        ],
+        "answer": 1,
+        "explanation": "PinS stands for Point-in-Space, a type of satellite-based instrument approach procedure used mainly for helicopter operations."
+      },
+      {
+        "q": "Pandit Rupak Kulkarni, who was recently in the news for his recital at the inauguration of Akashvani's 'Swar Prerna Veethika', is an acclaimed exponent of which Hindustani classical music school (Gharana)?",
+        "options": [
+          "Patiala Gharana",
+          "Maihar Gharana",
+          "Gwalior Gharana",
+          "Kirana Gharana"
+        ],
+        "answer": 1,
+        "explanation": "Pandit Rupak Kulkarni, a noted bansuri (flute) player, belongs to the Maihar Gharana."
+      },
+      {
+        "q": "'Raagam' and 'Aaradhana' are dedicated round-the-clock digital channels of Akashvani. Which of the following streams is broadcasted on the 'Raagam' channel?",
+        "options": [
+          "Bollywood Film Music",
+          "Hindustani Classical Music",
+          "Devotional Music",
+          "Carnatic Classical Music"
+        ],
+        "answer": 1,
+        "explanation": "Akashvani's 'Raagam' channel is dedicated to Hindustani Classical Music, while 'Aaradhana' focuses on devotional content."
+      },
+      {
+        "q": "In July 2026, which legendary Padma Vibhushan recipient inaugurated the 'Swar Prerna Veethika' photo gallery at the Akashvani Rang Bhavan Auditorium in New Delhi?",
+        "options": [
+          "Ustad Amjad Ali Khan",
+          "Pt. Vishwa Mohan Bhatt",
+          "Pt. Hariprasad Chaurasia",
+          "Pt. Ajoy Chakrabarty"
+        ],
+        "answer": 2,
+        "explanation": "Flute maestro Pt. Hariprasad Chaurasia, a Padma Vibhushan recipient, inaugurated the 'Swar Prerna Veethika' photo gallery."
+      },
+      {
+        "q": "Organized radio broadcasting in India will complete its centenary (100 years) in which of the following upcoming years?",
+        "options": [
+          "2026",
+          "2027",
+          "2025",
+          "2028"
+        ],
+        "answer": 1,
+        "explanation": "Organized radio broadcasting in India began in 1927, so it completes 100 years in 2027."
+      },
+      {
+        "q": "Which regulatory body recently approved the acquisition of 100% shareholding of Royal Challengers Sports Private Limited by a business consortium?",
+        "options": [
+          "Competition Commission of India (CCI)",
+          "Reserve Bank of India (RBI)",
+          "Securities and Exchange Board of India (SEBI)",
+          "Board of Control for Cricket in India (BCCI)"
+        ],
+        "answer": 0,
+        "explanation": "The Competition Commission of India (CCI) approved the 100% shareholding acquisition of Royal Challengers Sports Private Limited."
+      },
+      {
+        "q": "The Competition Commission of India (CCI), is a statutory body functioning under which Union Ministry?",
+        "options": [
+          "Ministry of Corporate Affairs",
+          "Ministry of Law and Justice",
+          "Ministry of Finance",
+          "Ministry of Commerce and Industry"
+        ],
+        "answer": 0,
+        "explanation": "CCI functions as a statutory body under the Ministry of Corporate Affairs."
+      },
+      {
+        "q": "The Competition Commission of India (CCI) was established to replace the Monopolies and Restrictive Trade Practices Commission (MRTPC) under which legislative Act?",
+        "options": [
+          "The Companies Act, 2013",
+          "The MRTP Act, 1969",
+          "The Competition Act, 2002",
+          "The SEBI Act, 1992"
+        ],
+        "answer": 2,
+        "explanation": "CCI was established under the Competition Act, 2002, replacing the earlier MRTPC."
+      },
+      {
+        "q": "Who recently assumed charge as the Chairman and Managing Director (CMD) of the public sector enterprise Hindustan Copper Limited (HCL) in July 2026?",
+        "options": [
+          "Shri Sandeep Kumar",
+          "Shri Rajesh Sharma",
+          "Shri Anupam Misra",
+          "Shri Arun Kumar Singh"
+        ],
+        "answer": 2,
+        "explanation": "Shri Anupam Misra assumed charge as CMD of Hindustan Copper Limited in July 2026."
+      },
+      {
+        "q": "Prior to taking over as the CMD of Hindustan Copper Limited, Shri Anupam Misra served as the Director (Marketing) and additional CMD of which of the following companies?",
+        "options": [
+          "National Fertilizers Limited (NFL)",
+          "Rashtriya Chemicals and Fertilizers (RCF)",
+          "Madras Fertilizers Limited (MFL)",
+          "Fertilisers and Chemicals Travancore Limited (FACT)"
+        ],
+        "answer": 3,
+        "explanation": "Before HCL, Shri Anupam Misra served as Director (Marketing) and additional CMD of FACT."
+      },
+      {
+        "q": "Hindustan Copper Limited (HCL), which recently appointed a new CMD, is a public sector company functioning under the administrative control of which Union Ministry?",
+        "options": [
+          "Ministry of Steel",
+          "Ministry of Coal",
+          "Ministry of Heavy Industries",
+          "Ministry of Mines"
+        ],
+        "answer": 3,
+        "explanation": "Hindustan Copper Limited functions under the administrative control of the Ministry of Mines."
+      },
+      {
+        "q": "According to the latest UNCTAD estimates, what is India's current global market share in worldwide ship recycling as of 2025?",
+        "options": [
+          "30.1% (up from 25.6% in 2024)",
+          "25.6% (up from 20.1% in 2024)",
+          "35.4% (up from 30.1% in 2024)",
+          "40.2% (up from 35.4% in 2024)"
+        ],
+        "answer": 2,
+        "explanation": "UNCTAD estimates place India's global ship recycling market share at 35.4% in 2025, up from 30.1% in 2024."
+      },
+      {
+        "q": "The Government of India has announced a financial commitment of how many billion dollars to strengthen the shipbuilding and ship recycling sectors over the next decade?",
+        "options": [
+          "USD 5 Billion",
+          "USD 10 Billion",
+          "USD 12 Billion",
+          "USD 8 Billion"
+        ],
+        "answer": 3,
+        "explanation": "The Government of India committed USD 8 billion to strengthen shipbuilding and ship recycling over the next decade."
+      },
+      {
+        "q": "How many Indian ship recycling facilities have successfully completed compliance procedures and become eligible to apply for inclusion under the EU Ship Recycling Regulation (EUSRR) framework?",
+        "options": [
+          "Three",
+          "Five",
+          "Two",
+          "Seven"
+        ],
+        "answer": 0,
+        "explanation": "Three Indian ship recycling facilities have completed compliance procedures under the EUSRR framework."
+      },
+      {
+        "q": "The latest estimates on India's ship recycling growth were published by UNCTAD. Where is the headquarters of UNCTAD located?",
+        "options": [
+          "Vienna, Austria",
+          "The Hague, Netherlands",
+          "New York, USA",
+          "Geneva, Switzerland"
+        ],
+        "answer": 3,
+        "explanation": "UNCTAD (United Nations Conference on Trade and Development) is headquartered in Geneva, Switzerland."
+      }
+    ]
   }
 };
