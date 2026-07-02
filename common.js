@@ -1,6 +1,5 @@
 /* Daily GA Practice — shared helpers (loaded on every page) */
 
-const SEC_PER_Q = 45;      // exam time budget per question
 const MARK_CORRECT = 1;
 const MARK_NEGATIVE = 0.5; // deducted per wrong attempt
 const STORAGE_KEY = 'ga_practice_attempts';
@@ -22,6 +21,13 @@ function fmtTime(sec) {
 function statusOf(q, userAns) {
   if (userAns === null || userAns === undefined) return 'skipped';
   return userAns === q.answer ? 'correct' : 'wrong';
+}
+
+// Total test time: 3/5 of a minute per question, rounded to the nearest minute.
+// e.g. 17 questions -> round(17 * 3/5) = round(10.2) = 10 minutes.
+function totalTimeSeconds(numQuestions) {
+  const minutes = Math.round(numQuestions * 3 / 5);
+  return minutes * 60;
 }
 
 function getDateParam() {

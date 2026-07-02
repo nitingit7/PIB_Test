@@ -23,7 +23,7 @@ let exam = {
   answers: new Array(test.questions.length).fill(null),
   marked: new Array(test.questions.length).fill(false),
   visited: new Array(test.questions.length).fill(false),
-  timeLeft: test.questions.length * SEC_PER_Q
+  timeLeft: totalTimeSeconds(test.questions.length)
 };
 exam.visited[0] = true;
 

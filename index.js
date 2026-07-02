@@ -18,11 +18,12 @@ function renderHome() {
           ? `<a class="btn" href="result.html?date=${encodeURIComponent(dateKey)}">View Result</a>
              <a class="btn btn-outline" href="test.html?date=${encodeURIComponent(dateKey)}">Retake</a>`
           : `<a class="btn" href="test.html?date=${encodeURIComponent(dateKey)}">Start Test</a>`;
+        const durationMin = totalTimeSeconds(test.questions.length) / 60;
         return `
           <div class="test-card">
             <div class="info">
               <div class="date serif">${test.label}</div>
-              <div class="meta">${test.questions.length} questions · Source: ${test.source || 'PIB'} · ${bestLine}</div>
+              <div class="meta">${test.questions.length} questions · ~${durationMin} min · Source: ${test.source || 'PIB'} · ${bestLine}</div>
             </div>
             <div class="card-actions">${actionBtn}</div>
           </div>`;

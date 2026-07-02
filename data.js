@@ -451,6 +451,7 @@ window.MOCK_TESTS = {
         "answer": 3,
         "explanation": "UNCTAD (United Nations Conference on Trade and Development) is headquartered in Geneva, Switzerland."
       }
-    ]
+    ],
+    "resourceLink": "https://docs.google.com/document/d/1WNMPjHZkCwriy7iN8nrSTXs-K-PeuXwNKgnHlsdIAPI/edit?usp=sharing"
   }
 };
