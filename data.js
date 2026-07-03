@@ -453,5 +453,199 @@ window.MOCK_TESTS = {
       }
     ],
     "resourceLink": "https://docs.google.com/document/d/1WNMPjHZkCwriy7iN8nrSTXs-K-PeuXwNKgnHlsdIAPI/edit?usp=sharing"
+  },
+  "2026-07-03": {
+    "label": "3 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1WNMPjHZkCwriy7iN8nrSTXs-K-PeuXwNKgnHlsdIAPI/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "Under the newly signed Memorandum of Cooperation for the India-Japan Cooperative Biogas for Growth (CBG) Initiative, what is the target number of biogas and organic fertilizer plants proposed to be established across India?",
+        "options": [
+          "500 plants",
+          "1,000 plants",
+          "2,000 plants",
+          "1,500 plants"
+        ],
+        "answer": 1,
+        "explanation": "The India-Japan CBG Initiative targets setting up 1,000 biogas and organic fertilizer plants across India."
+      },
+      {
+        "q": "The year 2027 will mark the 75th anniversary of the establishment of India-Japan diplomatic relations. What is the official name of the commemorative year designated for this milestone?",
+        "options": [
+          "India-Japan Golden Jubilee Year",
+          "India-Japan Special Strategic and Global Partnership Year",
+          "India-Japan Year of Shared Horizons",
+          "India-Japan Year of Strategic Partnership"
+        ],
+        "answer": 2,
+        "explanation": "2027 has been designated the 'India-Japan Year of Shared Horizons' to mark 75 years of diplomatic relations."
+      },
+      {
+        "q": "The Next Generation Mobility Partnership (NGMP), which was operationalized at the 16th Annual Summit, was originally announced at the 15th Annual Summit in which month and year?",
+        "options": [
+          "December 2024",
+          "August 2025",
+          "March 2025",
+          "May 2025"
+        ],
+        "answer": 1,
+        "explanation": "NGMP was first announced at the 15th India-Japan Annual Summit in August 2025."
+      },
+      {
+        "q": "An exchange of letters occurred between Japan's Financial Services Agency (JFSA) and which Indian authority to regulate and develop FinTech and RegTech?",
+        "options": [
+          "Ministry of Finance",
+          "International Financial Services Centres Authority (IFSCA)",
+          "Reserve Bank of India (RBI)",
+          "Securities and Exchange Board of India (SEBI)"
+        ],
+        "answer": 1,
+        "explanation": "The exchange of letters for FinTech and RegTech cooperation was between Japan's JFSA and India's IFSCA."
+      },
+      {
+        "q": "The National Green Hydrogen Mission (NGHM), which was in the news for major clean energy export deals, was approved by the Union Cabinet in January 2023 with what total financial outlay?",
+        "options": [
+          "₹19,744 crore",
+          "₹15,000 crore",
+          "₹17,490 crore",
+          "₹21,000 crore"
+        ],
+        "answer": 0,
+        "explanation": "The National Green Hydrogen Mission was approved with a total outlay of ₹19,744 crore in January 2023."
+      },
+      {
+        "q": "Which Indian energy developer signed a landmark 10-year offtake deal to supply 100 kTPA of green methanol from its Paradip facility to Japan's Mitsubishi Gas Chemical Company?",
+        "options": [
+          "ACME Group",
+          "ReNew Power",
+          "Adani Green Energy",
+          "Greenko Group"
+        ],
+        "answer": 0,
+        "explanation": "ACME Group signed the 10-year green methanol offtake deal with Mitsubishi Gas Chemical Company from its Paradip facility."
+      },
+      {
+        "q": "Under the National Green Hydrogen Mission, which organization is responsible for conducting transparent bidding for financial support under the SIGHT Programme?",
+        "options": [
+          "Indian Renewable Energy Development Agency (IREDA)",
+          "Solar Energy Corporation of India (SECI)",
+          "NHPC Limited",
+          "NTPC Limited"
+        ],
+        "answer": 1,
+        "explanation": "SECI conducts transparent bidding for incentives under the SIGHT Programme of the National Green Hydrogen Mission."
+      },
+      {
+        "q": "Shri Pralhad Joshi, who recently welcomed Japan's CfD subsidy support for Indian clean energy projects, is the current Union Minister for which Ministry?",
+        "options": [
+          "Ministry of Power",
+          "Ministry of Petroleum and Natural Gas",
+          "Ministry of Coal",
+          "Ministry of New & Renewable Energy"
+        ],
+        "answer": 3,
+        "explanation": "Shri Pralhad Joshi is the Union Minister for New & Renewable Energy (also holding Consumer Affairs, Food and Public Distribution)."
+      },
+      {
+        "q": "Which division under the Ministry of Electronics & IT recently launched the 'Rajasthan Language Model Training Hackathon' to strengthen AI datasets for local dialects?",
+        "options": [
+          "Digital India BHASHINI Division (DIBD)",
+          "Centre for Development of Advanced Computing (C-DAC)",
+          "National Informatics Centre (NIC)",
+          "Digital India Corporation (DIC)"
+        ],
+        "answer": 0,
+        "explanation": "The Digital India BHASHINI Division (DIBD) launched the Rajasthan Language Model Training Hackathon."
+      },
+      {
+        "q": "What is the name of India's first handheld multilingual edge AI device showcased at the National Conference on e-Governance (NCeG) 2026?",
+        "options": [
+          "AI Vaani",
+          "Suno Sutra",
+          "Bhasha Mitra",
+          "Bhasha Setu"
+        ],
+        "answer": 1,
+        "explanation": "'Suno Sutra' was showcased as India's first handheld multilingual edge AI device at NCeG 2026."
+      },
+      {
+        "q": "Under the National Hub for Language Technology (NHLT), BHASHINI enables scalable speech and text services. DIBD is a division functioning under which of the following organizations?",
+        "options": [
+          "Ministry of Electronics and IT (MeitY) directly",
+          "Digital India Corporation (DIC)",
+          "National Informatics Centre (NIC)",
+          "Centre for Development of Advanced Computing (C-DAC)"
+        ],
+        "answer": 1,
+        "explanation": "DIBD functions as a division under the Digital India Corporation (DIC)."
+      },
+      {
+        "q": "What is the name of BHASHINI's national crowdsourcing initiative, where citizens contribute and validate regional language data and receive Digital Participation Certificates?",
+        "options": [
+          "BhashaMitra",
+          "BhashaSangam",
+          "BhashaSetu",
+          "BhashaDaan"
+        ],
+        "answer": 3,
+        "explanation": "BhashaDaan is BHASHINI's crowdsourcing initiative for citizen contribution and validation of regional language data."
+      },
+      {
+        "q": "The newly launched 'Viksit Bharat – G-RAM G Yojana' has officially replaced which of the following landmark employment acts of India?",
+        "options": [
+          "National Rural Livelihood Mission (NRLM)",
+          "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)",
+          "Pradhan Mantri Awas Yojana - Gramin",
+          "Pradhan Mantri Gram Sadak Yojana"
+        ],
+        "answer": 1,
+        "explanation": "The VB-G RAM G Yojana officially replaces MGNREGA."
+      },
+      {
+        "q": "What is the total financial outlay targeted by the Central Government under the VB-G RAM G Yojana over the next five years?",
+        "options": [
+          "₹10 lakh crore",
+          "₹7.5 lakh crore",
+          "₹6 lakh crore",
+          "₹5 lakh crore"
+        ],
+        "answer": 1,
+        "explanation": "The VB-G RAM G Yojana targets a total outlay of ₹7.5 lakh crore over the next five years."
+      },
+      {
+        "q": "Under the newly launched VB-G RAM G Yojana, how many days of guaranteed employment will be provided to eligible rural households?",
+        "options": [
+          "150 days",
+          "125 days",
+          "90 days",
+          "100 days"
+        ],
+        "answer": 1,
+        "explanation": "The VB-G RAM G Yojana guarantees 125 days of wage employment to eligible rural households."
+      },
+      {
+        "q": "From which village in Tirupati district, Andhra Pradesh, did Union Minister Shri Shivraj Singh Chouhan officially launch the nationwide VB-G RAM G Yojana in July 2026?",
+        "options": [
+          "Yerpedu",
+          "Mukkavaripalli",
+          "Renigunta",
+          "Srikalahasti"
+        ],
+        "answer": 1,
+        "explanation": "The VB-G RAM G Yojana was launched nationwide from Mukkavaripalli village in Tirupati district, Andhra Pradesh."
+      },
+      {
+        "q": "If a local administration fails to provide work to a laborer within 15 days of demanding it under the VB-G RAM G Yojana, what is the legal consequence?",
+        "options": [
+          "The laborer must be transferred to another block",
+          "The laborer must be doubled the wage compensation",
+          "The laborer must be given an unemployment allowance",
+          "A penalty must be imposed on the contractor"
+        ],
+        "answer": 2,
+        "explanation": "Failure to provide work within 15 days of demand entitles the laborer to an unemployment allowance under the scheme."
+      }
+    ]
   }
 };
