@@ -647,5 +647,309 @@ window.MOCK_TESTS = {
         "explanation": "Failure to provide work within 15 days of demand entitles the laborer to an unemployment allowance under the scheme."
       }
     ]
+  },
+  "2026-07-05": {
+    "label": "5 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1WNMPjHZkCwriy7iN8nrSTXs-K-PeuXwNKgnHlsdIAPI/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "Prime Minister Narendra Modi recently inaugurated the CG Semi OSAT facility on July 4, 2026. In which of the following cities is this facility located?",
+        "options": [
+          "Mundra, Gujarat",
+          "Sanand, Gujarat",
+          "Ahmedabad, Gujarat",
+          "Dholera, Gujarat"
+        ],
+        "answer": 1,
+        "explanation": "The CG Semi OSAT semiconductor packaging facility is located at Sanand, Gujarat."
+      },
+      {
+        "q": "The newly inaugurated CG Semi semiconductor packaging facility represents a robust technological partnership between India and which two other countries?",
+        "options": [
+          "Japan and South Korea",
+          "South Korea and Thailand",
+          "Japan and Thailand",
+          "Taiwan and Japan"
+        ],
+        "answer": 2,
+        "explanation": "CG Semi is a technological partnership between India, Japan, and Thailand."
+      },
+      {
+        "q": "Consider the following statements regarding India's semiconductor and electronics growth highlights mentioned by the PM:\n1. India is now the world's second-largest producer and exporter in the mobile sector.\n2. Overall electronics exports from India have seen an eleven-fold explosion compared to 2014 levels.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct",
+          "Only 2 is correct"
+        ],
+        "answer": 0,
+        "explanation": "The PM highlighted both India's position as the second-largest mobile producer/exporter and the eleven-fold rise in electronics exports since 2014."
+      },
+      {
+        "q": "The commercial semiconductor facility at Sanand, Gujarat, has commenced production with an initial capacity of 20 crore units annually. What is the ultimate targeted annual production capacity of this facility?",
+        "options": [
+          "300 crore units",
+          "250 crore units",
+          "500 crore units",
+          "400 crore units"
+        ],
+        "answer": 2,
+        "explanation": "The Sanand facility aims to scale up from its initial 20 crore units to an ultimate capacity of 500 crore units annually."
+      },
+      {
+        "q": "In which year was the 'Nasha Mukt Bharat Abhiyaan' (NMBA) launched by the Ministry of Social Justice & Empowerment?",
+        "options": [
+          "2019",
+          "2020",
+          "2018",
+          "2021"
+        ],
+        "answer": 1,
+        "explanation": "The Nasha Mukt Bharat Abhiyaan was launched in 2020 by the Ministry of Social Justice & Empowerment."
+      },
+      {
+        "q": "The 'Nasha Mukt Bharat Saptah' was observed from June 17 to June 26, 2026, witnessing the participation of over 1.31 crore citizens. Which university hosted this national event?",
+        "options": [
+          "HNB Garhwal University, Uttarakhand",
+          "IIT Roorkee, Uttarakhand",
+          "Gurukul Kangri University, Haridwar",
+          "Dev Sanskriti Vishwavidyalaya (DSVV), Haridwar, Uttarakhand"
+        ],
+        "answer": 3,
+        "explanation": "Dev Sanskriti Vishwavidyalaya (DSVV) in Haridwar hosted the national Nasha Mukt Bharat Saptah event."
+      },
+      {
+        "q": "According to the first nationwide survey on the 'Magnitude of Substance Use' in India conducted in 2019, how many individuals were estimated to be affected by substance use disorder?",
+        "options": [
+          "More than 5 crore individuals",
+          "More than 10 crore individuals",
+          "More than 3 crore individuals",
+          "More than 7 crore individuals (including nearly 1.2 crore children and 58 lakh women)"
+        ],
+        "answer": 3,
+        "explanation": "The 2019 nationwide survey estimated more than 7 crore individuals affected by substance use disorder, including nearly 1.2 crore children and 58 lakh women."
+      },
+      {
+        "q": "Who is the current Secretary of the Department of Social Justice & Empowerment who recently highlighted the 294% growth in de-addiction treatment seekers?",
+        "options": [
+          "Shri Anil Malik",
+          "Shri Sanjay Kumar",
+          "Shri Sudhansh Pant",
+          "Shri Rajesh Kumar Singh"
+        ],
+        "answer": 2,
+        "explanation": "Shri Sudhansh Pant, Secretary of the Department of Social Justice & Empowerment, highlighted the 294% rise in de-addiction treatment seekers."
+      },
+      {
+        "q": "Which Indian city is hosting the high-level BRICS Heads of Anti-Drug Agencies meeting on 6–7 July 2026?",
+        "options": [
+          "New Delhi",
+          "Guwahati, Assam",
+          "Chandigarh",
+          "Bhopal, Madhya Pradesh"
+        ],
+        "answer": 1,
+        "explanation": "Guwahati, Assam is hosting the BRICS Heads of Anti-Drug Agencies meeting on 6-7 July 2026."
+      },
+      {
+        "q": "India is holding the BRICS Chairmanship in 2026. What is the overarching theme guiding India's chairmanship?",
+        "options": [
+          "Partnership for Global Stability and Growth",
+          "Innovation, Inclusivity, and Sustainable Growth",
+          "Strengthening Multilateralism for a Just World",
+          "Building for Resilience, Innovation, Cooperation and Sustainability"
+        ],
+        "answer": 3,
+        "explanation": "India's 2026 BRICS Chairmanship theme is 'Building for Resilience, Innovation, Cooperation and Sustainability'."
+      },
+      {
+        "q": "Which Indian law enforcement agency is hosting the BRICS Heads of Anti-Drug Agencies meeting in July 2026 under the aegis of the Ministry of Home Affairs?",
+        "options": [
+          "Central Bureau of Investigation (CBI)",
+          "National Investigation Agency (NIA)",
+          "Central Board of Indirect Taxes and Customs (CBIC)",
+          "Narcotics Control Bureau (NCB)"
+        ],
+        "answer": 3,
+        "explanation": "The Narcotics Control Bureau (NCB) is hosting the BRICS Heads of Anti-Drug Agencies meeting."
+      },
+      {
+        "q": "India's fight against drug trafficking is guided by a network-centric approach. To strengthen institutional capacity, the government recently released which policy document?",
+        "options": [
+          "Strategic Roadmap for Drug-Free India 2030",
+          "National Narcotics Policy Framework 2026",
+          "Vision Document on Narcotics Control (2026–2029)",
+          "National Action Plan on Drug Demand Reduction (2026-2031)"
+        ],
+        "answer": 2,
+        "explanation": "The government released the 'Vision Document on Narcotics Control (2026–2029)' to strengthen institutional capacity against drug trafficking."
+      },
+      {
+        "q": "India successfully achieved its targeted 20% ethanol blending in petrol (E20) in the year 2025-26. This target was accomplished how many years ahead of the original schedule?",
+        "options": [
+          "Two years ahead of schedule",
+          "Five years ahead of schedule",
+          "Seven years ahead of schedule",
+          "Three years ahead of schedule"
+        ],
+        "answer": 1,
+        "explanation": "India achieved the E20 target five years ahead of the original 2030 schedule."
+      },
+      {
+        "q": "Under the Ethanol Blended Petrol (EBP) Programme, approximately how much foreign exchange has India saved cumulatively since 2014-15 (up to May 2026)?",
+        "options": [
+          "₹2.10 lakh crore",
+          "₹1.90+ lakh crore",
+          "₹1.50 lakh crore",
+          "₹1.20 lakh crore"
+        ],
+        "answer": 1,
+        "explanation": "India has saved over ₹1.90 lakh crore in foreign exchange cumulatively under the EBP Programme since 2014-15."
+      },
+      {
+        "q": "Pure ethanol is a high-performance fuel with a Research Octane Number (RON) of approximately:",
+        "options": [
+          "91",
+          "100",
+          "95",
+          "108.5"
+        ],
+        "answer": 3,
+        "explanation": "Pure ethanol has a Research Octane Number (RON) of approximately 108.5, higher than regular petrol grades."
+      },
+      {
+        "q": "Which department of the Government of India is responsible for permitting the diversion of surplus rice for ethanol production after ensuring national food security requirements are met?",
+        "options": [
+          "Ministry of Petroleum and Natural Gas",
+          "Department of Food and Public Distribution (DFPD)",
+          "Food Corporation of India (FCI)",
+          "Ministry of Agriculture and Farmers Welfare"
+        ],
+        "answer": 1,
+        "explanation": "The Department of Food and Public Distribution (DFPD) permits the diversion of surplus rice for ethanol production."
+      },
+      {
+        "q": "Which country is the global leader in biofuel blending, currently mandating E27 as its standard petrol blend and planning to raise it to 35%?",
+        "options": [
+          "Argentina",
+          "Brazil",
+          "United States",
+          "Indonesia"
+        ],
+        "answer": 1,
+        "explanation": "Brazil is the global leader in biofuel blending, mandating E27 and planning to raise it further."
+      },
+      {
+        "q": "Which flagship digital initiative of the Indian Council of Medical Research (ICMR) won the Gold Award at the National Awards for e-Governance 2026?",
+        "options": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "e-Sanjeevani",
+          "ICMR-MINDS",
+          "CoWIN"
+        ],
+        "answer": 2,
+        "explanation": "ICMR-MINDS won the Gold Award at the National Awards for e-Governance 2026."
+      },
+      {
+        "q": "The 29th National Conference on e-Governance (NCeG) 2026, where the National e-Governance Awards were presented, was hosted in which of the following cities?",
+        "options": [
+          "Bhopal, Madhya Pradesh",
+          "Lucknow, Uttar Pradesh",
+          "Ahmedabad, Gujarat",
+          "Jaipur, Rajasthan"
+        ],
+        "answer": 3,
+        "explanation": "The 29th NCeG 2026 was hosted in Jaipur, Rajasthan."
+      },
+      {
+        "q": "Smt. Nivedita Shukla Verma, who was present at the award ceremony, serves as the Secretary of which of the following central departments?",
+        "options": [
+          "Department of Personnel and Training (DoPT)",
+          "Department of Administrative Reforms and Public Grievances (DARPG) and Department of Pension & Pensioners' Welfare",
+          "Ministry of Electronics and IT (MeitY)",
+          "Department of Expenditure, Ministry of Finance"
+        ],
+        "answer": 1,
+        "explanation": "Smt. Nivedita Shukla Verma serves as Secretary of DARPG and the Department of Pension & Pensioners' Welfare."
+      },
+      {
+        "q": "Under the ICMR-MINDS project, which of the following institutions is the collaborating partner representing the state of Assam?",
+        "options": [
+          "Regional Institute of Medical Sciences (RIMS), Imphal",
+          "NEIGRIHMS, Shillong",
+          "AIIMS, Guwahati",
+          "Gauhati Medical College"
+        ],
+        "answer": 2,
+        "explanation": "AIIMS, Guwahati is the collaborating partner representing Assam under the ICMR-MINDS project."
+      },
+      {
+        "q": "Who is the current Director General of the Indian Council of Medical Research (ICMR) and Secretary of the Department of Health Research?",
+        "options": [
+          "Dr. Rajiv Bahl",
+          "Dr. Balram Bhargava",
+          "Dr. V.K. Paul",
+          "Dr. Randeep Guleria"
+        ],
+        "answer": 0,
+        "explanation": "Dr. Rajiv Bahl is the current Director General of ICMR and Secretary of the Department of Health Research."
+      },
+      {
+        "q": "The 'Mera Yuva Bharat' (MY Bharat) digital platform, which recently celebrated its achievements, was officially launched in which year?",
+        "options": [
+          "August 2022",
+          "October 2023",
+          "October 2024",
+          "January 2024"
+        ],
+        "answer": 1,
+        "explanation": "MY Bharat was officially launched in October 2023."
+      },
+      {
+        "q": "Which Union Ministry administers the MY Bharat platform to facilitate youth volunteerism and leadership development?",
+        "options": [
+          "Ministry of Education",
+          "Ministry of Youth Affairs and Sports",
+          "Ministry of Skill Development and Entrepreneurship",
+          "Ministry of Social Justice and Empowerment"
+        ],
+        "answer": 1,
+        "explanation": "The Ministry of Youth Affairs and Sports administers the MY Bharat platform."
+      },
+      {
+        "q": "In June 2026, the MY Bharat portal achieved a Guinness World Record for the 'Most Users to Take an Online Quiz in One Week' with how many verified participants?",
+        "options": [
+          "410,256 participants",
+          "320,150 participants",
+          "275,430 participants",
+          "390,812 participants"
+        ],
+        "answer": 3,
+        "explanation": "MY Bharat set a Guinness World Record with 390,812 verified participants taking an online quiz in one week."
+      },
+      {
+        "q": "The 'Nari Shakti Youth Parliament' initiative was successfully conducted across how many zones under the MY Bharat platform?",
+        "options": [
+          "12 zones",
+          "15 zones",
+          "17 zones",
+          "20 zones"
+        ],
+        "answer": 2,
+        "explanation": "The Nari Shakti Youth Parliament initiative was conducted across 17 zones under MY Bharat."
+      },
+      {
+        "q": "Consider the following statements regarding the MY Bharat mobile application:\n1. It has recorded over 1 lakh downloads.\n2. The mobile application is available in 22 Indian languages.\nWhich of the statements given above is/are correct as of July 2026?",
+        "options": [
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct"
+        ],
+        "answer": 3,
+        "explanation": "As of July 2026, the MY Bharat app has over 1 lakh downloads and is available in 22 Indian languages."
+      }
+    ]
   }
 };
