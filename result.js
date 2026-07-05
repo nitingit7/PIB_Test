@@ -41,7 +41,10 @@ function renderResult() {
 
   app.innerHTML = `
     <div class="masthead">
-      <div class="brand">Daily <span>GA</span> Practice</div>
+      <a class="brand-link" href="index.html">
+        <div class="brand">Practice<span>King</span></div>
+        <div class="brand-slogan">Daily Current Affairs</div>
+      </a>
       <div class="tagline">Result · ${test.label}</div>
     </div>
     <div class="wrap">

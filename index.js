@@ -32,8 +32,11 @@ function renderHome() {
 
   app.innerHTML = `
     <div class="masthead">
-      <div class="brand">Daily <span>GA</span> Practice</div>
-      <div class="tagline">Daily General Awareness · Mock Test Series</div>
+      <a class="brand-link" href="index.html">
+        <div class="brand">Practice<span>King</span></div>
+        <div class="brand-slogan">Daily Current Affairs</div>
+      </a>
+      <div class="tagline">General Awareness · Mock Test Series</div>
     </div>
     <div class="wrap">
       <div class="section-label">Available Mock Tests</div>
