@@ -123,7 +123,7 @@ function showNotesGate(link) {
       <label class="modal-label" for="mf-state">State *</label>
       <input class="modal-input" id="mf-state" type="text" value="${saved.state ? saved.state.replace(/"/g, '&quot;') : ''}" placeholder="e.g. Uttar Pradesh">
       <label class="modal-label" for="mf-mobile">Mobile Number (optional)</label>
-      <input class="modal-input" id="mf-mobile" type="tel" value="${saved.mobile ? saved.mobile.replace(/"/g, '&quot;') : ''}" placeholder="10-digit number">
+      <input class="modal-input" id="mf-mobile" type="tel" inputmode="numeric" maxlength="10" value="${saved.mobile ? saved.mobile.replace(/"/g, '&quot;') : ''}" placeholder="10-digit number">
       <div class="modal-error" id="mf-error"></div>
       <div class="modal-actions">
         <button class="btn btn-outline" id="mf-cancel" type="button">Cancel</button>
@@ -146,6 +146,11 @@ function showNotesGate(link) {
 
     if (!name || !state) {
       errorEl.textContent = 'Please enter your name and state to continue.';
+      return;
+    }
+
+    if (mobile && !/^\d{10}$/.test(mobile)) {
+      errorEl.textContent = 'Mobile number must be exactly 10 digits.';
       return;
     }
 
