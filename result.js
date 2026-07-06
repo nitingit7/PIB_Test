@@ -78,8 +78,23 @@ function renderResult() {
   `;
 
   const notesBtn = app.querySelector('[data-action="notes"]');
-  if (notesBtn) notesBtn.addEventListener('click', () => showNotesGate(notesBtn.dataset.link));
+  if (notesBtn) {
+    notesBtn.addEventListener('click', () => {
+      const link = notesBtn.dataset.link;
+      const needsGate = dateKey >= NOTES_GATE_START_DATE;
+      const alreadySubmitted = localStorage.getItem(NOTES_SUBMITTED_KEY) === 'true';
+      if (!needsGate || alreadySubmitted) {
+        window.open(link, '_blank', 'noopener');
+      } else {
+        showNotesGate(link);
+      }
+    });
+  }
 }
+
+// Notes gate (name/state/mobile form) only applies from this date onward.
+// Tests before this date always open the notes link directly, no form.
+const NOTES_GATE_START_DATE = '2026-07-06';
 
 /* ---------------- NOTES ACCESS GATE ----------------
    Collects Name / State / Mobile before opening the notes doc, and logs it
@@ -107,6 +122,7 @@ const NOTES_FORM_CONFIG = {
 };
 
 const VISITOR_KEY = 'ga_practice_visitor';
+const NOTES_SUBMITTED_KEY = 'ga_practice_notes_submitted';
 
 function showNotesGate(link) {
   let saved = {};
@@ -155,6 +171,7 @@ function showNotesGate(link) {
     }
 
     localStorage.setItem(VISITOR_KEY, JSON.stringify({ name, state, mobile }));
+    localStorage.setItem(NOTES_SUBMITTED_KEY, 'true');
     logNotesAccess(name, state, mobile);
     close();
     window.open(link, '_blank', 'noopener');
