@@ -561,6 +561,77 @@ button { font-family: inherit; cursor: pointer; }
 
 .review-list { display: flex; flex-direction: column; gap: 16px; }
 
+/* ---------- Notes-access gate modal ---------- */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 26, 36, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+}
+
+.modal-box {
+  background: var(--bubble);
+  border-radius: 6px;
+  padding: 28px 26px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.modal-title {
+  font-size: 19px;
+  margin-bottom: 6px;
+}
+
+.modal-sub {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.modal-label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-family: 'IBM Plex Mono', monospace;
+  margin-bottom: 5px;
+  margin-top: 14px;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid var(--line);
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--ink);
+  background: var(--paper);
+}
+.modal-input:focus { outline: none; border-color: var(--ink); }
+
+.modal-error {
+  color: var(--red);
+  font-size: 12.5px;
+  min-height: 16px;
+  margin-top: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+.modal-actions .btn { flex: 1; text-align: center; }
+
 .review-item {
   background: var(--bubble);
   border: 1px solid var(--line);

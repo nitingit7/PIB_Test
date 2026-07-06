@@ -951,5 +951,144 @@ window.MOCK_TESTS = {
         "explanation": "As of July 2026, the MY Bharat app has over 1 lakh downloads and is available in 22 Indian languages."
       }
     ]
+  },
+  "2026-07-06": {
+    "label": "6 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "In July 2026, the Ministry of Law and Justice concluded its two-day 'Reforms Utsav & Chintan Shivir'. In which of the following cities was this event held?",
+        "options": [
+          "Gandhinagar, Gujarat",
+          "Dehradun, Uttarakhand",
+          "Mount Abu, Rajasthan",
+          "Udaipur, Rajasthan"
+        ],
+        "answer": 2,
+        "explanation": "The 'Reforms Utsav & Chintan Shivir' was held in Mount Abu, Rajasthan."
+      },
+      {
+        "q": "Who is the current Secretary of the Legislative Department & Department of Legal Affairs who officially released the 'Sankalp Patra' in July 2026?",
+        "options": [
+          "Dr. Reeta Vasishta",
+          "Shri Barun Mitra",
+          "Dr. Rajiv Mani",
+          "Shri Anoop Kumar Mendiratta"
+        ],
+        "answer": 2,
+        "explanation": "Dr. Rajiv Mani, Secretary of the Legislative Department & Department of Legal Affairs, released the 'Sankalp Patra'."
+      },
+      {
+        "q": "Shri Arjun Ram Meghwal, who inaugurated the Reform Utsav & Chintan Shivir, holds which of the following ministerial portfolios?",
+        "options": [
+          "Cabinet Minister of Law and Justice",
+          "Minister of State for Parliamentary Affairs",
+          "Minister of State for Culture (Independent Charge)",
+          "Minister of State (Independent Charge) for Law and Justice"
+        ],
+        "answer": 3,
+        "explanation": "Shri Arjun Ram Meghwal holds the portfolio of Minister of State (Independent Charge) for Law and Justice."
+      },
+      {
+        "q": "Under the 'Sankalp Patra' released at the Reforms Utsav & Chintan Shivir 2026, the Ministry resolved to utilize which of the following technological domains to build future-ready institutions?",
+        "options": [
+          "Blockchain and cybersecurity infrastructure",
+          "Cloud computing and data analytics",
+          "5G and IoT technologies",
+          "Artificial Intelligence (AI) and digital tools"
+        ],
+        "answer": 3,
+        "explanation": "The 'Sankalp Patra' resolves to use Artificial Intelligence and digital tools to build future-ready institutions."
+      },
+      {
+        "q": "Under the aegis of which Union Ministry is the 'Navachar Mantra' flagship national innovation platform administered?",
+        "options": [
+          "Ministry of Commerce and Industry",
+          "Ministry of Micro, Small and Medium Enterprises (MSME)",
+          "Department for Promotion of Industry and Internal Trade (DPIIT)",
+          "Ministry of Skill Development and Entrepreneurship (MSDE)"
+        ],
+        "answer": 3,
+        "explanation": "'Navachar Mantra' is administered under the Ministry of Skill Development and Entrepreneurship (MSDE)."
+      },
+      {
+        "q": "Which national institute is responsible for implementing the newly extended 'Navachar Mantra' entrepreneurship scheme?",
+        "options": [
+          "National Small Industries Corporation (NSIC)",
+          "Khadi and Village Industries Commission (KVIC)",
+          "Indian Institute of Entrepreneurship (IIE)",
+          "National Institute for Entrepreneurship and Small Business Development (NIESBUD)"
+        ],
+        "answer": 3,
+        "explanation": "NIESBUD is responsible for implementing the extended 'Navachar Mantra' scheme."
+      },
+      {
+        "q": "Which institute's Foundation for Innovation and Technology Transfer (FITT) is serving as the official Knowledge Partner for the 'Navachar Mantra' initiative?",
+        "options": [
+          "IIT Bombay",
+          "IIM Ahmedabad",
+          "IIT Delhi (FITT, IIT Delhi)",
+          "IIT Madras"
+        ],
+        "answer": 2,
+        "explanation": "FITT, IIT Delhi is serving as the official Knowledge Partner for 'Navachar Mantra'."
+      },
+      {
+        "q": "In which city is the headquarters of the National Institute for Entrepreneurship and Small Business Development (NIESBUD) located?",
+        "options": [
+          "Noida, Uttar Pradesh",
+          "Gurugram, Haryana",
+          "Lucknow, Uttar Pradesh",
+          "New Delhi"
+        ],
+        "answer": 0,
+        "explanation": "NIESBUD's headquarters is located in Noida, Uttar Pradesh."
+      },
+      {
+        "q": "Under the World's Largest Grain Storage Scheme, how many total grain storage godowns are being addressed (via transfer, inauguration, and foundation stone laying) at the 5th Foundation Day of the Ministry of Cooperation?",
+        "options": [
+          "232 godowns (135 transferred, 85 inaugurated, and 47 foundation stones laid)",
+          "195 godowns",
+          "210 godowns",
+          "267 godowns"
+        ],
+        "answer": 0,
+        "explanation": "232 godowns in total were addressed: 135 transferred, 85 inaugurated, and 47 foundation stones laid."
+      },
+      {
+        "q": "Which organization is launching 'Sahakar CBS' (a centralized core banking platform) and 'Sahakar Sahyogi' (a conversational AI assistant) to digitally empower Urban Cooperative Banks?",
+        "options": [
+          "National Bank for Financing Infrastructure and Development (NaBFID)",
+          "National Cooperative Development Corporation (NCDC)",
+          "National Federation of Urban Cooperative Banks and Credit Societies (NAFCUB)",
+          "National Urban Co-operative Finance and Development Corporation (NUCFDC)"
+        ],
+        "answer": 3,
+        "explanation": "NUCFDC is launching 'Sahakar CBS' and 'Sahakar Sahyogi' for Urban Cooperative Banks."
+      },
+      {
+        "q": "'Sahakar Van', a major 64-acre cooperative forestation project, is being launched as a joint venture between which of the following organizations?",
+        "options": [
+          "Amul and IFFCO",
+          "Amul and the National Cooperative Consumers' Federation of India (NCCF)",
+          "NCCF and KRIBHCO",
+          "IFFCO and KRIBHCO"
+        ],
+        "answer": 1,
+        "explanation": "'Sahakar Van' is a joint venture between Amul and NCCF."
+      },
+      {
+        "q": "BBSSL has recently partnered with ICAR to strengthen seed systems. Under this initiative, BBSSL is establishing new tissue culture facilities in which of the following two states?",
+        "options": [
+          "Bihar (Patna) and Rajasthan (Jaipur)",
+          "Madhya Pradesh (Indore) and Gujarat (Anand)",
+          "Uttar Pradesh (Barabanki) and Maharashtra (Jalgaon)",
+          "Punjab (Ludhiana) and Haryana (Karnal)"
+        ],
+        "answer": 2,
+        "explanation": "BBSSL is setting up tissue culture facilities in Barabanki (UP) and Jalgaon (Maharashtra) under its ICAR partnership."
+      }
+    ]
   }
 };
