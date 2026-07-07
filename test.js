@@ -102,13 +102,13 @@ function renderExam() {
             </div>
           </div>
         </div>
-        <div class="q-text">${q.q}</div>
+        <div class="q-text">${formatQuestionText(q.q)}</div>
         <div class="options">${optionsHtml}</div>
         <div class="q-footer">
           <button class="clear" data-action="clear">Clear Response</button>
           <button class="review" data-action="mark">${marked[current] ? 'Unmark Review' : 'Mark for Review'}</button>
           <button data-action="prev" ${current === 0 ? 'disabled' : ''}>Previous</button>
-          <button class="primary" data-action="next">${current === test.questions.length - 1 ? 'Save' : 'Save & Next'}</button>
+          <button class="primary" data-action="next">${current === test.questions.length - 1 ? 'Finish' : 'Save & Next'}</button>
         </div>
       </div>
       <div class="palette-panel">
@@ -170,7 +170,7 @@ function renderExam() {
   });
   app.querySelector('[data-action="next"]').addEventListener('click', () => {
     if (current < test.questions.length - 1) { exam.current++; exam.visited[exam.current] = true; renderExam(); }
-    else renderExam();
+    else showEndOfTestModal();
   });
   app.querySelector('[data-action="submit"]').addEventListener('click', () => {
     if (confirm('Submit the test? You cannot change answers after submitting.')) submitTest(false);
@@ -222,6 +222,31 @@ function submitTest(autoSubmitted) {
   leavingIntentionally = true;
   window.removeEventListener('beforeunload', beforeUnloadHandler);
   location.replace(`result.html?date=${encodeURIComponent(dateKey)}`);
+}
+
+function showEndOfTestModal() {
+  const unanswered = exam.answers.filter(a => a === null).length;
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.innerHTML = `
+    <div class="modal-box">
+      <div class="modal-title serif">You've reached the last question</div>
+      <div class="modal-sub">${unanswered > 0 ? `${unanswered} question${unanswered > 1 ? 's are' : ' is'} still unanswered. ` : ''}You can go back and review any question using the palette, or submit the test now.</div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" id="eo-review" type="button">Review Answers</button>
+        <button class="btn" id="eo-submit" type="button">Submit Test</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const close = () => overlay.remove();
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+  document.getElementById('eo-review').addEventListener('click', close);
+  document.getElementById('eo-submit').addEventListener('click', () => {
+    close();
+    submitTest(false);
+  });
 }
 
 renderExam();

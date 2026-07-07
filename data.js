@@ -1330,10 +1330,10 @@ window.MOCK_TESTS = {
       {
         "q": "Which of the following is incorrectly matched with respect to the highest peaks of the continents?\nEurope - Mount Elbrus\nAntarctica - Mount Vinson\nAustralia - Mount Kosciuszko\nNorth America - Aconcagua",
         "options": [
-          "Australia - Mount Kosciuszko (incorrect)",
-          "North America - Aconcagua (incorrect; Denali is North America's highest, Aconcagua is South America's)",
-          "Antarctica - Mount Vinson (incorrect)",
-          "Europe - Mount Elbrus (incorrect)"
+          "Australia - Mount Kosciuszko",
+          "North America - Aconcagua",
+          "Antarctica - Mount Vinson",
+          "Europe - Mount Elbrus"
         ],
         "answer": 1,
         "explanation": "Denali is North America's highest peak; Aconcagua is actually South America's highest peak, making this pairing incorrect."
@@ -1508,7 +1508,7 @@ window.MOCK_TESTS = {
         "options": [
           "Both 1 and 2 are correct",
           "Neither 1 nor 2 is correct",
-          "Only 2 is correct (Mahendragiri is in the Eastern Ghats, not the Western Ghats)",
+          "Only 2 is correct",
           "Only 1 is correct"
         ],
         "answer": 2,

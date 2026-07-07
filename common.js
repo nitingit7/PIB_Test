@@ -23,6 +23,12 @@ function statusOf(q, userAns) {
   return userAns === q.answer ? 'correct' : 'wrong';
 }
 
+// Statement-based questions store each statement on its own line (\n) in the
+// data file. Render those as real line breaks so they're clearly separated.
+function formatQuestionText(text) {
+  return text.replace(/\n/g, '<br>');
+}
+
 // Total test time: 3/5 of a minute per question, rounded to the nearest minute.
 // e.g. 17 questions -> round(17 * 3/5) = round(10.2) = 10 minutes.
 function totalTimeSeconds(numQuestions) {

@@ -33,7 +33,7 @@ function renderResult() {
         <div class="q-number-row"><div class="qn">QUESTION ${i + 1}</div>
           <div class="status-pill status-${st}">${pillLabel}</div>
         </div>
-        <div class="q-text" style="font-size:16px">${q.q}</div>
+        <div class="q-text" style="font-size:16px">${formatQuestionText(q.q)}</div>
         <div class="options">${optionsHtml}</div>
         ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ''}
       </div>`;
