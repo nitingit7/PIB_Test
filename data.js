@@ -1090,5 +1090,485 @@ window.MOCK_TESTS = {
         "explanation": "BBSSL is setting up tissue culture facilities in Barabanki (UP) and Jalgaon (Maharashtra) under its ICAR partnership."
       }
     ]
+  },
+  "2026-07-07": {
+    "label": "7 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "In July 2026, Prime Minister Narendra Modi inaugurated the newly developed terminal building at Jodhpur Airport. What is the total passenger capacity this new terminal is designed to handle annually?",
+        "options": [
+          "2 million passengers",
+          "5 million passengers",
+          "1 million passengers",
+          "3.5 million passengers"
+        ],
+        "answer": 0,
+        "explanation": "The new Jodhpur Airport terminal is designed to handle 2 million passengers annually."
+      },
+      {
+        "q": "During his visit to Balotra, Rajasthan, PM Modi inaugurated and laid the foundation stones for multiple development projects worth how many lakh crores of rupees?",
+        "options": [
+          "₹1.25 lakh crore",
+          "₹1.06 lakh crore",
+          "₹1.50 lakh crore",
+          "₹0.85 lakh crore"
+        ],
+        "answer": 1,
+        "explanation": "PM Modi's Balotra visit covered projects worth ₹1.06 lakh crore."
+      },
+      {
+        "q": "India's first greenfield integrated refinery-cum-petrochemical complex, which was dedicated to the nation in Pachpadra, is a Joint Venture (JV) between the Rajasthan Government and which public sector undertaking (PSU)?",
+        "options": [
+          "Bharat Petroleum Corporation Limited (BPCL)",
+          "Oil and Natural Gas Corporation (ONGC)",
+          "Indian Oil Corporation Limited (IOCL)",
+          "Hindustan Petroleum Corporation Limited (HPCL)"
+        ],
+        "answer": 3,
+        "explanation": "The Pachpadra refinery-cum-petrochemical complex is a JV between the Rajasthan Government and HPCL."
+      },
+      {
+        "q": "What is the estimated financial outlay for the Phase-II of the Jaipur Metro Rail Project, for which the foundation stone was recently laid by the PM?",
+        "options": [
+          "Over ₹8,000 crore",
+          "Over ₹18,000 crore",
+          "Over ₹13,000 crore",
+          "Over ₹10,000 crore"
+        ],
+        "answer": 2,
+        "explanation": "Jaipur Metro Phase-II is estimated at over ₹13,000 crore."
+      },
+      {
+        "q": "Which civil aviation scheme's modified version was launched by PM Modi in Jodhpur to bolster remote regional connectivity?",
+        "options": [
+          "Modified Regional Connectivity Scheme (RCS)",
+          "Modified PM GatiShakti scheme",
+          "Modified NABH Nirman scheme",
+          "Modified Ude Desh ka Aam Nagrik (UDAN) scheme"
+        ],
+        "answer": 3,
+        "explanation": "PM Modi launched the modified UDAN scheme in Jodhpur to boost regional connectivity."
+      },
+      {
+        "q": "In which city was the 29th National Conference on e-Governance (NCeG) hosted in July 2026?",
+        "options": [
+          "Lucknow, Uttar Pradesh",
+          "Ahmedabad, Gujarat",
+          "Jaipur, Rajasthan (at the Rajasthan International Centre)",
+          "Bhopal, Madhya Pradesh"
+        ],
+        "answer": 2,
+        "explanation": "The 29th NCeG 2026 was hosted at the Rajasthan International Centre, Jaipur."
+      },
+      {
+        "q": "Under the National Awards for e-Governance 2026, how many Gold awards were presented, and what was the cash prize associated with each Gold award?",
+        "options": [
+          "8 Gold awards, with a cash prize of Rs. 5 lakh each",
+          "10 Gold awards, with a cash prize of Rs. 5 lakh each",
+          "12 Gold awards, with a cash prize of Rs. 8 lakh each",
+          "10 Gold awards, with a cash prize of Rs. 10 lakh each"
+        ],
+        "answer": 3,
+        "explanation": "10 Gold awards were given, each carrying a cash prize of Rs. 10 lakh."
+      },
+      {
+        "q": "What was the official theme of the 29th National Conference on e-Governance held in Jaipur?",
+        "options": [
+          "Viksit Bharat 2047: Innovation and Inclusive Governance",
+          "Atmanirbhar Bharat: Building a Self-Reliant Digital Nation",
+          "Digital India: Empowering Citizens Through Technology",
+          "Viksit Bharat 2047: AI-enabled, Data-driven & Secure Digital Governance"
+        ],
+        "answer": 3,
+        "explanation": "The NCeG 2026 theme was 'Viksit Bharat 2047: AI-enabled, Data-driven & Secure Digital Governance'."
+      },
+      {
+        "q": "The 29th National Conference on e-Governance concluded with the adoption of which landmark declaration to strengthen digital governance across India?",
+        "options": [
+          "Jaipur Resolution on Digital India 2026",
+          "Rajasthan Digital Governance Charter 2026",
+          "Jaipur Declaration on e-Governance 2026",
+          "National e-Governance Compact 2026"
+        ],
+        "answer": 2,
+        "explanation": "NCeG 2026 concluded with the adoption of the 'Jaipur Declaration on e-Governance 2026'."
+      },
+      {
+        "q": "Which of the following departments collaborated with the Ministry of Electronics and Information Technology (MeitY) and the Government of Rajasthan to organize the NCeG 2026?",
+        "options": [
+          "Department of Personnel and Training (DoPT)",
+          "NITI Aayog",
+          "Department of Administrative Reforms and Public Grievances (DARPG)",
+          "Department of Expenditure"
+        ],
+        "answer": 2,
+        "explanation": "DARPG collaborated with MeitY and the Rajasthan Government to organize NCeG 2026."
+      },
+      {
+        "q": "In July 2026, the Defence Acquisition Council (DAC) cleared modernization proposals worth approximately ₹52,000 crore. Who serves as the Chairman of this apex council?",
+        "options": [
+          "Union Minister of Defence (Rajnath Singh)",
+          "Defence Secretary",
+          "Chief of Defence Staff (CDS)",
+          "Union Minister of Home Affairs"
+        ],
+        "answer": 0,
+        "explanation": "The Defence Acquisition Council is chaired by the Union Minister of Defence."
+      },
+      {
+        "q": "What is the name of the advanced Anti-Unmanned Aerial Vehicle (Anti-UAV) Electronic Warfare System cleared for procurement for the Indian Army?",
+        "options": [
+          "SWATHI System",
+          "SAMHO System",
+          "AKASH TARANG System",
+          "AKASHTEER System"
+        ],
+        "answer": 2,
+        "explanation": "The AKASH TARANG System is the Anti-UAV Electronic Warfare System cleared for the Indian Army."
+      },
+      {
+        "q": "What does the abbreviation 'FW-HAPS' stand for under the procurement clearances granted to the Indian Air Force?",
+        "options": [
+          "Fixed-Wing Heavy Aerial Payload System",
+          "Fixed-Wing High-Altitude Pseudo Satellites",
+          "Forward-Wing High-Altitude Precision Strike",
+          "Fixed-Wing Hypersonic Aerial Patrol System"
+        ],
+        "answer": 1,
+        "explanation": "FW-HAPS stands for Fixed-Wing High-Altitude Pseudo Satellites."
+      },
+      {
+        "q": "Consider the following list of defense equipment:\n1. Multi Influence Ground Mines (MIGM).\n2. Naval Shipborne Unmanned Aerial Systems (NSUAS).\nThese military procurements were cleared for which of the following branches of the Indian Armed Forces?",
+        "options": [
+          "Indian Navy",
+          "Indian Army",
+          "Indian Air Force",
+          "Indian Coast Guard"
+        ],
+        "answer": 0,
+        "explanation": "MIGM and NSUAS procurements were cleared for the Indian Navy."
+      },
+      {
+        "q": "The Delhi Government recently announced a massive ₹8,300 crore air pollution control project in July 2026. What is the official title of this project?",
+        "options": [
+          "Clean Air, Healthy Delhi",
+          "Pure Air, Healthy Capital",
+          "Swachh Vayu Dilli Abhiyan",
+          "Delhi Clean Air Mission"
+        ],
+        "answer": 0,
+        "explanation": "The project is officially titled 'Clean Air, Healthy Delhi'."
+      },
+      {
+        "q": "Which international financial institution is partnering with the Delhi Government and the Department of Economic Affairs to implement the 'Clean Air, Healthy Delhi' program?",
+        "options": [
+          "New Development Bank (NDB)",
+          "Asian Development Bank (ADB)",
+          "World Bank (WB)",
+          "International Monetary Fund (IMF)"
+        ],
+        "answer": 2,
+        "explanation": "The World Bank is partnering to implement the 'Clean Air, Healthy Delhi' program."
+      },
+      {
+        "q": "The newly launched 'Clean Air, Healthy Delhi' project is aimed at accelerating the objectives of which national-level air pollution mitigation program?",
+        "options": [
+          "National Clean Air Programme (NCAP)",
+          "National Clean Energy Programme",
+          "National Air Quality Mission (NAQM)",
+          "Swachh Bharat Mission (Urban)"
+        ],
+        "answer": 0,
+        "explanation": "The project accelerates the objectives of the National Clean Air Programme (NCAP)."
+      },
+      {
+        "q": "Which of the following departments of the Central Government is a key coordinating partner with the World Bank for Delhi's ₹8,300 crore environmental project?",
+        "options": [
+          "Department of Economic Affairs (DEA)",
+          "Department of Expenditure",
+          "NITI Aayog",
+          "Ministry of Environment, Forest and Climate Change"
+        ],
+        "answer": 0,
+        "explanation": "The Department of Economic Affairs (DEA) is a key coordinating partner with the World Bank on this project."
+      },
+      {
+        "q": "In July 2026, Tshering Choden successfully scaled Europe's highest mountain peak, Mount Elbrus. She hails from which of the following Indian states?",
+        "options": [
+          "Himachal Pradesh",
+          "Arunachal Pradesh",
+          "Uttarakhand",
+          "Sikkim"
+        ],
+        "answer": 3,
+        "explanation": "Tshering Choden, who scaled Mount Elbrus, hails from Sikkim."
+      },
+      {
+        "q": "Mount Elbrus, a dormant stratovolcano featuring twin summits, is located in which mountain range?",
+        "options": [
+          "Alps mountain range",
+          "Ural mountain range",
+          "Carpathian mountain range",
+          "Caucasus mountain range"
+        ],
+        "answer": 3,
+        "explanation": "Mount Elbrus is located in the Caucasus mountain range."
+      },
+      {
+        "q": "Under the 'Seven Summits' challenge, mountaineer Tshering Choden scaled her first peak, Mount Kilimanjaro, in August 2025. What is the height of Mount Kilimanjaro?",
+        "options": [
+          "6,961 metres",
+          "5,895 metres",
+          "5,642 metres",
+          "6,190 metres"
+        ],
+        "answer": 1,
+        "explanation": "Mount Kilimanjaro stands at 5,895 metres."
+      },
+      {
+        "q": "Which of the following is incorrectly matched with respect to the highest peaks of the continents?\nEurope - Mount Elbrus\nAntarctica - Mount Vinson\nAustralia - Mount Kosciuszko\nNorth America - Aconcagua",
+        "options": [
+          "Australia - Mount Kosciuszko (incorrect)",
+          "North America - Aconcagua (incorrect; Denali is North America's highest, Aconcagua is South America's)",
+          "Antarctica - Mount Vinson (incorrect)",
+          "Europe - Mount Elbrus (incorrect)"
+        ],
+        "answer": 1,
+        "explanation": "Denali is North America's highest peak; Aconcagua is actually South America's highest peak, making this pairing incorrect."
+      },
+      {
+        "q": "In July 2026, ISRO successfully conducted the first ground test of which solid motor-based test vehicle to validate the Gaganyaan Crew Module's parachute trials?",
+        "options": [
+          "PSLV Test Vehicle (TV-D1)",
+          "SOLVE (Sub-Orbital Launch Vehicle for Experiments)",
+          "Crew Escape System Test Vehicle (CESTV)",
+          "SMART (Solid Motor Aerial Recovery Test)"
+        ],
+        "answer": 1,
+        "explanation": "ISRO's SOLVE (Sub-Orbital Launch Vehicle for Experiments) conducted the first ground test for Gaganyaan's parachute trials."
+      },
+      {
+        "q": "The first ground test of the SOLVE vehicle was conducted at the Satish Dhawan Space Centre (SDSC). In which state is SDSC located?",
+        "options": [
+          "Andhra Pradesh (Sriharikota)",
+          "Karnataka (Bengaluru)",
+          "Tamil Nadu (Mahendragiri)",
+          "Odisha (Chandipur)"
+        ],
+        "answer": 0,
+        "explanation": "SDSC is located at Sriharikota, Andhra Pradesh."
+      },
+      {
+        "q": "The SOLVE test vehicle is engineered to simulate deceleration for Gaganyaan's parachute system at what altitude range?",
+        "options": [
+          "Between 20 km and 30 km",
+          "Between 10 km and 17 km",
+          "Between 5 km and 10 km",
+          "Between 15 km and 25 km"
+        ],
+        "answer": 1,
+        "explanation": "SOLVE simulates deceleration conditions between 10 km and 17 km altitude for the parachute trials."
+      },
+      {
+        "q": "Consider the following statements regarding ISRO's SOLVE platform:\n1. It is equipped with a modified Polar Satellite Launch Vehicle (PSLV) strap-on motor.\n2. It utilizes a 10-stage parachute deployment system to test the safe recovery of the Crew Module.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct"
+        ],
+        "answer": 1,
+        "explanation": "SOLVE uses a modified PSLV strap-on motor and a 10-stage parachute deployment system for the Crew Module recovery test."
+      },
+      {
+        "q": "Which country won the 10th edition of the ICC Women's T20 World Cup held in June-July 2026?",
+        "options": [
+          "South Africa (defeating England in the final)",
+          "India (defeating Australia in the final)",
+          "England (defeating Australia in the final)",
+          "Australia (defeating England in the final)"
+        ],
+        "answer": 3,
+        "explanation": "Australia won the 10th edition of the ICC Women's T20 World Cup, defeating England in the final."
+      },
+      {
+        "q": "Who became the first player in T20 World Cup history to win two 'Player of the Tournament' awards after securing the title in both 2023 and 2026?",
+        "options": [
+          "Beth Mooney (Australia)",
+          "Ashleigh Gardner (Australia)",
+          "Alyssa Healy (Australia)",
+          "Meg Lanning (Australia)"
+        ],
+        "answer": 0,
+        "explanation": "Beth Mooney became the first player to win 'Player of the Tournament' twice, in 2023 and 2026."
+      },
+      {
+        "q": "Indian bowler Shree Charani set a new national record at the 2026 Women's T20 World Cup by taking how many wickets?",
+        "options": [
+          "11 wickets",
+          "14 wickets",
+          "9 wickets",
+          "17 wickets"
+        ],
+        "answer": 1,
+        "explanation": "Shree Charani set a new Indian record by taking 14 wickets at the 2026 Women's T20 World Cup."
+      },
+      {
+        "q": "Consider the following statements regarding the 2026 ICC Women's T20 World Cup:\n1. The final of the tournament was played at Lord's Cricket Ground in London.\n2. A total of 12 teams competed in the tournament divided into two groups of six.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "The final was held at Lord's, and 12 teams competed divided into two groups of six."
+      },
+      {
+        "q": "Who became India's youngest international cricket debutant in July 2026, debuting at the age of 15 years and 99 days?",
+        "options": [
+          "Vaibhav Sooryavanshi",
+          "Sachin Tendulkar",
+          "Prithvi Shaw",
+          "Yashasvi Jaiswal"
+        ],
+        "answer": 0,
+        "explanation": "Vaibhav Sooryavanshi became India's youngest international debutant at 15 years and 99 days."
+      },
+      {
+        "q": "Against which country did Vaibhav Sooryavanshi make his senior T20I international debut in July 2026?",
+        "options": [
+          "Australia (at the MCG)",
+          "England (at Old Trafford, Manchester)",
+          "New Zealand (at Eden Park)",
+          "South Africa (at the Wanderers)"
+        ],
+        "answer": 1,
+        "explanation": "Sooryavanshi debuted against England at Old Trafford, Manchester."
+      },
+      {
+        "q": "Playing for which IPL franchise did Vaibhav Sooryavanshi win the Orange Cap, MVP, and Emerging Player awards in the same season in 2026?",
+        "options": [
+          "Chennai Super Kings (CSK)",
+          "Rajasthan Royals (RR)",
+          "Mumbai Indians (MI)",
+          "Delhi Capitals (DC)"
+        ],
+        "answer": 1,
+        "explanation": "Vaibhav Sooryavanshi won multiple awards playing for Rajasthan Royals in the 2026 IPL season."
+      },
+      {
+        "q": "Consider the following statements regarding cricketer Vaibhav Sooryavanshi:\n1. He hails from Tajpur, Bihar, and made his first-class debut in the year 2024.\n2. He broke Sachin Tendulkar's 36-year-old record to become India's youngest international debutant.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Neither 1 nor 2 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct"
+        ],
+        "answer": 3,
+        "explanation": "Both statements about Sooryavanshi's background and record-breaking debut are correct."
+      },
+      {
+        "q": "Which indigenous stealth frigate is set to be commissioned by the Indian Navy at Visakhapatnam on July 11, 2026?",
+        "options": [
+          "INS Himgiri (F39)",
+          "INS Vindhyagiri (F42)",
+          "INS Udaygiri (F35)",
+          "INS Mahendragiri (F38)"
+        ],
+        "answer": 3,
+        "explanation": "INS Mahendragiri (F38) is set to be commissioned at Visakhapatnam on July 11, 2026."
+      },
+      {
+        "q": "INS Mahendragiri, built by Mazagon Dock Shipbuilders Limited (MDL), is the sixth warship of which prestigious shipbuilding project of the Indian Navy?",
+        "options": [
+          "Project 28",
+          "Project 17A",
+          "Project 75I",
+          "Project 15B"
+        ],
+        "answer": 1,
+        "explanation": "INS Mahendragiri is the sixth and final warship of Project 17A."
+      },
+      {
+        "q": "What is the approximate percentage of indigenous content incorporated in the newly built stealth frigate INS Mahendragiri to promote the 'Aatmanirbhar Bharat' initiative?",
+        "options": [
+          "Over 75 percent",
+          "Over 90 percent",
+          "Over 60 percent",
+          "Over 50 percent"
+        ],
+        "answer": 0,
+        "explanation": "INS Mahendragiri incorporates over 75 percent indigenous content."
+      },
+      {
+        "q": "Consider the following statements regarding the stealth frigate INS Mahendragiri:\n1. She is named after a majestic mountain range in the Western Ghats.\n2. She is powered by a modern Combined Diesel or Gas (CODOG) propulsion system.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct",
+          "Only 2 is correct (Mahendragiri is in the Eastern Ghats, not the Western Ghats)",
+          "Only 1 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Mahendragiri is actually located in the Eastern Ghats, so statement 1 is incorrect; the CODOG propulsion detail in statement 2 is correct."
+      },
+      {
+        "q": "India is hosting the high-level BRICS Women Ministerial Meeting on 8–9 July 2026 under its BRICS Chairship. Which of the following Indian cities is the venue for this meeting?",
+        "options": [
+          "Guwahati, Assam",
+          "Kochi, Kerala",
+          "Bhubaneswar, Odisha",
+          "Jaipur, Rajasthan"
+        ],
+        "answer": 1,
+        "explanation": "Kochi, Kerala is hosting the BRICS Women Ministerial Meeting 2026."
+      },
+      {
+        "q": "What is the official theme of the BRICS Women Ministerial Meeting 2026 being hosted under India's BRICS Chairship?",
+        "options": [
+          "Empowering Women for a Resilient and Inclusive Future",
+          "Building for Resilience, Innovation, Cooperation and Sustainability",
+          "Women-Led Development for a Sustainable World",
+          "Strengthening Multilateralism for Gender Equity"
+        ],
+        "answer": 1,
+        "explanation": "The theme, consistent with India's overall BRICS Chairship, is 'Building for Resilience, Innovation, Cooperation and Sustainability'."
+      },
+      {
+        "q": "The BRICS Women Ministerial Meeting in July 2026 is administered by which nodal Union Ministry of India?",
+        "options": [
+          "Ministry of External Affairs",
+          "Ministry of Women and Child Development",
+          "Ministry of Rural Development",
+          "Ministry of Social Justice and Empowerment"
+        ],
+        "answer": 1,
+        "explanation": "The Ministry of Women and Child Development is the nodal ministry for this meeting."
+      },
+      {
+        "q": "Which museum has recently been officially notified as India's 21st Designated Repository under the Biological Diversity Act, 2002?",
+        "options": [
+          "National Museum of Natural History, New Delhi",
+          "Assam State Museum, Guwahati",
+          "Zoological Survey of India Museum, Kolkata",
+          "Mizoram's Natural History Museum"
+        ],
+        "answer": 3,
+        "explanation": "Mizoram's Natural History Museum was notified as India's 21st Designated Repository under the Biological Diversity Act, 2002."
+      },
+      {
+        "q": "Consider the following statements regarding India's BRICS Chairship in 2026:\n1. The Chairship is anchored in four pillars: Resilience, Innovation, Cooperation, and Sustainability.\n2. The BRICS Women Working Group Meeting was held on 6–7 July 2026.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Both 1 and 2 are correct",
+          "Only 2 is correct",
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct"
+        ],
+        "answer": 0,
+        "explanation": "Both the four pillars of India's BRICS Chairship and the dates of the Women Working Group Meeting are correctly stated."
+      }
+    ]
   }
 };

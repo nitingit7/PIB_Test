@@ -47,7 +47,7 @@ function exitToHome() {
     leavingIntentionally = true;
     window.removeEventListener('beforeunload', beforeUnloadHandler);
     clearInterval(timerId);
-    location.href = 'index.html';
+    location.replace('index.html');
   }
 }
 
@@ -221,7 +221,7 @@ function submitTest(autoSubmitted) {
 
   leavingIntentionally = true;
   window.removeEventListener('beforeunload', beforeUnloadHandler);
-  location.href = `result.html?date=${encodeURIComponent(dateKey)}`;
+  location.replace(`result.html?date=${encodeURIComponent(dateKey)}`);
 }
 
 renderExam();
