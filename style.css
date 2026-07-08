@@ -639,6 +639,40 @@ button { font-family: inherit; cursor: pointer; }
   padding: 20px 22px;
 }
 
+.instructions-list {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.instructions-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+}
+
+.instructions-list ul {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.instructions-list li {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.instructions-list strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .top-actions { display: flex; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
 
 /* ---------- Responsive: tablets ---------- */

@@ -16,8 +16,8 @@ function renderHome() {
           : 'Not attempted yet';
         const actionBtn = attempted
           ? `<a class="btn" href="result.html?date=${encodeURIComponent(dateKey)}">View Result</a>
-             <a class="btn btn-outline" href="test.html?date=${encodeURIComponent(dateKey)}">Retake</a>`
-          : `<a class="btn" href="test.html?date=${encodeURIComponent(dateKey)}">Start Test</a>`;
+             <a class="btn btn-outline" href="instructions.html?date=${encodeURIComponent(dateKey)}">Retake</a>`
+          : `<a class="btn" href="instructions.html?date=${encodeURIComponent(dateKey)}">Start Test</a>`;
         const durationMin = totalTimeSeconds(test.questions.length) / 60;
         return `
           <div class="test-card">

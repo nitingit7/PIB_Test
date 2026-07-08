@@ -67,7 +67,7 @@ function renderResult() {
         </div>
 
         <div class="top-actions">
-          <a class="btn" href="test.html?date=${encodeURIComponent(dateKey)}">Retake Test</a>
+          <a class="btn" href="instructions.html?date=${encodeURIComponent(dateKey)}">Retake Test</a>
           <a class="btn btn-outline" href="index.html">Back to Test List</a>
           ${test.resourceLink ? `<button class="btn btn-outline" data-action="notes" data-link="${test.resourceLink}">See the Notes and Revise</button>` : ''}
         </div>

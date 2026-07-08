@@ -1570,5 +1570,430 @@ window.MOCK_TESTS = {
         "explanation": "Both the four pillars of India's BRICS Chairship and the dates of the Women Working Group Meeting are correctly stated."
       }
     ]
+  },
+  "2026-07-08": {
+    "label": "8 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "Which organization released the 5th annual edition of the Global Passport Index (GPI) in July 2026?",
+        "options": [
+          "Henley & Partners",
+          "World Economic Forum (WEF)",
+          "International Air Transport Association (IATA)",
+          "Global Citizen Solutions (GCS)"
+        ],
+        "answer": 3,
+        "explanation": "Global Citizen Solutions (GCS) released the 5th annual edition of the Global Passport Index in July 2026."
+      },
+      {
+        "q": "What is India's overall rank among the 197 countries featured in the Global Passport Index 2026?",
+        "options": [
+          "105th",
+          "125th",
+          "138th",
+          "144th"
+        ],
+        "answer": 1,
+        "explanation": "India ranked 125th among 197 countries in the Global Passport Index 2026."
+      },
+      {
+        "q": "Which country has topped the Global Passport Index 2026 as the world's strongest passport with a score of 96.05?",
+        "options": [
+          "Japan",
+          "Germany",
+          "Singapore",
+          "Sweden"
+        ],
+        "answer": 3,
+        "explanation": "Sweden topped the Global Passport Index 2026 with a score of 96.05."
+      },
+      {
+        "q": "Consider the following statements regarding the Global Passport Index (GPI) 2026:\n1. The index ranks passports across three main categories, with the Enhanced Mobility index carrying a 50% weightage.\n2. India showed its most significant category-wise improvement in the Quality of Life index, jumping 11 places compared to 2025.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct",
+          "Both 1 and 2 are correct",
+          "Only 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both the weightage detail and India's Quality of Life index improvement are correctly stated."
+      },
+      {
+        "q": "In the Global Passport Index 2026, India moved up by 3 places to secure which rank in the Investment Index category?",
+        "options": [
+          "97th",
+          "101st",
+          "94th",
+          "88th"
+        ],
+        "answer": 2,
+        "explanation": "India moved up 3 places to rank 94th in the Investment Index category."
+      },
+      {
+        "q": "Which historic 17th-century Buddhist monastery in Nepal has been conferred with the 2025 UNESCO Asia-Pacific Heritage Award of Merit in July 2026?",
+        "options": [
+          "Swayambhunath Stupa",
+          "Itum Bahal Monastery",
+          "Jestha Varna Mahavihar (also known as Jyaba Bahi or Chakrabahil)",
+          "Kwa Bahal (Golden Temple)"
+        ],
+        "answer": 2,
+        "explanation": "Jestha Varna Mahavihar received the 2025 UNESCO Asia-Pacific Heritage Award of Merit."
+      },
+      {
+        "q": "The Government of India funded the restoration of Nepal's Jestha Varna Mahavihar under its post-earthquake cultural heritage reconstruction grant. What was the total financial outlay of this grant?",
+        "options": [
+          "NPR 13.78 crore",
+          "NPR 8.5 crore",
+          "NPR 10.2 crore",
+          "NPR 20.4 crore"
+        ],
+        "answer": 0,
+        "explanation": "India funded the restoration with a grant of NPR 13.78 crore."
+      },
+      {
+        "q": "The restoration of Jestha Varna Mahavihar was highly recognized by UNESCO for preserving the architectural heritage and woodcarvings of which specific Buddhist community?",
+        "options": [
+          "Sherpa community",
+          "Newar (or Newari community)",
+          "Gurung community",
+          "Tamang community"
+        ],
+        "answer": 1,
+        "explanation": "UNESCO recognized the restoration for preserving the heritage of the Newar (Newari) Buddhist community."
+      },
+      {
+        "q": "In July 2026, Alok Kumar Mittal was appointed as the Director General of the Bureau of Police Research & Development (BPR&D). He is an IPS officer belonging to which state cadre?",
+        "options": [
+          "Punjab",
+          "Haryana",
+          "Uttar Pradesh",
+          "Rajasthan"
+        ],
+        "answer": 1,
+        "explanation": "Alok Kumar Mittal, appointed DG of BPR&D, belongs to the Haryana IPS cadre."
+      },
+      {
+        "q": "Who has been appointed as the new Director of the National Crime Records Bureau (NCRB) to succeed Alok Ranjan?",
+        "options": [
+          "Amit Garg",
+          "Alok Kumar Mittal",
+          "Rajesh Kumar",
+          "Sujeet Pandey"
+        ],
+        "answer": 0,
+        "explanation": "Amit Garg has been appointed as the new Director of NCRB, succeeding Alok Ranjan."
+      },
+      {
+        "q": "Senior IPS officer Sujeet Pandey has been appointed as the Director of which premier national police training academy?",
+        "options": [
+          "Central Detective Training School (CDTS)",
+          "National Institute of Criminology and Forensic Science (NICFS)",
+          "National Police Academy, Hyderabad",
+          "Sardar Vallabhbhai Patel National Police Academy (SVPNPA)"
+        ],
+        "answer": 3,
+        "explanation": "Sujeet Pandey was appointed Director of the Sardar Vallabhbhai Patel National Police Academy (SVPNPA)."
+      },
+      {
+        "q": "Consider the following statements regarding the leadership reshuffle in July 2026:\n1. The appointments of the new police chiefs were approved by the Appointments Committee of the Cabinet (ACC) based on proposals by the Ministry of Home Affairs.\n2. Sujeet Pandey, a 1994-batch IPS officer of the Uttar Pradesh cadre, was appointed as the Director of SVPNPA.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Both 1 and 2 are correct",
+          "Only 1 is correct",
+          "Neither 1 nor 2 is correct",
+          "Only 2 is correct"
+        ],
+        "answer": 0,
+        "explanation": "Both the ACC approval process and Sujeet Pandey's cadre/batch details are correctly stated."
+      },
+      {
+        "q": "In July 2026, NPCI's MD & CEO Dilip Asbe was appointed to the newly formed Supervisory Board of which global financial messaging organization?",
+        "options": [
+          "Bank for International Settlements (BIS)",
+          "SWIFT (Society for Worldwide Interbank Financial Telecommunication)",
+          "International Organization for Standardization (ISO)",
+          "Financial Action Task Force (FATF)"
+        ],
+        "answer": 1,
+        "explanation": "Dilip Asbe was appointed to SWIFT's newly formed Supervisory Board."
+      },
+      {
+        "q": "In which year was the National Payments Corporation of India (NPCI) established, and where is its headquarters located?",
+        "options": [
+          "Established in 2010; Headquartered in Bengaluru, Karnataka",
+          "Established in 2005; Headquartered in New Delhi",
+          "Established in 2008; Headquartered in Mumbai, Maharashtra",
+          "Established in 2012; Headquartered in Mumbai, Maharashtra"
+        ],
+        "answer": 2,
+        "explanation": "NPCI was established in 2008 and is headquartered in Mumbai, Maharashtra."
+      },
+      {
+        "q": "Which of the following bodies jointly promoted the National Payments Corporation of India (NPCI) as the umbrella organization for retail payments?",
+        "options": [
+          "Ministry of Finance and RBI",
+          "SEBI and RBI",
+          "Reserve Bank of India (RBI) and Indian Banks' Association (IBA)",
+          "IBA and Ministry of Electronics and IT"
+        ],
+        "answer": 2,
+        "explanation": "NPCI was jointly promoted by the RBI and the Indian Banks' Association (IBA)."
+      },
+      {
+        "q": "In July 2026, China launched its latest marine monitoring satellite named _________.",
+        "options": [
+          "Shijian-21",
+          "Gaofen-5B",
+          "Fengyun-4C",
+          "Haiyang-2E (HY-2E)"
+        ],
+        "answer": 3,
+        "explanation": "China launched its latest marine monitoring satellite, Haiyang-2E (HY-2E), in July 2026."
+      },
+      {
+        "q": "Where were the U15 and U20 Asian Wrestling Championships 2026 hosted by United World Wrestling (UWW)?",
+        "options": [
+          "Almaty, Kazakhstan",
+          "Ulaanbaatar, Mongolia",
+          "Bishkek, Kyrgyzstan",
+          "Pattaya, Thailand"
+        ],
+        "answer": 3,
+        "explanation": "The U15 and U20 Asian Wrestling Championships 2026 were hosted in Pattaya, Thailand."
+      },
+      {
+        "q": "How many total medals did the Indian contingent win in the Under-20 (U20) category at the Asian Wrestling Championships 2026?",
+        "options": [
+          "22 medals (3 gold, 9 silver, 10 bronze)",
+          "18 medals (5 gold, 6 silver, 7 bronze)",
+          "20 medals (4 gold, 7 silver, 9 bronze)",
+          "16 medals (4 gold, 5 silver, 7 bronze)"
+        ],
+        "answer": 2,
+        "explanation": "India won 20 medals in the U20 category: 4 gold, 7 silver, and 9 bronze."
+      },
+      {
+        "q": "India won the bronze team trophy in the Under-15 category at the 2026 Asian Wrestling Championships with 150 points. Which country topped the U15 standings?",
+        "options": [
+          "Kazakhstan (160 points)",
+          "Japan (155 points)",
+          "Uzbekistan (171 points)",
+          "Iran (165 points)"
+        ],
+        "answer": 2,
+        "explanation": "Uzbekistan topped the U15 standings with 171 points; India took bronze with 150 points."
+      },
+      {
+        "q": "Consider the following statements regarding India's performance in the Under-20 category at the Asian Wrestling Championships 2026:\n1. India finished second in Women's Wrestling (WW) with 184 points, behind China.\n2. India secured third place in Men's Freestyle (FS), finishing behind Kazakhstan and Iran.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct"
+        ],
+        "answer": 1,
+        "explanation": "Both India's WW runner-up finish and its third-place FS finish are correctly stated."
+      },
+      {
+        "q": "Social worker and engineer Girish Bharadwaj, who passed away in July 2026, was famously known by which of the following sobriquets?",
+        "options": [
+          "Water Man of India",
+          "Bridge Man of India",
+          "Metro Man of India",
+          "Green Man of India"
+        ],
+        "answer": 1,
+        "explanation": "Girish Bharadwaj was famously known as the 'Bridge Man of India'."
+      },
+      {
+        "q": "In which year was the 'Bridge Man of India' Girish Bharadwaj conferred the prestigious Padma Shri award for his contributions to social work?",
+        "options": [
+          "2021",
+          "2015",
+          "2017",
+          "2019"
+        ],
+        "answer": 2,
+        "explanation": "Girish Bharadwaj was conferred the Padma Shri in 2017."
+      },
+      {
+        "q": "Girish Bharadwaj constructed over 150 low-cost hanging footbridges. Which of the following is NOT one of the five states where his bridge projects were executed?",
+        "options": [
+          "Maharashtra",
+          "Odisha",
+          "Andhra Pradesh",
+          "Kerala"
+        ],
+        "answer": 0,
+        "explanation": "Maharashtra was not among the five states where Girish Bharadwaj's bridge projects were executed."
+      },
+      {
+        "q": "Consider the following statements regarding Girish Bharadwaj:\n1. He constructed his very first bridge in 1989 following a request from the villagers of Aramburu.\n2. He founded Ayasshilpa Industries in Sullia, Karnataka, to manufacture and design his low-cost suspension bridges.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Neither 1 nor 2 is correct",
+          "Both 1 and 2 are correct"
+        ],
+        "answer": 3,
+        "explanation": "Both his first bridge in 1989 and the founding of Ayasshilpa Industries are correctly stated."
+      },
+      {
+        "q": "In July 2026, a historic agreement was signed to resolve the cost-sharing dispute of which major river valley project?",
+        "options": [
+          "Indira Sagar Project",
+          "Sardar Sarovar Project",
+          "Tehri Dam Project",
+          "Polavaram Project"
+        ],
+        "answer": 1,
+        "explanation": "The historic cost-sharing settlement agreement was signed for the Sardar Sarovar Project."
+      },
+      {
+        "q": "Which of the following is NOT one of the four Narmada Award beneficiary states that signed the cost-sharing settlement agreement in New Delhi?",
+        "options": [
+          "Madhya Pradesh",
+          "Maharashtra",
+          "Haryana",
+          "Gujarat"
+        ],
+        "answer": 2,
+        "explanation": "Haryana is not a Narmada Award beneficiary state; the four signatories are Maharashtra, Gujarat, Rajasthan, and Madhya Pradesh."
+      },
+      {
+        "q": "Under whose presence was the historic one-time settlement agreement on Narmada Award payments signed by the Chief Ministers in New Delhi?",
+        "options": [
+          "Prime Minister Narendra Modi",
+          "Union Home Minister Amit Shah and Union Minister of Jal Shakti C. R. Patil",
+          "NITI Aayog Vice Chairman",
+          "Union Minister of Jal Shakti alone"
+        ],
+        "answer": 1,
+        "explanation": "The settlement was signed in the presence of Union Home Minister Amit Shah and Union Minister of Jal Shakti C. R. Patil."
+      },
+      {
+        "q": "Consider the following statements regarding the Narmada Award settlement:\n1. Devendra Fadnavis (CM of Maharashtra) and Dr. Mohan Yadav (CM of Madhya Pradesh) were among the signatories.\n2. The Union Home Minister cited the Kishau Dam Project as another successful example of cooperative federalism.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Neither 1 nor 2 is correct",
+          "Only 1 is correct",
+          "Both 1 and 2 are correct",
+          "Only 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both the listed signatories and the Kishau Dam Project reference are correctly stated."
+      },
+      {
+        "q": "In July 2026, which country hosted the 13th ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee meeting?",
+        "options": [
+          "Indonesia",
+          "Vietnam",
+          "India (at Vanijya Bhawan, New Delhi)",
+          "Singapore"
+        ],
+        "answer": 2,
+        "explanation": "India hosted the 13th AITIGA Joint Committee meeting at Vanijya Bhawan, New Delhi."
+      },
+      {
+        "q": "What is the total value of bilateral trade recorded between India and ASEAN during the 2025–26 financial year?",
+        "options": [
+          "USD 98 billion",
+          "USD 110 billion",
+          "USD 128 billion",
+          "USD 145 billion"
+        ],
+        "answer": 2,
+        "explanation": "India-ASEAN bilateral trade stood at USD 128 billion during 2025-26."
+      },
+      {
+        "q": "Who co-chaired the 13th AITIGA Joint Committee meeting on behalf of India's Ministry of Commerce and Industry?",
+        "options": [
+          "Shri Nitin Kumar Yadav (Additional Secretary, Department of Commerce)",
+          "Shri Sunil Barthwal (Commerce Secretary)",
+          "Shri Piyush Goyal (Union Minister)",
+          "Smt. Rajesh Bhushan (Commerce Secretary)"
+        ],
+        "answer": 0,
+        "explanation": "Shri Nitin Kumar Yadav, Additional Secretary, Department of Commerce, co-chaired the meeting for India."
+      },
+      {
+        "q": "What percentage of India's overall global trade is accounted for by the ASEAN region as of the latest figures?",
+        "options": [
+          "Around 18 per cent",
+          "Around 8 per cent",
+          "Around 15 per cent",
+          "Around 11 per cent"
+        ],
+        "answer": 3,
+        "explanation": "ASEAN accounts for around 11 per cent of India's overall global trade."
+      },
+      {
+        "q": "Consider the following statements regarding the 13th AITIGA Joint Committee meeting held in July 2026:\n1. The meeting was co-chaired by Ms. Mastura Ahmad Mustafa representing the Ministry of Investment, Trade and Industry of Malaysia.\n2. Three of the eight Sub-Committees, including the Sub-Committee on Rules of Origin (SC-ROO), held meetings on the sidelines.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 2 is correct",
+          "Neither 1 nor 2 is correct",
+          "Both 1 and 2 are correct",
+          "Only 1 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both the Malaysian co-chair detail and the Sub-Committee meetings are correctly stated."
+      },
+      {
+        "q": "Following the successful completion of its ₹440 crore Capital Dredging Phase VI project, which port has become India's second Major Port to offer an 18-metre draft capability?",
+        "options": [
+          "Kamarajar Port (Tamil Nadu)",
+          "Chennai Port (Tamil Nadu)",
+          "Paradip Port (Odisha)",
+          "Kandla Port (Gujarat)"
+        ],
+        "answer": 0,
+        "explanation": "Kamarajar Port became India's second Major Port with 18-metre draft capability after its Phase VI dredging project."
+      },
+      {
+        "q": "Which Indian port was the first in the country to offer a draft of 18 metres?",
+        "options": [
+          "Paradip Port",
+          "Mundra Port",
+          "Chennai Port",
+          "Visakhapatnam Port"
+        ],
+        "answer": 3,
+        "explanation": "Visakhapatnam Port was the first Indian port to offer an 18-metre draft."
+      },
+      {
+        "q": "Kamarajar Port has been declared 'Cape Compliant' and can now handle fully laden Capesize vessels carrying cargo parcels of up to what maximum DWT?",
+        "options": [
+          "1,50,000 DWT",
+          "1,70,000 DWT",
+          "2,00,000 DWT",
+          "1,20,000 DWT"
+        ],
+        "answer": 1,
+        "explanation": "Kamarajar Port can now handle Capesize vessels carrying cargo of up to 1,70,000 DWT."
+      },
+      {
+        "q": "Who is the current Union Minister for Ports, Shipping & Waterways?",
+        "options": [
+          "Sarbananda Sonowal",
+          "Mansukh Mandaviya",
+          "Jyotiraditya Scindia",
+          "Nitin Gadkari"
+        ],
+        "answer": 0,
+        "explanation": "Sarbananda Sonowal is the current Union Minister for Ports, Shipping & Waterways."
+      },
+      {
+        "q": "Consider the following statements regarding the infrastructure upgrade of Kamarajar Port in July 2026:\n1. The project involved deepening the outer approach channel from 20.0 m to 23.0 m.\n2. The upgrade is designed to support the goals of the national roadmap 'Maritime India Vision 2030'.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Neither 1 nor 2 is correct",
+          "Both 1 and 2 are correct"
+        ],
+        "answer": 3,
+        "explanation": "Both the channel deepening detail and the Maritime India Vision 2030 alignment are correctly stated."
+      }
+    ]
   }
 };
