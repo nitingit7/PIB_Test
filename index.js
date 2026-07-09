@@ -16,8 +16,8 @@ function renderHome() {
           : 'Not attempted yet';
         const actionBtn = attempted
           ? `<a class="btn" href="result.html?date=${encodeURIComponent(dateKey)}">View Result</a>
-             <a class="btn btn-outline" href="instructions.html?date=${encodeURIComponent(dateKey)}">Retake</a>`
-          : `<a class="btn" href="instructions.html?date=${encodeURIComponent(dateKey)}">Start Test</a>`;
+             <a class="btn btn-outline" href="test.html?date=${encodeURIComponent(dateKey)}">Retake</a>`
+          : `<a class="btn" href="test.html?date=${encodeURIComponent(dateKey)}">Start Test</a>`;
         const durationMin = totalTimeSeconds(test.questions.length) / 60;
         return `
           <div class="test-card">
@@ -36,13 +36,18 @@ function renderHome() {
         <div class="brand">Practice<span>King</span></div>
         <div class="brand-slogan">Daily Current Affairs</div>
       </a>
-      <div class="tagline">General Awareness · Mock Test Series</div>
+      <div class="masthead-right">
+        <div class="tagline">General Awareness · Mock Test Series</div>
+        ${themeToggleBtnHtml()}
+      </div>
     </div>
     <div class="wrap">
       <div class="section-label">Available Mock Tests</div>
       ${cards}
     </div>
   `;
+
+  bindThemeToggle();
 }
 
 renderHome();

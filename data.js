@@ -22,6 +22,1464 @@
 */
 
 window.MOCK_TESTS = {
+  "2026-07-09": {
+    "label": "9 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "What is the full form of the central initiative 'PM-SETU', which recently received a ₹1,237.58 crore nationwide expansion approval?",
+        "options": [
+          "Pradhan Mantri Skill Empowerment and Technical Upgradation Initiative",
+          "Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs",
+          "Pradhan Mantri Special Employment and Training Upliftment Initiative",
+          "Pradhan Mantri Sustainable Employability and Training Upliftment scheme"
+        ],
+        "answer": 1,
+        "explanation": "PM-SETU stands for Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs, a scheme to modernise Industrial Training Institutes (ITIs) across India."
+      },
+      {
+        "q": "The 4th National Steering Committee has approved strategic investment plans for the PM-SETU scheme's expansion across 200 clusters. What is the approved financial outlay?",
+        "options": [
+          "₹985.50 crore",
+          "₹1,075.25 crore",
+          "₹1,237.58 crore",
+          "₹1,520.00 crore"
+        ],
+        "answer": 2,
+        "explanation": "The 4th National Steering Committee of PM-SETU approved strategic investment plans worth ₹1,237.58 crore for expansion across 200 clusters."
+      },
+      {
+        "q": "Who chaired the 4th National Steering Committee (NSC) meeting of the PM-SETU scheme as the Secretary of the Ministry of Skill Development and Entrepreneurship (MSDE)?",
+        "options": [
+          "Shri Dharmendra Pradhan (Union Minister, MSDE)",
+          "Shri Atul Kumar Tiwari (Secretary General, NSDC)",
+          "Shri Jayant Chaudhary (Minister of State, MSDE)",
+          "Debashree Mukherjee (Secretary, MSDE)"
+        ],
+        "answer": 3,
+        "explanation": "Debashree Mukherjee, Secretary of the Ministry of Skill Development and Entrepreneurship (MSDE), chaired the 4th National Steering Committee meeting of PM-SETU."
+      },
+      {
+        "q": "Consider the following statements regarding the PM-SETU expansion approved in July 2026:\n1. The committee approved five ITI clusters across Odisha, Gujarat, and Telangana.\n2. Private sector firms have been selected as anchor industry partners to implement the projects.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. Five ITI clusters across Odisha, Gujarat, and Telangana were approved, and private sector firms were selected as anchor industry partners."
+      },
+      {
+        "q": "What is the full form of the agricultural programme 'PRAGATI' launched by Union Minister Shivraj Singh Chouhan in July 2026?",
+        "options": [
+          "Promoting Regenerative Agriculture Through Agri-Entrepreneurship Initiative",
+          "Programme for Revitalising Agriculture Through Grants and Technology Initiative",
+          "Pradhan Mantri Regenerative Agriculture for Tribal and Income Initiative",
+          "Progressive Rural Agriculture Growth and Technology Initiative"
+        ],
+        "answer": 0,
+        "explanation": "PRAGATI stands for Promoting Regenerative Agriculture Through Agri-Entrepreneurship Initiative, launched to support smallholder farmers through regenerative farming practices."
+      },
+      {
+        "q": "The newly launched PRAGATI initiative aims to directly support how many smallholder farmers across India?",
+        "options": [
+          "10 lakh smallholder farmers",
+          "20 lakh smallholder farmers",
+          "25 lakh smallholder farmers",
+          "50 lakh smallholder farmers"
+        ],
+        "answer": 1,
+        "explanation": "The PRAGATI initiative is designed to directly support 20 lakh (2 million) smallholder farmers across India."
+      },
+      {
+        "q": "Under the PRAGATI scheme, the Union Government aims to increase the income of associated farmers by at least what percentage?",
+        "options": [
+          "15 per cent",
+          "20 per cent",
+          "25 per cent",
+          "30 per cent"
+        ],
+        "answer": 3,
+        "explanation": "The PRAGATI scheme targets a minimum 30% increase in the income of associated smallholder farmers through regenerative agricultural practices."
+      },
+      {
+        "q": "Consider the following statements regarding the PRAGATI initiative launched in July 2026:\n1. The initiative aims to improve the yields of major crops by 15–20%.\n2. It is slated to be implemented in ten states, including Punjab and Haryana.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 0,
+        "explanation": "Only Statement 1 is correct. PRAGATI aims for a 15–20% yield improvement. Statement 2 is incorrect — the scheme is being implemented in eight states, and neither Punjab nor Haryana is among them."
+      },
+      {
+        "q": "According to UNCTAD's '2026 World Investment Report' released in July 2026, what is India's rank in global FDI inflows for 2025?",
+        "options": [
+          "8th (with USD 42.15 billion)",
+          "9th (with USD 41.30 billion)",
+          "13th (with USD 35.50 billion)",
+          "11th (with USD 38.89 billion)"
+        ],
+        "answer": 3,
+        "explanation": "India ranked 11th globally in FDI inflows for 2025, attracting USD 38.89 billion, as per UNCTAD's World Investment Report 2026."
+      },
+      {
+        "q": "Which country emerged as the world's largest destination for FDI in 2025, attracting inflows worth USD 277 billion, as per the UNCTAD World Investment Report 2026?",
+        "options": [
+          "China (USD 210 billion)",
+          "United Kingdom (USD 195 billion)",
+          "Singapore (USD 185 billion)",
+          "United States of America (USD 277 billion)"
+        ],
+        "answer": 3,
+        "explanation": "The United States of America was the world's largest FDI destination in 2025, attracting inflows of USD 277 billion as per the UNCTAD World Investment Report 2026."
+      },
+      {
+        "q": "India ranked 18th among the world's top home economies for FDI outflows as its overall FDI outflow increased by 47% in 2025. What was India's total outward FDI?",
+        "options": [
+          "USD 24.18 billion",
+          "USD 35.66 billion",
+          "USD 42.50 billion",
+          "USD 18.75 billion"
+        ],
+        "answer": 1,
+        "explanation": "India's total outward FDI was USD 35.66 billion in 2025, a 47% increase from the previous year, placing India 18th among top home economies."
+      },
+      {
+        "q": "Consider the following statements regarding the UNCTAD World Investment Report 2026:\n1. Global FDI increased 6% to USD 1.6 trillion in 2025 after witnessing two consecutive years of decline.\n2. Singapore and Hong Kong (SAR of China) ranked 2nd and 3rd respectively as the top FDI destinations.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. Global FDI rose 6% to USD 1.6 trillion in 2025, reversing two years of decline, and Singapore and Hong Kong ranked 2nd and 3rd respectively as top FDI destinations."
+      },
+      {
+        "q": "In July 2026, India's GIFT City signed an MoU with the international financial centre of which Southeast Asian nation to enhance cross-border investments and fintech cooperation?",
+        "options": [
+          "Vietnam (Vietnam International Financial Center – Da Nang)",
+          "Malaysia (Malaysia International Financial Centre – Kuala Lumpur)",
+          "Indonesia (Indonesia Financial Services Authority – Jakarta)",
+          "Thailand (Thailand Financial Centre – Bangkok)"
+        ],
+        "answer": 0,
+        "explanation": "GIFT City signed an MoU with Vietnam's international financial centre in Da Nang (Vietnam International Financial Center – Da Nang) to boost cross-border investment and fintech cooperation."
+      },
+      {
+        "q": "GIFT City signed an MoU with which technology major to promote Global Capability Centres (GCCs) and technology businesses within GIFT City?",
+        "options": [
+          "Tata Communications Limited",
+          "Infosys BPM Limited",
+          "Wipro Technologies Limited",
+          "HCL Technologies Limited"
+        ],
+        "answer": 0,
+        "explanation": "GIFT City signed an MoU with Tata Communications Limited to promote Global Capability Centres (GCCs) and technology businesses within the GIFT IFSC ecosystem."
+      },
+      {
+        "q": "Consider the following statements regarding the partnerships signed by GIFT City in July 2026:\n1. GIFT City signed an MoU with CEPT University (Gujarat) for research, knowledge exchange, and capacity building.\n2. The agreement with Vietnam's Da Nang hub specifically focuses on financial technology (fintech) and digital innovation.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. GIFT City signed an MoU with CEPT University for research and capacity building, and the Vietnam Da Nang agreement specifically covers fintech and digital innovation."
+      },
+      {
+        "q": "In July 2026, Sirsa Kinnow was granted a Geographical Indication (GI) tag, becoming the first-ever fruit of which Indian state to receive such recognition?",
+        "options": [
+          "Punjab",
+          "Rajasthan",
+          "Himachal Pradesh",
+          "Haryana"
+        ],
+        "answer": 3,
+        "explanation": "Sirsa Kinnow became the first fruit from Haryana to receive a Geographical Indication (GI) tag, recognising its unique origin and qualities from Sirsa district."
+      },
+      {
+        "q": "The Sirsa Kinnow is a hybrid citrus fruit originally developed in California, USA, by crossing the King Mandarin with which other fruit variety?",
+        "options": [
+          "Clementine Mandarin",
+          "Willow Leaf Mandarin",
+          "Satsuma Mandarin",
+          "Ponkan Mandarin"
+        ],
+        "answer": 1,
+        "explanation": "The Kinnow is a hybrid citrus fruit developed in California by crossing the King Mandarin with the Willow Leaf Mandarin. Sirsa Kinnow is the GI-tagged variety grown in Sirsa, Haryana."
+      },
+      {
+        "q": "How many total GI-tagged products are currently registered in India as of the latest July 2026 update?",
+        "options": [
+          "822",
+          "786",
+          "856",
+          "748"
+        ],
+        "answer": 0,
+        "explanation": "As of July 2026, India has a total of 822 registered GI-tagged products, making it one of the leading countries in GI registrations."
+      },
+      {
+        "q": "Consider the following statements regarding Geographical Indication (GI) registrations in India:\n1. Between April 2025 and March 2026, 125 GI products were registered in India.\n2. During this period, West Bengal registered the highest number of GI tags, followed by Madhya Pradesh.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 0,
+        "explanation": "Only Statement 1 is correct. 125 GI products were registered between April 2025 and March 2026. Statement 2 is incorrect — Madhya Pradesh registered the highest number (26), followed by West Bengal (24)."
+      },
+      {
+        "q": "Who has been approved by the RBI to take over as the MD & CEO of South Indian Bank (SIB) for a three-year term starting October 1, 2026?",
+        "options": [
+          "Murali Ramaswami",
+          "Sudarshan Sen",
+          "Chandra Shekhar Ghosh",
+          "Mahesh Muralidhar Pai"
+        ],
+        "answer": 3,
+        "explanation": "Mahesh Muralidhar Pai has been approved by the RBI as the new MD & CEO of South Indian Bank (SIB) for a three-year term beginning October 1, 2026."
+      },
+      {
+        "q": "Mahesh Muralidhar Pai, the newly appointed MD & CEO of South Indian Bank, was previously serving as the Chief General Manager (CGM) of which public-sector bank?",
+        "options": [
+          "Bank of Baroda",
+          "Canara Bank",
+          "Punjab National Bank",
+          "Bank of India"
+        ],
+        "answer": 1,
+        "explanation": "Mahesh Muralidhar Pai was serving as Chief General Manager (CGM) of Canara Bank before being appointed as MD & CEO of South Indian Bank."
+      },
+      {
+        "q": "Whom does Mahesh Muralidhar Pai succeed as the MD & CEO of South Indian Bank?",
+        "options": [
+          "V.G. Mathew",
+          "Salim Gangadharan",
+          "P.R. Seshadri",
+          "Murali Ramachandran"
+        ],
+        "answer": 2,
+        "explanation": "Mahesh Muralidhar Pai succeeds P.R. Seshadri as the MD & CEO of South Indian Bank."
+      },
+      {
+        "q": "The RBI has approved the re-appointment of Nurani Subramanian (N.S.) Vishwanathan as the Non-Executive Chairman of which private-sector bank until October 2029?",
+        "options": [
+          "Axis Bank Limited",
+          "HDFC Bank Limited",
+          "ICICI Bank Limited",
+          "Kotak Mahindra Bank Limited"
+        ],
+        "answer": 0,
+        "explanation": "N.S. Vishwanathan has been re-appointed as the Non-Executive Chairman of Axis Bank Limited until October 2029, with RBI approval."
+      },
+      {
+        "q": "The Uttar Pradesh Cabinet approved the renaming of Jalalabad town to Parashurampuri in July 2026. This town is situated in which district of Uttar Pradesh?",
+        "options": [
+          "Bareilly",
+          "Pilibhit",
+          "Hardoi",
+          "Shahjahanpur"
+        ],
+        "answer": 3,
+        "explanation": "Jalalabad town, renamed to Parashurampuri by the UP Cabinet, is situated in Shahjahanpur district of Uttar Pradesh."
+      },
+      {
+        "q": "The former name of Parashurampuri town, 'Jalalabad', was historically associated with which Mughal ruler?",
+        "options": [
+          "Jahangir (Nur-ud-din Muhammad Salim)",
+          "Akbar (Jalal-ud-din Muhammad Akbar)",
+          "Aurangzeb (Muhi-ud-din Muhammad)",
+          "Humayun (Nasir-ud-din Muhammad Humayun)"
+        ],
+        "answer": 1,
+        "explanation": "The name 'Jalalabad' was historically derived from 'Jalal-ud-din', the title of Mughal Emperor Akbar (Jalal-ud-din Muhammad Akbar)."
+      },
+      {
+        "q": "Which central ministry issued the No Objection Certificate (NOC) in August 2025 to enable the renaming of Jalalabad town to Parashurampuri?",
+        "options": [
+          "Ministry of Parliamentary Affairs",
+          "Ministry of Culture",
+          "Ministry of Home Affairs (MHA)",
+          "Ministry of Housing and Urban Affairs"
+        ],
+        "answer": 2,
+        "explanation": "The Ministry of Home Affairs (MHA) is the nodal authority for town/city renaming in India and issued the NOC in August 2025 to enable the renaming."
+      },
+      {
+        "q": "Consider the following statements regarding the UP Cabinet decisions in July 2026:\n1. The cabinet approved the renaming of the Jalalabad municipal body to Parashurampuri Nagar Palika Parishad.\n2. To boost digital infrastructure and innovation, the cabinet approved the state's Data Centre Policy and Startup Policy.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. The UP Cabinet approved both the municipal body renaming to Parashurampuri Nagar Palika Parishad and the state's Data Centre Policy and Startup Policy."
+      },
+      {
+        "q": "In July 2026, the 23rd National Level Meeting between India and Myanmar was hosted in which of the following cities?",
+        "options": [
+          "New Delhi",
+          "Imphal, Manipur",
+          "Guwahati, Assam",
+          "Kolkata, West Bengal"
+        ],
+        "answer": 0,
+        "explanation": "The 23rd National Level Meeting between India and Myanmar was hosted in New Delhi in July 2026."
+      },
+      {
+        "q": "Who led the Indian delegation during the 23rd National Level Meeting between India and Myanmar in July 2026?",
+        "options": [
+          "Shri Ajay Kumar Bhalla (National Security Advisor)",
+          "Shri Vinay Kwatra (Foreign Secretary)",
+          "Shri Piyush Srivastava (Joint Secretary, MHA)",
+          "Shri Govind Mohan (Secretary, Ministry of Home Affairs)"
+        ],
+        "answer": 3,
+        "explanation": "Shri Govind Mohan, Secretary of the Ministry of Home Affairs, led the Indian delegation at the 23rd India-Myanmar National Level Meeting."
+      },
+      {
+        "q": "What is the full form of the national policy abbreviation 'MAHASAGAR', highlighted during the India-Myanmar bilateral meet in July 2026?",
+        "options": [
+          "Maritime and Humanitarian Assistance for Security and Geographical Advancement in Regions",
+          "Mutual and Holistic Advancement for Security and Growth Across Regions",
+          "Multilateral Aid for Humanitarian Assistance, Security and Governance Across Regions",
+          "Maritime Hub for Advancement of Security and Growth in Adjoining Regions"
+        ],
+        "answer": 1,
+        "explanation": "MAHASAGAR stands for Mutual and Holistic Advancement for Security and Growth Across Regions, India's policy framework for engagement with its maritime and land neighbours."
+      },
+      {
+        "q": "In July 2026, the Sports Authority of India (SAI) signed an MoU to strengthen sports science and athlete rehabilitation with which premier medical institution?",
+        "options": [
+          "Vardhman Mahavir Medical College (VMMC), Safdarjung",
+          "All India Institute of Medical Sciences (AIIMS), New Delhi",
+          "Safdarjung Sports Injury Centre (SIC)",
+          "National Institute of Sport Science and Medicine (NISSM)"
+        ],
+        "answer": 2,
+        "explanation": "SAI signed an MoU with the Safdarjung Sports Injury Centre (SIC) to collaborate on sports science, athlete rehabilitation, and injury management."
+      },
+      {
+        "q": "The Safdarjung Sports Injury Centre (SIC), which recently partnered with SAI, functions under the administrative control of which Union Ministry?",
+        "options": [
+          "Ministry of Youth Affairs and Sports",
+          "Ministry of Education",
+          "Ministry of Science and Technology",
+          "Ministry of Health & Family Welfare (MoHFW)"
+        ],
+        "answer": 3,
+        "explanation": "The Safdarjung Sports Injury Centre (SIC) functions under the Ministry of Health & Family Welfare (MoHFW), not the Sports Ministry."
+      },
+      {
+        "q": "In July 2026, the Ministry of Coal invited applications under a mega promotional scheme for Surface Coal/Lignite Gasification projects. What is the total financial outlay approved for this scheme?",
+        "options": [
+          "₹25,000 crore",
+          "₹37,500 crore",
+          "₹48,500 crore",
+          "₹52,000 crore"
+        ],
+        "answer": 1,
+        "explanation": "The Ministry of Coal approved a ₹37,500 crore financial outlay for its mega promotional scheme for Surface Coal/Lignite Gasification projects."
+      },
+      {
+        "q": "On July 8, 2026, DRDO successfully flight-tested the Pinaka Long Range Guided Rocket (LRGR) from which of the following testing locations?",
+        "options": [
+          "Integrated Test Range (ITR), Chandipur",
+          "Proof and Experimental Establishment (PXE), Balasore",
+          "Terminal Ballistics Research Laboratory (TBRL), Chandigarh",
+          "National Test Range (NTR), Ahmednagar"
+        ],
+        "answer": 0,
+        "explanation": "DRDO successfully flight-tested the Pinaka Long Range Guided Rocket (LRGR) from the Integrated Test Range (ITR), Chandipur, Odisha, on July 8, 2026."
+      },
+      {
+        "q": "The Pinaka Long Range Guided Rocket (LRGR) tested in July 2026 was validated for which of the following user-defined minimum ranges?",
+        "options": [
+          "40 km",
+          "45 km",
+          "60 km",
+          "75 km"
+        ],
+        "answer": 2,
+        "explanation": "The Pinaka LRGR was successfully validated for a user-defined minimum range of 60 km during its flight test at ITR Chandipur in July 2026."
+      },
+      {
+        "q": "Who currently serves as the Chairman of DRDO and the Defence Secretary of India?",
+        "options": [
+          "Dr. Samir V. Kamat (Former DRDO Chairman)",
+          "Dr. G. Satheesh Reddy (Former DRDO Chairman)",
+          "Shri Giridhar Aramane (Former Defence Secretary)",
+          "Shri Rajesh Kumar Singh"
+        ],
+        "answer": 3,
+        "explanation": "Shri Rajesh Kumar Singh currently serves as the Defence Secretary of India and heads the apex defence procurement and research councils."
+      },
+      {
+        "q": "Consider the following statements regarding the Pinaka Long Range Guided Rocket (LRGR) flight-test conducted in July 2026:\n1. The rocket was designed by the Armament Research and Development Establishment (ARDE) in association with the High Energy Materials Research Laboratory (HEMRL).\n2. It was launched from a newly developed experimental launcher designed specifically for long-range variants.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 0,
+        "explanation": "Only Statement 1 is correct. The Pinaka LRGR was designed by ARDE in association with HEMRL. Statement 2 is incorrect — it was launched from the existing in-service Pinaka launcher to demonstrate the launcher's versatility for long-range variants."
+      }
+    ]
+  },
+  "2026-07-08": {
+    "label": "8 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "Which organisation released the 5th annual edition of the Global Passport Index (GPI) in July 2026?",
+        "options": [
+          "Henley & Partners",
+          "Arton Capital",
+          "VisaGuide.World",
+          "Global Citizen Solutions (GCS)"
+        ],
+        "answer": 3,
+        "explanation": "Global Citizen Solutions (GCS) released the 5th annual edition of the Global Passport Index (GPI) in July 2026."
+      },
+      {
+        "q": "What is India's overall rank among the 197 countries featured in the Global Passport Index 2026?",
+        "options": [
+          "112th",
+          "118th",
+          "131st",
+          "125th"
+        ],
+        "answer": 3,
+        "explanation": "India ranked 125th overall among 197 countries in the Global Passport Index 2026."
+      },
+      {
+        "q": "Which country has topped the Global Passport Index 2026 as the world's strongest passport with a score of 96.05?",
+        "options": [
+          "Sweden",
+          "Finland",
+          "Germany",
+          "Denmark"
+        ],
+        "answer": 0,
+        "explanation": "Sweden topped the Global Passport Index 2026 with the highest score of 96.05, making it the world's strongest passport."
+      },
+      {
+        "q": "Consider the following statements regarding the Global Passport Index (GPI) 2026:\n1. The index ranks passports across three main categories, with the Enhanced Mobility index carrying a 50% weightage.\n2. India showed its most significant category-wise improvement in the Quality of Life index, jumping 11 places compared to 2025.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. The GPI ranks across three categories with Enhanced Mobility at 50% weightage, and India's biggest jump was in the Quality of Life index (up 11 places from 2025)."
+      },
+      {
+        "q": "In the Global Passport Index 2026, India moved up by 3 places to secure which rank in the Investment Index category?",
+        "options": [
+          "88th",
+          "94th",
+          "100th",
+          "107th"
+        ],
+        "answer": 1,
+        "explanation": "India moved up by 3 places to rank 94th in the Investment Index category of the Global Passport Index 2026."
+      },
+      {
+        "q": "Which historic 17th-century Buddhist monastery in Nepal has been conferred with the 2025 UNESCO Asia-Pacific Heritage Award of Merit in July 2026?",
+        "options": [
+          "Swayambhunath Stupa, Kathmandu",
+          "Kwa Bahal (Golden Temple), Patan",
+          "Boudhanath Stupa, Kathmandu",
+          "Jestha Varna Mahavihar (Jyaba Bahi / Chakrabahil)"
+        ],
+        "answer": 3,
+        "explanation": "Jestha Varna Mahavihar (also known as Jyaba Bahi or Chakrabahil), a 17th-century Buddhist monastery in Nepal, received the 2025 UNESCO Asia-Pacific Heritage Award of Merit."
+      },
+      {
+        "q": "The Government of India funded the restoration of Nepal's Jestha Varna Mahavihar under its post-earthquake cultural heritage reconstruction grant. What was the total financial outlay of this grant?",
+        "options": [
+          "NPR 13.78 crore",
+          "NPR 11.45 crore",
+          "NPR 16.25 crore",
+          "NPR 9.80 crore"
+        ],
+        "answer": 0,
+        "explanation": "The Government of India funded the restoration of Jestha Varna Mahavihar under a post-earthquake cultural heritage reconstruction grant worth NPR 13.78 crore."
+      },
+      {
+        "q": "The restoration of Jestha Varna Mahavihar was recognised by UNESCO for preserving the architectural heritage and woodcarvings of which specific Buddhist community?",
+        "options": [
+          "Tamang community",
+          "Newar (Newari) community",
+          "Tibetan community",
+          "Sherpa community"
+        ],
+        "answer": 1,
+        "explanation": "The restoration was recognised by UNESCO for preserving the architectural heritage and intricate woodcarvings of the Newar (Newari) Buddhist community of Nepal."
+      },
+      {
+        "q": "In July 2026, Alok Kumar Mittal was appointed as the Director General of the Bureau of Police Research & Development (BPR&D). He is an IPS officer belonging to which state cadre?",
+        "options": [
+          "Haryana",
+          "Punjab",
+          "Rajasthan",
+          "Uttar Pradesh"
+        ],
+        "answer": 0,
+        "explanation": "Alok Kumar Mittal, appointed as Director General of BPR&D, is a senior IPS officer belonging to the Haryana cadre."
+      },
+      {
+        "q": "Who has been appointed as the new Director of the National Crime Records Bureau (NCRB) to succeed Alok Ranjan?",
+        "options": [
+          "Rajesh Kumar Mishra",
+          "Suresh Kumar Singh",
+          "Amit Garg",
+          "Vivek Srivastava"
+        ],
+        "answer": 2,
+        "explanation": "Amit Garg was appointed as the new Director of the National Crime Records Bureau (NCRB), succeeding Alok Ranjan."
+      },
+      {
+        "q": "Senior IPS officer Sujeet Pandey has been appointed as the Director of which premier national police training academy?",
+        "options": [
+          "National Police Academy (NPA), Hyderabad",
+          "Central Detective Training School (CDTS)",
+          "National Institute of Criminology and Forensic Science (NICFS)",
+          "Sardar Vallabhbhai Patel National Police Academy (SVPNPA)"
+        ],
+        "answer": 3,
+        "explanation": "Senior IPS officer Sujeet Pandey was appointed as the Director of the Sardar Vallabhbhai Patel National Police Academy (SVPNPA)."
+      },
+      {
+        "q": "Consider the following statements regarding the police leadership reshuffle in July 2026:\n1. The appointments of the new police chiefs were approved by the Appointments Committee of the Cabinet (ACC) based on proposals by the Ministry of Home Affairs.\n2. Sujeet Pandey, a 1994-batch IPS officer of the Uttar Pradesh cadre, was appointed as the Director of SVPNPA.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. The ACC approved the appointments on MHA proposals, and Sujeet Pandey (1994-batch IPS, UP cadre) was appointed Director of SVPNPA."
+      },
+      {
+        "q": "In July 2026, NPCI's MD & CEO Dilip Asbe was appointed to the newly formed Supervisory Board of which global financial messaging organisation?",
+        "options": [
+          "International Monetary Fund (IMF)",
+          "SWIFT (Society for Worldwide Interbank Financial Telecommunication)",
+          "Bank for International Settlements (BIS)",
+          "World Bank Group (WBG)"
+        ],
+        "answer": 1,
+        "explanation": "Dilip Asbe, MD & CEO of NPCI, was appointed to the newly formed Supervisory Board of SWIFT (Society for Worldwide Interbank Financial Telecommunication)."
+      },
+      {
+        "q": "In which year was the National Payments Corporation of India (NPCI) established, and where is its headquarters located?",
+        "options": [
+          "Established in 2008; Headquartered in Mumbai, Maharashtra",
+          "Established in 2009; Headquartered in New Delhi",
+          "Established in 2010; Headquartered in Bengaluru, Karnataka",
+          "Established in 2007; Headquartered in Hyderabad, Telangana"
+        ],
+        "answer": 0,
+        "explanation": "NPCI was established in 2008 and is headquartered in Mumbai, Maharashtra."
+      },
+      {
+        "q": "Which of the following bodies jointly promoted the National Payments Corporation of India (NPCI) as the umbrella organisation for retail payments in India?",
+        "options": [
+          "SEBI and NASSCOM",
+          "Ministry of Finance and RBI",
+          "RBI and the NPCI Founding Banks",
+          "Reserve Bank of India (RBI) and Indian Banks' Association (IBA)"
+        ],
+        "answer": 3,
+        "explanation": "NPCI was jointly promoted by the Reserve Bank of India (RBI) and the Indian Banks' Association (IBA) as the umbrella organisation for retail payment systems."
+      },
+      {
+        "q": "In July 2026, China launched its latest marine monitoring satellite. What is the name of this satellite?",
+        "options": [
+          "Haiyang-3A (HY-3A)",
+          "Haiyang-2E (HY-2E)",
+          "Yaogan-42",
+          "Jilin-1 MF02D"
+        ],
+        "answer": 1,
+        "explanation": "China launched the Haiyang-2E (HY-2E) satellite in July 2026, the latest addition to its marine monitoring satellite series."
+      },
+      {
+        "q": "Where were the U15 and U20 Asian Wrestling Championships 2026, hosted by United World Wrestling (UWW), held?",
+        "options": [
+          "Bangkok, Thailand",
+          "Pattaya, Thailand",
+          "Almaty, Kazakhstan",
+          "Tashkent, Uzbekistan"
+        ],
+        "answer": 1,
+        "explanation": "The U15 and U20 Asian Wrestling Championships 2026 were hosted by United World Wrestling (UWW) in Pattaya, Thailand."
+      },
+      {
+        "q": "How many total medals did the Indian contingent win in the Under-20 (U20) category at the Asian Wrestling Championships 2026?",
+        "options": [
+          "20 medals (4 gold, 7 silver, 9 bronze)",
+          "16 medals (3 gold, 6 silver, 7 bronze)",
+          "22 medals (5 gold, 8 silver, 9 bronze)",
+          "18 medals (4 gold, 5 silver, 9 bronze)"
+        ],
+        "answer": 0,
+        "explanation": "India won a total of 20 medals in the U20 category — 4 gold, 7 silver, and 9 bronze — at the Asian Wrestling Championships 2026."
+      },
+      {
+        "q": "India won the bronze team trophy in the Under-15 category at the 2026 Asian Wrestling Championships with 150 points. Which country topped the U15 standings?",
+        "options": [
+          "Kazakhstan (165 points)",
+          "China (163 points)",
+          "Iran (158 points)",
+          "Uzbekistan (171 points)"
+        ],
+        "answer": 3,
+        "explanation": "Uzbekistan topped the U15 standings with 171 points, ahead of India which finished third with 150 points."
+      },
+      {
+        "q": "Consider the following statements regarding India's performance in the Under-20 category at the Asian Wrestling Championships 2026:\n1. India finished second in Women's Wrestling (WW) with 184 points, behind China.\n2. India secured third place in Men's Freestyle (FS), finishing behind Kazakhstan and Iran.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. India finished second in Women's Wrestling (WW) and third in Men's Freestyle (FS) in the U20 category."
+      },
+      {
+        "q": "Social worker and engineer Girish Bharadwaj, who passed away in July 2026, was famously known by which of the following sobriquets?",
+        "options": [
+          "Setu Nirmata of Karnataka",
+          "Bridge Man of India",
+          "Rural Engineer of the Decade",
+          "Iron Man of Social Infrastructure"
+        ],
+        "answer": 1,
+        "explanation": "Girish Bharadwaj was widely known as the 'Bridge Man of India' for constructing over 150 low-cost hanging footbridges for remote communities."
+      },
+      {
+        "q": "In which year was the 'Bridge Man of India' Girish Bharadwaj conferred the prestigious Padma Shri award for his contributions to social work?",
+        "options": [
+          "2014",
+          "2015",
+          "2019",
+          "2017"
+        ],
+        "answer": 3,
+        "explanation": "Girish Bharadwaj was conferred the Padma Shri award in 2017 in recognition of his outstanding contributions to social work through low-cost bridge construction."
+      },
+      {
+        "q": "Girish Bharadwaj constructed over 150 low-cost hanging footbridges across several states. Which of the following is NOT one of the five states where his bridge projects were primarily executed?\n(A) Odisha\n(B) Kerala\n(C) Maharashtra\n(D) Andhra Pradesh",
+        "options": [
+          "Odisha",
+          "Kerala",
+          "Maharashtra",
+          "Andhra Pradesh"
+        ],
+        "answer": 2,
+        "explanation": "Maharashtra is not among the five primary states where Girish Bharadwaj's bridge projects were executed. His bridges were mainly built in Karnataka, Kerala, Odisha, Andhra Pradesh, and Tamil Nadu."
+      },
+      {
+        "q": "Consider the following statements regarding social worker Girish Bharadwaj:\n1. He constructed his very first bridge in 1989 following a request from the villagers of Aramburu.\n2. He founded Ayasshilpa Industries in Sullia, Karnataka, to manufacture and design his low-cost suspension bridges.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. Girish Bharadwaj built his first bridge in 1989 for Aramburu village and founded Ayasshilpa Industries in Sullia, Karnataka, to produce his low-cost suspension bridges."
+      },
+      {
+        "q": "In July 2026, a historic agreement was signed to resolve the cost-sharing dispute of which major river valley project?",
+        "options": [
+          "Tehri Dam Project (Uttarakhand)",
+          "Sardar Sarovar Project (Narmada River)",
+          "Hirakud Dam Project (Odisha)",
+          "Polavaram Irrigation Project (Andhra Pradesh)"
+        ],
+        "answer": 1,
+        "explanation": "A historic one-time cost-sharing settlement was signed in New Delhi to resolve the long-pending financial dispute related to the Sardar Sarovar Project on the Narmada River."
+      },
+      {
+        "q": "Which of the following is NOT one of the four Narmada Award beneficiary states that signed the cost-sharing settlement agreement?\n(A) Maharashtra\n(B) Gujarat\n(C) Haryana\n(D) Madhya Pradesh",
+        "options": [
+          "Maharashtra",
+          "Gujarat",
+          "Haryana",
+          "Madhya Pradesh"
+        ],
+        "answer": 2,
+        "explanation": "Haryana is not a Narmada Award beneficiary state. The four signatory states for the Narmada Award cost-sharing settlement are Maharashtra, Gujarat, Rajasthan, and Madhya Pradesh."
+      },
+      {
+        "q": "Under whose presence was the historic one-time settlement agreement on Narmada Award payments signed by the Chief Ministers in New Delhi?",
+        "options": [
+          "President of India and Union Minister of Law and Justice",
+          "Prime Minister Narendra Modi and Union Home Minister Amit Shah",
+          "Chief Justice of India and Union Minister of Jal Shakti",
+          "Union Home Minister Amit Shah and Union Minister of Jal Shakti C.R. Patil"
+        ],
+        "answer": 3,
+        "explanation": "The historic Narmada Award cost-sharing settlement agreement was signed in the presence of Union Home Minister Amit Shah and Union Minister of Jal Shakti C.R. Patil."
+      },
+      {
+        "q": "Consider the following statements regarding the Narmada Award cost-sharing settlement signed in July 2026:\n1. Devendra Fadnavis (CM of Maharashtra) and Dr. Mohan Yadav (CM of Madhya Pradesh) were among the signatories.\n2. The Union Home Minister cited the Kishau Dam Project as another successful example of cooperative federalism.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. CMs Devendra Fadnavis and Dr. Mohan Yadav were signatories, and the Home Minister cited the Kishau Dam Project as a model of cooperative federalism."
+      },
+      {
+        "q": "In July 2026, which country hosted the 13th ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee meeting?",
+        "options": [
+          "India (at Vanijya Bhawan, New Delhi)",
+          "Malaysia (at Kuala Lumpur)",
+          "Thailand (at Bangkok)",
+          "Indonesia (at Jakarta)"
+        ],
+        "answer": 0,
+        "explanation": "India hosted the 13th AITIGA Joint Committee meeting at Vanijya Bhawan, New Delhi."
+      },
+      {
+        "q": "What is the total value of bilateral trade recorded between India and ASEAN during the 2025–26 financial year?",
+        "options": [
+          "USD 98 billion",
+          "USD 128 billion",
+          "USD 145 billion",
+          "USD 112 billion"
+        ],
+        "answer": 1,
+        "explanation": "India-ASEAN bilateral trade reached USD 128 billion during the 2025–26 financial year."
+      },
+      {
+        "q": "Who co-chaired the 13th AITIGA Joint Committee meeting on behalf of India's Ministry of Commerce and Industry?",
+        "options": [
+          "Shri Sunil Barthwal (Commerce Secretary)",
+          "Shri Piyush Goyal (Minister of Commerce and Industry)",
+          "Ms. Leena Nair (Secretary, DPIIT)",
+          "Shri Nitin Kumar Yadav (Additional Secretary, Department of Commerce)"
+        ],
+        "answer": 3,
+        "explanation": "Shri Nitin Kumar Yadav, Additional Secretary in the Department of Commerce, co-chaired the 13th AITIGA Joint Committee meeting on India's behalf."
+      },
+      {
+        "q": "What percentage of India's overall global trade is accounted for by the ASEAN region as of the latest figures?",
+        "options": [
+          "Around 8 per cent",
+          "Around 14 per cent",
+          "Around 18 per cent",
+          "Around 11 per cent"
+        ],
+        "answer": 3,
+        "explanation": "The ASEAN region accounts for around 11 per cent of India's overall global trade, making it a vital economic partner."
+      },
+      {
+        "q": "Consider the following statements regarding the 13th AITIGA Joint Committee meeting held in July 2026:\n1. The meeting was co-chaired by Ms. Mastura Ahmad Mustafa representing the Ministry of Investment, Trade and Industry of Malaysia.\n2. Three of the eight Sub-Committees, including the Sub-Committee on Rules of Origin (SC-ROO), held meetings on the sidelines.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. Ms. Mastura Ahmad Mustafa (Malaysia) co-chaired for ASEAN, and three sub-committees including SC-ROO held parallel sessions."
+      },
+      {
+        "q": "Following the successful completion of its ₹440 crore Capital Dredging Phase VI project, which port has become India's second Major Port to offer an 18-metre draft capability?",
+        "options": [
+          "Chennai Port, Tamil Nadu",
+          "Kamarajar Port, Tamil Nadu",
+          "V.O. Chidambaranar Port (Tuticorin), Tamil Nadu",
+          "New Mangalore Port, Karnataka"
+        ],
+        "answer": 1,
+        "explanation": "Kamarajar Port (Tamil Nadu) has become India's second Major Port to achieve an 18-metre draft capability after completing its ₹440 crore Capital Dredging Phase VI project."
+      },
+      {
+        "q": "Which Indian port was the first in the country to offer a draft of 18 metres?",
+        "options": [
+          "Visakhapatnam Port",
+          "Paradip Port, Odisha",
+          "Jawaharlal Nehru Port (JNPA), Maharashtra",
+          "Mundra Port, Gujarat"
+        ],
+        "answer": 0,
+        "explanation": "Visakhapatnam Port was India's first Major Port to achieve an 18-metre draft capability."
+      },
+      {
+        "q": "Kamarajar Port has been declared 'Cape Compliant' and can now handle fully laden Capesize vessels carrying cargo parcels of up to what maximum Deadweight Tonnage (DWT)?",
+        "options": [
+          "1,20,000 DWT",
+          "1,70,000 DWT",
+          "2,00,000 DWT",
+          "1,50,000 DWT"
+        ],
+        "answer": 1,
+        "explanation": "Kamarajar Port can now handle fully laden Capesize vessels with cargo parcels of up to 1,70,000 DWT after achieving its 18-metre draft capability."
+      },
+      {
+        "q": "Who is the current Union Minister for Ports, Shipping & Waterways of India?",
+        "options": [
+          "Nitin Gadkari",
+          "Jyotiraditya Scindia",
+          "Ashwini Vaishnaw",
+          "Sarbananda Sonowal"
+        ],
+        "answer": 3,
+        "explanation": "Sarbananda Sonowal serves as the Union Minister for Ports, Shipping & Waterways of India."
+      },
+      {
+        "q": "Consider the following statements regarding the infrastructure upgrade of Kamarajar Port in July 2026:\n1. The project involved deepening the outer approach channel from 20.0 m to 23.0 m.\n2. The upgrade is designed to support the goals of the national roadmap 'Maritime India Vision 2030'.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. The dredging project deepened the outer channel from 20.0 m to 23.0 m, and the upgrade aligns with the Maritime India Vision 2030 national roadmap."
+      }
+    ]
+  },
+  "2026-07-07": {
+    "label": "7 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "In July 2026, Prime Minister Narendra Modi inaugurated the newly developed terminal building at Jodhpur Airport. What is the total passenger capacity this new terminal is designed to handle annually?",
+        "options": [
+          "1 million passengers",
+          "2 million passengers",
+          "2.5 million passengers",
+          "3 million passengers"
+        ],
+        "answer": 1,
+        "explanation": "The new terminal at Jodhpur Airport is designed to handle 2 million (20 lakh) passengers annually."
+      },
+      {
+        "q": "During his visit to Balotra, Rajasthan, PM Modi inaugurated and laid the foundation stones for multiple development projects worth how many lakh crore of rupees?",
+        "options": [
+          "₹0.76 lakh crore",
+          "₹1.06 lakh crore",
+          "₹1.35 lakh crore",
+          "₹1.75 lakh crore"
+        ],
+        "answer": 1,
+        "explanation": "PM Modi dedicated and laid foundation stones for development projects worth approximately ₹1.06 lakh crore in Balotra, Rajasthan."
+      },
+      {
+        "q": "India's first greenfield integrated refinery-cum-petrochemical complex, dedicated to the nation in Pachpadra, is a Joint Venture (JV) between the Rajasthan Government and which public sector undertaking (PSU)?",
+        "options": [
+          "Indian Oil Corporation Limited (IOCL)",
+          "Oil and Natural Gas Corporation (ONGC)",
+          "Hindustan Petroleum Corporation Limited (HPCL)",
+          "Bharat Petroleum Corporation Limited (BPCL)"
+        ],
+        "answer": 2,
+        "explanation": "The Pachpadra greenfield integrated refinery-cum-petrochemical complex is a Joint Venture between the Rajasthan Government and HPCL."
+      },
+      {
+        "q": "What is the estimated financial outlay for the Phase-II of the Jaipur Metro Rail Project, for which the foundation stone was recently laid by PM Modi?",
+        "options": [
+          "Over ₹7,500 crore",
+          "Over ₹10,200 crore",
+          "Over ₹13,000 crore",
+          "Over ₹16,500 crore"
+        ],
+        "answer": 2,
+        "explanation": "The Phase-II of the Jaipur Metro Rail Project has an estimated financial outlay of over ₹13,000 crore."
+      },
+      {
+        "q": "Which civil aviation scheme's modified version was launched by PM Modi in Jodhpur to bolster remote regional connectivity?",
+        "options": [
+          "Krishi Udan Yojana (Agricultural Aviation Scheme)",
+          "Regional Connectivity Scheme (RCS) — Phase II",
+          "National Air Connectivity Programme (NACP)",
+          "Modified Ude Desh ka Aam Nagrik (UDAN) Scheme"
+        ],
+        "answer": 3,
+        "explanation": "PM Modi launched the modified version of the Ude Desh ka Aam Nagrik (UDAN) scheme in Jodhpur to enhance connectivity to remote and regional areas."
+      },
+      {
+        "q": "In which city was the 29th National Conference on e-Governance (NCeG) hosted in July 2026?",
+        "options": [
+          "New Delhi (at Vigyan Bhawan)",
+          "Lucknow, Uttar Pradesh",
+          "Bhopal, Madhya Pradesh",
+          "Jaipur, Rajasthan (at the Rajasthan International Centre)"
+        ],
+        "answer": 3,
+        "explanation": "The 29th National Conference on e-Governance (NCeG) was hosted in Jaipur, Rajasthan, at the Rajasthan International Centre."
+      },
+      {
+        "q": "Under the National Awards for e-Governance 2026, how many Gold awards were presented and what was the cash prize associated with each Gold award?",
+        "options": [
+          "8 Gold awards with a cash prize of ₹5 lakh each",
+          "10 Gold awards with a cash prize of ₹10 lakh each",
+          "12 Gold awards with a cash prize of ₹8 lakh each",
+          "15 Gold awards with a cash prize of ₹5 lakh each"
+        ],
+        "answer": 1,
+        "explanation": "10 Gold awards were presented under the National Awards for e-Governance 2026, with a cash prize of ₹10 lakh each."
+      },
+      {
+        "q": "What was the official theme of the 29th National Conference on e-Governance held in Jaipur?",
+        "options": [
+          "Digital India: Empowering Citizens through Technology",
+          "Viksit Bharat 2047: AI-enabled, Data-driven & Secure Digital Governance",
+          "Smart Governance for a New India",
+          "Transforming India through AI and Data-driven Innovation"
+        ],
+        "answer": 1,
+        "explanation": "The official theme of the 29th NCeG was 'Viksit Bharat 2047: AI-enabled, Data-driven & Secure Digital Governance'."
+      },
+      {
+        "q": "The 29th National Conference on e-Governance concluded with the adoption of which landmark declaration to strengthen digital governance across India?",
+        "options": [
+          "Jaipur Declaration on e-Governance 2026",
+          "Rajasthan Digital Governance Vision 2026",
+          "National e-Governance Compact 2026",
+          "Digital Bharat Governance Charter 2026"
+        ],
+        "answer": 0,
+        "explanation": "The 29th NCeG concluded with the adoption of the Jaipur Declaration on e-Governance 2026."
+      },
+      {
+        "q": "Which of the following departments collaborated with the Ministry of Electronics and Information Technology (MeitY) and the Government of Rajasthan to organise the NCeG 2026?",
+        "options": [
+          "Department of Science and Technology (DST)",
+          "Department of Expenditure (DoE)",
+          "Department for Promotion of Industry and Internal Trade (DPIIT)",
+          "Department of Administrative Reforms and Public Grievances (DARPG)"
+        ],
+        "answer": 3,
+        "explanation": "DARPG (Department of Administrative Reforms and Public Grievances) collaborated with MeitY and the Rajasthan Government to organise NCeG 2026."
+      },
+      {
+        "q": "In July 2026, the Defence Acquisition Council (DAC) cleared modernisation proposals worth approximately ₹52,000 crore. Who serves as the Chairman of this apex defence procurement council?",
+        "options": [
+          "Union Minister of Defence",
+          "Chief of Defence Staff (CDS)",
+          "Chairman of the Chiefs of Staff Committee (CoSC)",
+          "Cabinet Secretary"
+        ],
+        "answer": 0,
+        "explanation": "The Defence Acquisition Council (DAC) is chaired by the Union Minister of Defence (Shri Rajnath Singh)."
+      },
+      {
+        "q": "What is the name of the advanced Anti-Unmanned Aerial Vehicle (Anti-UAV) Electronic Warfare System cleared for procurement for the Indian Army by the DAC in July 2026?",
+        "options": [
+          "PRAHAR Electronic Warfare Suite",
+          "SHAKTI Electronic Warfare System",
+          "AKASH TARANG System",
+          "ABHAY Electronic Countermeasure System"
+        ],
+        "answer": 2,
+        "explanation": "The AKASH TARANG System is an advanced Anti-UAV Electronic Warfare System cleared by the DAC for the Indian Army."
+      },
+      {
+        "q": "What does the abbreviation 'FW-HAPS' stand for, under the procurement clearances recently granted to the Indian Air Force?",
+        "options": [
+          "Fixed-Wing High-Altitude Pseudo Satellites",
+          "Forward Wing High-Altitude Precision Surveillance system",
+          "Fixed-Wing Hypersonic Aerial Patrol System",
+          "Forward Wing High-Altitude Piloted Surveillance"
+        ],
+        "answer": 0,
+        "explanation": "FW-HAPS stands for Fixed-Wing High-Altitude Pseudo Satellites, cleared by the DAC for the Indian Air Force."
+      },
+      {
+        "q": "Consider the following list of defence equipment recently cleared by the Defence Acquisition Council (DAC):\n1. Multi Influence Ground Mines (MIGM)\n2. Naval Shipborne Unmanned Aerial Systems (NSUAS)\nThese military procurements were approved for which branch of the Indian Armed Forces?",
+        "options": [
+          "Indian Army",
+          "Indian Air Force",
+          "Indian Coast Guard",
+          "Indian Navy"
+        ],
+        "answer": 3,
+        "explanation": "Both MIGM (Multi Influence Ground Mines) and NSUAS (Naval Shipborne Unmanned Aerial Systems) are naval equipment cleared for the Indian Navy."
+      },
+      {
+        "q": "The Delhi Government recently announced a massive ₹8,300 crore air pollution control project in July 2026. What is the official title of this project?",
+        "options": [
+          "Clean Air, Healthy Delhi",
+          "Swachh Vayu Delhi Abhiyan",
+          "Delhi Clean Environment Mission",
+          "Pradushan Mukt Delhi Yojana"
+        ],
+        "answer": 0,
+        "explanation": "The Delhi Government announced the 'Clean Air, Healthy Delhi' project worth ₹8,300 crore to combat air pollution."
+      },
+      {
+        "q": "Which international financial institution is partnering with the Delhi Government and the Department of Economic Affairs to implement the 'Clean Air, Healthy Delhi' programme?",
+        "options": [
+          "Asian Development Bank (ADB)",
+          "International Monetary Fund (IMF)",
+          "New Development Bank (NDB)",
+          "World Bank (WB)"
+        ],
+        "answer": 3,
+        "explanation": "The World Bank (WB) is the international financial institution partnering with the Delhi Government to implement 'Clean Air, Healthy Delhi'."
+      },
+      {
+        "q": "The newly launched 'Clean Air, Healthy Delhi' project aims to accelerate the objectives of which national-level air pollution mitigation programme?",
+        "options": [
+          "Graded Response Action Plan (GRAP)",
+          "National Clean Air Programme (NCAP)",
+          "National Ambient Air Quality Standards (NAAQS)",
+          "Pradhan Mantri Swachh Vayu Mission"
+        ],
+        "answer": 1,
+        "explanation": "The 'Clean Air, Healthy Delhi' project is aimed at accelerating the objectives of the National Clean Air Programme (NCAP)."
+      },
+      {
+        "q": "Which of the following departments of the Central Government is a key coordinating partner with the World Bank for Delhi's ₹8,300 crore 'Clean Air, Healthy Delhi' environmental project?",
+        "options": [
+          "Department of Economic Affairs (DEA)",
+          "Department of Expenditure (DoE)",
+          "Department of Financial Services (DFS)",
+          "Department of Revenue (DoR)"
+        ],
+        "answer": 0,
+        "explanation": "The Department of Economic Affairs (DEA) is the key Central Government partner coordinating with the World Bank for the Delhi clean air project."
+      },
+      {
+        "q": "In July 2026, Tshering Choden successfully scaled Europe's highest mountain peak, Mount Elbrus. She hails from which of the following Indian states?",
+        "options": [
+          "Arunachal Pradesh",
+          "Manipur",
+          "Meghalaya",
+          "Sikkim"
+        ],
+        "answer": 3,
+        "explanation": "Tshering Choden, who scaled Mount Elbrus (Europe's highest peak), hails from Sikkim."
+      },
+      {
+        "q": "Mount Elbrus, a dormant stratovolcano featuring twin summits, is located in which mountain range?",
+        "options": [
+          "Alps mountain range",
+          "Ural mountain range",
+          "Caucasus mountain range",
+          "Carpathian mountain range"
+        ],
+        "answer": 2,
+        "explanation": "Mount Elbrus (5,642 m), Europe's highest peak, is located in the Caucasus mountain range."
+      },
+      {
+        "q": "Under the 'Seven Summits' challenge, mountaineer Tshering Choden scaled her first peak, Mount Kilimanjaro, in August 2025. What is the height of Mount Kilimanjaro?",
+        "options": [
+          "5,642 metres",
+          "5,895 metres",
+          "6,194 metres",
+          "6,961 metres"
+        ],
+        "answer": 1,
+        "explanation": "Mount Kilimanjaro, Africa's highest peak and the first of Tshering Choden's Seven Summits, stands at 5,895 metres."
+      },
+      {
+        "q": "Which of the following is incorrectly matched with respect to the highest peaks of the continents?\n(A) Europe – Mount Elbrus\n(B) Antarctica – Mount Vinson\n(C) Australia – Mount Kosciuszko\n(D) North America – Aconcagua",
+        "options": [
+          "Europe – Mount Elbrus",
+          "Antarctica – Mount Vinson",
+          "Australia – Mount Kosciuszko",
+          "North America – Aconcagua"
+        ],
+        "answer": 3,
+        "explanation": "Aconcagua (6,961 m) is the highest peak of South America, not North America. North America's highest peak is Denali (6,194 m), located in Alaska, USA."
+      },
+      {
+        "q": "In July 2026, ISRO successfully conducted the first ground test of which solid motor-based test vehicle to validate the Gaganyaan Crew Module's parachute system?",
+        "options": [
+          "RELEX (Re-entry Launch Experiment Vehicle)",
+          "SOLVE (Sub-Orbital Launch Vehicle for Experiments)",
+          "PLEX (Parachute Launch EXperiment vehicle)",
+          "VSSC-T1 (Vikram Sarabhai Space Centre Technology demonstrator)"
+        ],
+        "answer": 1,
+        "explanation": "ISRO conducted the first ground test of SOLVE (Sub-Orbital Launch Vehicle for Experiments) to validate the Gaganyaan Crew Module's parachute deployment system."
+      },
+      {
+        "q": "The first ground test of the SOLVE vehicle was conducted at the Satish Dhawan Space Centre (SDSC). In which state is SDSC located?",
+        "options": [
+          "Tamil Nadu",
+          "Kerala",
+          "Andhra Pradesh (Sriharikota)",
+          "Karnataka"
+        ],
+        "answer": 2,
+        "explanation": "Satish Dhawan Space Centre (SDSC) is located at Sriharikota in Andhra Pradesh."
+      },
+      {
+        "q": "The SOLVE test vehicle is engineered to simulate deceleration for Gaganyaan's parachute system at what altitude range?",
+        "options": [
+          "Between 5 km and 10 km",
+          "Between 10 km and 17 km",
+          "Between 17 km and 25 km",
+          "Between 25 km and 35 km"
+        ],
+        "answer": 1,
+        "explanation": "The SOLVE vehicle is designed to simulate deceleration conditions for the Gaganyaan parachute system at altitudes between 10 km and 17 km."
+      },
+      {
+        "q": "Consider the following statements regarding ISRO's SOLVE (Sub-Orbital Launch Vehicle for Experiments) platform:\n1. It is equipped with a modified Polar Satellite Launch Vehicle (PSLV) strap-on motor.\n2. It utilises a 10-stage parachute deployment system to test the safe recovery of the Crew Module.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. SOLVE uses a modified PSLV strap-on motor and a 10-stage parachute system to test the Gaganyaan Crew Module's safe recovery."
+      },
+      {
+        "q": "Which country won the 10th edition of the ICC Women's T20 World Cup held in June-July 2026?",
+        "options": [
+          "India",
+          "New Zealand",
+          "South Africa",
+          "Australia"
+        ],
+        "answer": 3,
+        "explanation": "Australia won the 10th edition of the ICC Women's T20 World Cup, defeating England in the final."
+      },
+      {
+        "q": "Who became the first player in T20 World Cup history to win two 'Player of the Tournament' awards, securing the title in both 2023 and 2026?",
+        "options": [
+          "Beth Mooney (Australia)",
+          "Nat Sciver-Brunt (England)",
+          "Smriti Mandhana (India)",
+          "Ellyse Perry (Australia)"
+        ],
+        "answer": 0,
+        "explanation": "Beth Mooney (Australia) became the first player to win the ICC Women's T20 World Cup Player of the Tournament award twice, in 2023 and 2026."
+      },
+      {
+        "q": "Indian bowler Shree Charani set a new national record at the 2026 ICC Women's T20 World Cup by taking how many wickets in the tournament?",
+        "options": [
+          "10 wickets",
+          "11 wickets",
+          "12 wickets",
+          "14 wickets"
+        ],
+        "answer": 3,
+        "explanation": "Shree Charani took 14 wickets at the 2026 ICC Women's T20 World Cup, setting a new Indian national record for the tournament."
+      },
+      {
+        "q": "Consider the following statements regarding the 2026 ICC Women's T20 World Cup:\n1. The final of the tournament was played at Lord's Cricket Ground in London.\n2. A total of 12 teams competed in the tournament, divided into two groups of six.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. The final was held at Lord's Cricket Ground, and 12 teams competed in two groups of six each."
+      },
+      {
+        "q": "Who became India's youngest international cricket debutant in July 2026, debuting at the age of 15 years and 99 days?",
+        "options": [
+          "Vaibhav Sooryavanshi",
+          "Prithvi Shaw",
+          "Shubman Gill",
+          "Yashasvi Jaiswal"
+        ],
+        "answer": 0,
+        "explanation": "Vaibhav Sooryavanshi became India's youngest international debutant at 15 years and 99 days, breaking Sachin Tendulkar's 36-year-old record."
+      },
+      {
+        "q": "Against which country did Vaibhav Sooryavanshi make his senior T20I international debut in July 2026?",
+        "options": [
+          "West Indies",
+          "England (at Old Trafford, Manchester)",
+          "South Africa",
+          "Australia"
+        ],
+        "answer": 1,
+        "explanation": "Vaibhav Sooryavanshi made his T20I debut against England at Old Trafford, Manchester, in July 2026."
+      },
+      {
+        "q": "Playing for which IPL franchise did Vaibhav Sooryavanshi win the Orange Cap, MVP, and Emerging Player awards in the same IPL season in 2026?",
+        "options": [
+          "Rajasthan Royals (RR)",
+          "Mumbai Indians (MI)",
+          "Chennai Super Kings (CSK)",
+          "Royal Challengers Bengaluru (RCB)"
+        ],
+        "answer": 0,
+        "explanation": "Vaibhav Sooryavanshi won the Orange Cap, MVP, and Emerging Player awards for Rajasthan Royals (RR) in the 2026 IPL season."
+      },
+      {
+        "q": "Consider the following statements regarding cricketer Vaibhav Sooryavanshi:\n1. He hails from Tajpur, Bihar, and made his first-class debut in the year 2024.\n2. He broke Sachin Tendulkar's 36-year-old record to become India's youngest international debutant.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. Sooryavanshi hails from Tajpur, Bihar, made his first-class debut in 2024, and broke Sachin Tendulkar's record as India's youngest international debutant."
+      },
+      {
+        "q": "Which indigenous stealth frigate was commissioned by the Indian Navy at Visakhapatnam on July 11, 2026?",
+        "options": [
+          "INS Mahendragiri (F38)",
+          "INS Vindhyagiri (F35)",
+          "INS Nilgiri (F61)",
+          "INS Himgiri (F62)"
+        ],
+        "answer": 0,
+        "explanation": "INS Mahendragiri (F38) was commissioned by the Indian Navy at Visakhapatnam, being the sixth ship of Project 17A."
+      },
+      {
+        "q": "INS Mahendragiri, built by Mazagon Dock Shipbuilders Limited (MDL), is the sixth warship of which prestigious Indian Navy shipbuilding project?",
+        "options": [
+          "Project 15B (Visakhapatnam-class destroyers)",
+          "Project 17 (Shivalik-class frigates)",
+          "Project 17A (Nilgiri-class frigates)",
+          "Project 75I (Submarine programme)"
+        ],
+        "answer": 2,
+        "explanation": "INS Mahendragiri is the sixth and final ship of Project 17A (Nilgiri-class stealth frigates), built by Mazagon Dock Shipbuilders Limited."
+      },
+      {
+        "q": "What is the approximate percentage of indigenous content incorporated in the stealth frigate INS Mahendragiri to promote the 'Aatmanirbhar Bharat' initiative?",
+        "options": [
+          "Over 50 percent",
+          "Over 75 percent",
+          "Over 60 percent",
+          "Over 65 percent"
+        ],
+        "answer": 1,
+        "explanation": "INS Mahendragiri incorporates over 75% indigenous content, reflecting India's 'Aatmanirbhar Bharat' push in defence manufacturing."
+      },
+      {
+        "q": "Consider the following statements regarding the stealth frigate INS Mahendragiri:\n1. She is named after a mountain range located in the Western Ghats.\n2. She is powered by a Combined Diesel or Gas (CODOG) propulsion system.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 1,
+        "explanation": "Only Statement 2 is correct. The Mahendragiri mountain range is situated in the Eastern Ghats (in Odisha/Andhra Pradesh), not the Western Ghats. Statement 2 is correct as the ship uses CODOG propulsion."
+      },
+      {
+        "q": "India is hosting the high-level BRICS Women Ministerial Meeting on 8–9 July 2026 under its BRICS Chairship. Which of the following Indian cities is the venue for this meeting?",
+        "options": [
+          "Kochi, Kerala",
+          "Mumbai, Maharashtra",
+          "Chennai, Tamil Nadu",
+          "Thiruvananthapuram, Kerala"
+        ],
+        "answer": 0,
+        "explanation": "The BRICS Women Ministerial Meeting (8–9 July 2026) is being hosted in Kochi, Kerala, under India's BRICS Chairship."
+      },
+      {
+        "q": "What is the official theme of the BRICS Women Ministerial Meeting 2026, hosted under India's BRICS Chairship?",
+        "options": [
+          "Empowering Women for a Stronger BRICS",
+          "Building for Resilience, Innovation, Cooperation and Sustainability",
+          "Gender Equality and Women's Empowerment in BRICS Nations",
+          "Women as Catalysts for Inclusive and Sustainable Development"
+        ],
+        "answer": 1,
+        "explanation": "The theme of the BRICS Women Ministerial Meeting 2026 is 'Building for Resilience, Innovation, Cooperation and Sustainability', aligned with India's BRICS Chairship theme."
+      },
+      {
+        "q": "The BRICS Women Ministerial Meeting in July 2026 is administered by which nodal Union Ministry of India?",
+        "options": [
+          "Ministry of External Affairs",
+          "Ministry of Women and Child Development",
+          "Ministry of Social Justice and Empowerment",
+          "Ministry of Home Affairs"
+        ],
+        "answer": 1,
+        "explanation": "The Ministry of Women and Child Development is the nodal ministry administering the BRICS Women Ministerial Meeting under India's BRICS Chairship."
+      },
+      {
+        "q": "Which museum has recently been officially notified as India's 21st Designated Repository under the Biological Diversity Act, 2002?",
+        "options": [
+          "Zoological Survey of India Museum, Kolkata",
+          "Bombay Natural History Society Museum, Mumbai",
+          "Mizoram's Natural History Museum",
+          "Regional Museum of Natural History, Bhopal"
+        ],
+        "answer": 2,
+        "explanation": "Mizoram's Natural History Museum has been officially notified as India's 21st Designated Repository under the Biological Diversity Act, 2002."
+      },
+      {
+        "q": "Consider the following statements regarding India's BRICS Chairship in 2026:\n1. The Chairship is anchored in four pillars: Resilience, Innovation, Cooperation, and Sustainability.\n2. The BRICS Women Working Group Meeting was held on 6–7 July 2026.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "Only 1 is correct",
+          "Only 2 is correct",
+          "Both 1 and 2 are correct",
+          "Neither 1 nor 2 is correct"
+        ],
+        "answer": 2,
+        "explanation": "Both statements are correct. India's BRICS Chairship is anchored in Resilience, Innovation, Cooperation, and Sustainability; and the BRICS Women Working Group Meeting was held on 6–7 July 2026 prior to the Ministerial meeting."
+      }
+    ]
+  },
+  "2026-07-06": {
+    "label": "6 July 2026",
+    "source": "PIB",
+    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+      {
+        "q": "In July 2026, the Ministry of Law and Justice concluded its two-day 'Reforms Utsav & Chintan Shivir'. In which of the following cities was this event held?",
+        "options": [
+          "Udaipur, Rajasthan",
+          "Mount Abu, Rajasthan",
+          "Dehradun, Uttarakhand",
+          "Gandhinagar, Gujarat"
+        ],
+        "answer": 1,
+        "explanation": "The two-day Reforms Utsav & Chintan Shivir organised by the Ministry of Law and Justice was held at Mount Abu, Rajasthan."
+      },
+      {
+        "q": "Who is the current Secretary of the Legislative Department & Department of Legal Affairs who officially released the 'Sankalp Patra' in July 2026?",
+        "options": [
+          "Dr. Anoop Kumar Mendiratta",
+          "Dr. Rajiv Mani",
+          "Dr. Tushar Mehta",
+          "Shri Manoj Joshi"
+        ],
+        "answer": 1,
+        "explanation": "Dr. Rajiv Mani, Secretary of the Legislative Department & Department of Legal Affairs, officially released the Sankalp Patra at the event."
+      },
+      {
+        "q": "Shri Arjun Ram Meghwal, who inaugurated the Reforms Utsav & Chintan Shivir, holds which of the following ministerial portfolios?",
+        "options": [
+          "Cabinet Minister for Law and Justice",
+          "Minister of State for Parliamentary Affairs",
+          "Minister of State (Independent Charge) for Law and Justice",
+          "Minister of State for Home Affairs"
+        ],
+        "answer": 2,
+        "explanation": "Shri Arjun Ram Meghwal holds the charge of Minister of State (Independent Charge) for Law and Justice."
+      },
+      {
+        "q": "Under the 'Sankalp Patra' released at the Reforms Utsav & Chintan Shivir 2026, the Ministry resolved to utilise which of the following technological domains to build future-ready institutions?",
+        "options": [
+          "Blockchain and quantum computing",
+          "5G and satellite communication",
+          "Internet of Things (IoT) and automation",
+          "Artificial Intelligence (AI) and digital tools"
+        ],
+        "answer": 3,
+        "explanation": "The Sankalp Patra committed to leveraging Artificial Intelligence (AI) and digital tools to build future-ready legal institutions."
+      },
+      {
+        "q": "Under the aegis of which Union Ministry is the 'Navachar Mantra' flagship national innovation platform administered?",
+        "options": [
+          "Ministry of Science and Technology",
+          "Ministry of Commerce and Industry",
+          "Ministry of Skill Development and Entrepreneurship",
+          "Ministry of Micro, Small and Medium Enterprises"
+        ],
+        "answer": 2,
+        "explanation": "The Navachar Mantra initiative is a flagship platform under the Ministry of Skill Development and Entrepreneurship (MSDE)."
+      },
+      {
+        "q": "Which national institute is responsible for implementing the newly extended 'Navachar Mantra' entrepreneurship scheme?",
+        "options": [
+          "National Small Industries Corporation (NSIC)",
+          "National Institute for Entrepreneurship and Small Business Development (NIESBUD)",
+          "Entrepreneurship Development Institute of India (EDII)",
+          "Indian Institute of Entrepreneurship (IIE)"
+        ],
+        "answer": 1,
+        "explanation": "NIESBUD (National Institute for Entrepreneurship and Small Business Development) is the implementing body for the Navachar Mantra scheme."
+      },
+      {
+        "q": "Which institute's Foundation for Innovation and Technology Transfer (FITT) is serving as the official Knowledge Partner for the 'Navachar Mantra' initiative?",
+        "options": [
+          "IIT Bombay (SINE, IIT Bombay)",
+          "IIT Madras (ICSR, IIT Madras)",
+          "IIT Delhi (FITT, IIT Delhi)",
+          "IIT Kharagpur (SRIC, IIT Kharagpur)"
+        ],
+        "answer": 2,
+        "explanation": "FITT (Foundation for Innovation and Technology Transfer) of IIT Delhi is the official Knowledge Partner for the Navachar Mantra initiative."
+      },
+      {
+        "q": "In which city is the headquarters of the National Institute for Entrepreneurship and Small Business Development (NIESBUD) located?",
+        "options": [
+          "New Delhi",
+          "Lucknow, Uttar Pradesh",
+          "Gurugram, Haryana",
+          "Noida, Uttar Pradesh"
+        ],
+        "answer": 3,
+        "explanation": "The headquarters of NIESBUD is located in Noida, Uttar Pradesh."
+      },
+      {
+        "q": "Under the World's Largest Grain Storage Scheme, how many total grain storage godowns are being addressed (via transfer, inauguration, and foundation stone laying) at the 5th Foundation Day of the Ministry of Cooperation?",
+        "options": [
+          "198 godowns",
+          "232 godowns (135 transferred, 85 inaugurated, and 47 foundation stones laid)",
+          "267 godowns",
+          "315 godowns"
+        ],
+        "answer": 1,
+        "explanation": "A total of 232 godowns were addressed: 135 transferred, 85 inaugurated, and 47 foundation stones laid, at the 5th Foundation Day of the Ministry of Cooperation."
+      },
+      {
+        "q": "Which organisation is launching 'Sahakar CBS' (a centralised core banking platform) and 'Sahakar Sahyogi' (a conversational AI assistant) to digitally empower Urban Cooperative Banks?",
+        "options": [
+          "National Bank for Agriculture and Rural Development (NABARD)",
+          "National Cooperative Development Corporation (NCDC)",
+          "National Urban Co-operative Finance and Development Corporation (NUCFDC)",
+          "Reserve Bank of India (RBI)"
+        ],
+        "answer": 2,
+        "explanation": "NUCFDC is launching Sahakar CBS and Sahakar Sahyogi to digitally transform Urban Cooperative Banks."
+      },
+      {
+        "q": "'Sahakar Van', a major 64-acre cooperative forestation project, is being launched as a joint venture between which of the following organisations?",
+        "options": [
+          "Amul and IFFCO",
+          "NCCF and NAFED",
+          "Amul and the National Cooperative Consumers' Federation of India (NCCF)",
+          "NDDB and FCI"
+        ],
+        "answer": 2,
+        "explanation": "Sahakar Van, a 64-acre cooperative forestation initiative, is a joint venture between Amul and NCCF."
+      },
+      {
+        "q": "BBSSL has recently partnered with ICAR to strengthen seed systems. Under this initiative, BBSSL is establishing new tissue culture facilities in which of the following two states?",
+        "options": [
+          "Gujarat and Madhya Pradesh",
+          "Punjab and Haryana",
+          "Rajasthan and Karnataka",
+          "Uttar Pradesh (Barabanki) and Maharashtra (Jalgaon)"
+        ],
+        "answer": 3,
+        "explanation": "Under the BBSSL-ICAR partnership, new tissue culture facilities are being established in Barabanki (Uttar Pradesh) and Jalgaon (Maharashtra)."
+      }
+    ]
+  },
   "2026-07-01": {
     "label": "1 July 2026",
     "source": "PIB",
@@ -949,1050 +2407,6 @@ window.MOCK_TESTS = {
         ],
         "answer": 3,
         "explanation": "As of July 2026, the MY Bharat app has over 1 lakh downloads and is available in 22 Indian languages."
-      }
-    ]
-  },
-  "2026-07-06": {
-    "label": "6 July 2026",
-    "source": "PIB",
-    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
-    "questions": [
-      {
-        "q": "In July 2026, the Ministry of Law and Justice concluded its two-day 'Reforms Utsav & Chintan Shivir'. In which of the following cities was this event held?",
-        "options": [
-          "Gandhinagar, Gujarat",
-          "Dehradun, Uttarakhand",
-          "Mount Abu, Rajasthan",
-          "Udaipur, Rajasthan"
-        ],
-        "answer": 2,
-        "explanation": "The 'Reforms Utsav & Chintan Shivir' was held in Mount Abu, Rajasthan."
-      },
-      {
-        "q": "Who is the current Secretary of the Legislative Department & Department of Legal Affairs who officially released the 'Sankalp Patra' in July 2026?",
-        "options": [
-          "Dr. Reeta Vasishta",
-          "Shri Barun Mitra",
-          "Dr. Rajiv Mani",
-          "Shri Anoop Kumar Mendiratta"
-        ],
-        "answer": 2,
-        "explanation": "Dr. Rajiv Mani, Secretary of the Legislative Department & Department of Legal Affairs, released the 'Sankalp Patra'."
-      },
-      {
-        "q": "Shri Arjun Ram Meghwal, who inaugurated the Reform Utsav & Chintan Shivir, holds which of the following ministerial portfolios?",
-        "options": [
-          "Cabinet Minister of Law and Justice",
-          "Minister of State for Parliamentary Affairs",
-          "Minister of State for Culture (Independent Charge)",
-          "Minister of State (Independent Charge) for Law and Justice"
-        ],
-        "answer": 3,
-        "explanation": "Shri Arjun Ram Meghwal holds the portfolio of Minister of State (Independent Charge) for Law and Justice."
-      },
-      {
-        "q": "Under the 'Sankalp Patra' released at the Reforms Utsav & Chintan Shivir 2026, the Ministry resolved to utilize which of the following technological domains to build future-ready institutions?",
-        "options": [
-          "Blockchain and cybersecurity infrastructure",
-          "Cloud computing and data analytics",
-          "5G and IoT technologies",
-          "Artificial Intelligence (AI) and digital tools"
-        ],
-        "answer": 3,
-        "explanation": "The 'Sankalp Patra' resolves to use Artificial Intelligence and digital tools to build future-ready institutions."
-      },
-      {
-        "q": "Under the aegis of which Union Ministry is the 'Navachar Mantra' flagship national innovation platform administered?",
-        "options": [
-          "Ministry of Commerce and Industry",
-          "Ministry of Micro, Small and Medium Enterprises (MSME)",
-          "Department for Promotion of Industry and Internal Trade (DPIIT)",
-          "Ministry of Skill Development and Entrepreneurship (MSDE)"
-        ],
-        "answer": 3,
-        "explanation": "'Navachar Mantra' is administered under the Ministry of Skill Development and Entrepreneurship (MSDE)."
-      },
-      {
-        "q": "Which national institute is responsible for implementing the newly extended 'Navachar Mantra' entrepreneurship scheme?",
-        "options": [
-          "National Small Industries Corporation (NSIC)",
-          "Khadi and Village Industries Commission (KVIC)",
-          "Indian Institute of Entrepreneurship (IIE)",
-          "National Institute for Entrepreneurship and Small Business Development (NIESBUD)"
-        ],
-        "answer": 3,
-        "explanation": "NIESBUD is responsible for implementing the extended 'Navachar Mantra' scheme."
-      },
-      {
-        "q": "Which institute's Foundation for Innovation and Technology Transfer (FITT) is serving as the official Knowledge Partner for the 'Navachar Mantra' initiative?",
-        "options": [
-          "IIT Bombay",
-          "IIM Ahmedabad",
-          "IIT Delhi (FITT, IIT Delhi)",
-          "IIT Madras"
-        ],
-        "answer": 2,
-        "explanation": "FITT, IIT Delhi is serving as the official Knowledge Partner for 'Navachar Mantra'."
-      },
-      {
-        "q": "In which city is the headquarters of the National Institute for Entrepreneurship and Small Business Development (NIESBUD) located?",
-        "options": [
-          "Noida, Uttar Pradesh",
-          "Gurugram, Haryana",
-          "Lucknow, Uttar Pradesh",
-          "New Delhi"
-        ],
-        "answer": 0,
-        "explanation": "NIESBUD's headquarters is located in Noida, Uttar Pradesh."
-      },
-      {
-        "q": "Under the World's Largest Grain Storage Scheme, how many total grain storage godowns are being addressed (via transfer, inauguration, and foundation stone laying) at the 5th Foundation Day of the Ministry of Cooperation?",
-        "options": [
-          "232 godowns (135 transferred, 85 inaugurated, and 47 foundation stones laid)",
-          "195 godowns",
-          "210 godowns",
-          "267 godowns"
-        ],
-        "answer": 0,
-        "explanation": "232 godowns in total were addressed: 135 transferred, 85 inaugurated, and 47 foundation stones laid."
-      },
-      {
-        "q": "Which organization is launching 'Sahakar CBS' (a centralized core banking platform) and 'Sahakar Sahyogi' (a conversational AI assistant) to digitally empower Urban Cooperative Banks?",
-        "options": [
-          "National Bank for Financing Infrastructure and Development (NaBFID)",
-          "National Cooperative Development Corporation (NCDC)",
-          "National Federation of Urban Cooperative Banks and Credit Societies (NAFCUB)",
-          "National Urban Co-operative Finance and Development Corporation (NUCFDC)"
-        ],
-        "answer": 3,
-        "explanation": "NUCFDC is launching 'Sahakar CBS' and 'Sahakar Sahyogi' for Urban Cooperative Banks."
-      },
-      {
-        "q": "'Sahakar Van', a major 64-acre cooperative forestation project, is being launched as a joint venture between which of the following organizations?",
-        "options": [
-          "Amul and IFFCO",
-          "Amul and the National Cooperative Consumers' Federation of India (NCCF)",
-          "NCCF and KRIBHCO",
-          "IFFCO and KRIBHCO"
-        ],
-        "answer": 1,
-        "explanation": "'Sahakar Van' is a joint venture between Amul and NCCF."
-      },
-      {
-        "q": "BBSSL has recently partnered with ICAR to strengthen seed systems. Under this initiative, BBSSL is establishing new tissue culture facilities in which of the following two states?",
-        "options": [
-          "Bihar (Patna) and Rajasthan (Jaipur)",
-          "Madhya Pradesh (Indore) and Gujarat (Anand)",
-          "Uttar Pradesh (Barabanki) and Maharashtra (Jalgaon)",
-          "Punjab (Ludhiana) and Haryana (Karnal)"
-        ],
-        "answer": 2,
-        "explanation": "BBSSL is setting up tissue culture facilities in Barabanki (UP) and Jalgaon (Maharashtra) under its ICAR partnership."
-      }
-    ]
-  },
-  "2026-07-07": {
-    "label": "7 July 2026",
-    "source": "PIB",
-    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
-    "questions": [
-      {
-        "q": "In July 2026, Prime Minister Narendra Modi inaugurated the newly developed terminal building at Jodhpur Airport. What is the total passenger capacity this new terminal is designed to handle annually?",
-        "options": [
-          "2 million passengers",
-          "5 million passengers",
-          "1 million passengers",
-          "3.5 million passengers"
-        ],
-        "answer": 0,
-        "explanation": "The new Jodhpur Airport terminal is designed to handle 2 million passengers annually."
-      },
-      {
-        "q": "During his visit to Balotra, Rajasthan, PM Modi inaugurated and laid the foundation stones for multiple development projects worth how many lakh crores of rupees?",
-        "options": [
-          "₹1.25 lakh crore",
-          "₹1.06 lakh crore",
-          "₹1.50 lakh crore",
-          "₹0.85 lakh crore"
-        ],
-        "answer": 1,
-        "explanation": "PM Modi's Balotra visit covered projects worth ₹1.06 lakh crore."
-      },
-      {
-        "q": "India's first greenfield integrated refinery-cum-petrochemical complex, which was dedicated to the nation in Pachpadra, is a Joint Venture (JV) between the Rajasthan Government and which public sector undertaking (PSU)?",
-        "options": [
-          "Bharat Petroleum Corporation Limited (BPCL)",
-          "Oil and Natural Gas Corporation (ONGC)",
-          "Indian Oil Corporation Limited (IOCL)",
-          "Hindustan Petroleum Corporation Limited (HPCL)"
-        ],
-        "answer": 3,
-        "explanation": "The Pachpadra refinery-cum-petrochemical complex is a JV between the Rajasthan Government and HPCL."
-      },
-      {
-        "q": "What is the estimated financial outlay for the Phase-II of the Jaipur Metro Rail Project, for which the foundation stone was recently laid by the PM?",
-        "options": [
-          "Over ₹8,000 crore",
-          "Over ₹18,000 crore",
-          "Over ₹13,000 crore",
-          "Over ₹10,000 crore"
-        ],
-        "answer": 2,
-        "explanation": "Jaipur Metro Phase-II is estimated at over ₹13,000 crore."
-      },
-      {
-        "q": "Which civil aviation scheme's modified version was launched by PM Modi in Jodhpur to bolster remote regional connectivity?",
-        "options": [
-          "Modified Regional Connectivity Scheme (RCS)",
-          "Modified PM GatiShakti scheme",
-          "Modified NABH Nirman scheme",
-          "Modified Ude Desh ka Aam Nagrik (UDAN) scheme"
-        ],
-        "answer": 3,
-        "explanation": "PM Modi launched the modified UDAN scheme in Jodhpur to boost regional connectivity."
-      },
-      {
-        "q": "In which city was the 29th National Conference on e-Governance (NCeG) hosted in July 2026?",
-        "options": [
-          "Lucknow, Uttar Pradesh",
-          "Ahmedabad, Gujarat",
-          "Jaipur, Rajasthan (at the Rajasthan International Centre)",
-          "Bhopal, Madhya Pradesh"
-        ],
-        "answer": 2,
-        "explanation": "The 29th NCeG 2026 was hosted at the Rajasthan International Centre, Jaipur."
-      },
-      {
-        "q": "Under the National Awards for e-Governance 2026, how many Gold awards were presented, and what was the cash prize associated with each Gold award?",
-        "options": [
-          "8 Gold awards, with a cash prize of Rs. 5 lakh each",
-          "10 Gold awards, with a cash prize of Rs. 5 lakh each",
-          "12 Gold awards, with a cash prize of Rs. 8 lakh each",
-          "10 Gold awards, with a cash prize of Rs. 10 lakh each"
-        ],
-        "answer": 3,
-        "explanation": "10 Gold awards were given, each carrying a cash prize of Rs. 10 lakh."
-      },
-      {
-        "q": "What was the official theme of the 29th National Conference on e-Governance held in Jaipur?",
-        "options": [
-          "Viksit Bharat 2047: Innovation and Inclusive Governance",
-          "Atmanirbhar Bharat: Building a Self-Reliant Digital Nation",
-          "Digital India: Empowering Citizens Through Technology",
-          "Viksit Bharat 2047: AI-enabled, Data-driven & Secure Digital Governance"
-        ],
-        "answer": 3,
-        "explanation": "The NCeG 2026 theme was 'Viksit Bharat 2047: AI-enabled, Data-driven & Secure Digital Governance'."
-      },
-      {
-        "q": "The 29th National Conference on e-Governance concluded with the adoption of which landmark declaration to strengthen digital governance across India?",
-        "options": [
-          "Jaipur Resolution on Digital India 2026",
-          "Rajasthan Digital Governance Charter 2026",
-          "Jaipur Declaration on e-Governance 2026",
-          "National e-Governance Compact 2026"
-        ],
-        "answer": 2,
-        "explanation": "NCeG 2026 concluded with the adoption of the 'Jaipur Declaration on e-Governance 2026'."
-      },
-      {
-        "q": "Which of the following departments collaborated with the Ministry of Electronics and Information Technology (MeitY) and the Government of Rajasthan to organize the NCeG 2026?",
-        "options": [
-          "Department of Personnel and Training (DoPT)",
-          "NITI Aayog",
-          "Department of Administrative Reforms and Public Grievances (DARPG)",
-          "Department of Expenditure"
-        ],
-        "answer": 2,
-        "explanation": "DARPG collaborated with MeitY and the Rajasthan Government to organize NCeG 2026."
-      },
-      {
-        "q": "In July 2026, the Defence Acquisition Council (DAC) cleared modernization proposals worth approximately ₹52,000 crore. Who serves as the Chairman of this apex council?",
-        "options": [
-          "Union Minister of Defence (Rajnath Singh)",
-          "Defence Secretary",
-          "Chief of Defence Staff (CDS)",
-          "Union Minister of Home Affairs"
-        ],
-        "answer": 0,
-        "explanation": "The Defence Acquisition Council is chaired by the Union Minister of Defence."
-      },
-      {
-        "q": "What is the name of the advanced Anti-Unmanned Aerial Vehicle (Anti-UAV) Electronic Warfare System cleared for procurement for the Indian Army?",
-        "options": [
-          "SWATHI System",
-          "SAMHO System",
-          "AKASH TARANG System",
-          "AKASHTEER System"
-        ],
-        "answer": 2,
-        "explanation": "The AKASH TARANG System is the Anti-UAV Electronic Warfare System cleared for the Indian Army."
-      },
-      {
-        "q": "What does the abbreviation 'FW-HAPS' stand for under the procurement clearances granted to the Indian Air Force?",
-        "options": [
-          "Fixed-Wing Heavy Aerial Payload System",
-          "Fixed-Wing High-Altitude Pseudo Satellites",
-          "Forward-Wing High-Altitude Precision Strike",
-          "Fixed-Wing Hypersonic Aerial Patrol System"
-        ],
-        "answer": 1,
-        "explanation": "FW-HAPS stands for Fixed-Wing High-Altitude Pseudo Satellites."
-      },
-      {
-        "q": "Consider the following list of defense equipment:\n1. Multi Influence Ground Mines (MIGM).\n2. Naval Shipborne Unmanned Aerial Systems (NSUAS).\nThese military procurements were cleared for which of the following branches of the Indian Armed Forces?",
-        "options": [
-          "Indian Navy",
-          "Indian Army",
-          "Indian Air Force",
-          "Indian Coast Guard"
-        ],
-        "answer": 0,
-        "explanation": "MIGM and NSUAS procurements were cleared for the Indian Navy."
-      },
-      {
-        "q": "The Delhi Government recently announced a massive ₹8,300 crore air pollution control project in July 2026. What is the official title of this project?",
-        "options": [
-          "Clean Air, Healthy Delhi",
-          "Pure Air, Healthy Capital",
-          "Swachh Vayu Dilli Abhiyan",
-          "Delhi Clean Air Mission"
-        ],
-        "answer": 0,
-        "explanation": "The project is officially titled 'Clean Air, Healthy Delhi'."
-      },
-      {
-        "q": "Which international financial institution is partnering with the Delhi Government and the Department of Economic Affairs to implement the 'Clean Air, Healthy Delhi' program?",
-        "options": [
-          "New Development Bank (NDB)",
-          "Asian Development Bank (ADB)",
-          "World Bank (WB)",
-          "International Monetary Fund (IMF)"
-        ],
-        "answer": 2,
-        "explanation": "The World Bank is partnering to implement the 'Clean Air, Healthy Delhi' program."
-      },
-      {
-        "q": "The newly launched 'Clean Air, Healthy Delhi' project is aimed at accelerating the objectives of which national-level air pollution mitigation program?",
-        "options": [
-          "National Clean Air Programme (NCAP)",
-          "National Clean Energy Programme",
-          "National Air Quality Mission (NAQM)",
-          "Swachh Bharat Mission (Urban)"
-        ],
-        "answer": 0,
-        "explanation": "The project accelerates the objectives of the National Clean Air Programme (NCAP)."
-      },
-      {
-        "q": "Which of the following departments of the Central Government is a key coordinating partner with the World Bank for Delhi's ₹8,300 crore environmental project?",
-        "options": [
-          "Department of Economic Affairs (DEA)",
-          "Department of Expenditure",
-          "NITI Aayog",
-          "Ministry of Environment, Forest and Climate Change"
-        ],
-        "answer": 0,
-        "explanation": "The Department of Economic Affairs (DEA) is a key coordinating partner with the World Bank on this project."
-      },
-      {
-        "q": "In July 2026, Tshering Choden successfully scaled Europe's highest mountain peak, Mount Elbrus. She hails from which of the following Indian states?",
-        "options": [
-          "Himachal Pradesh",
-          "Arunachal Pradesh",
-          "Uttarakhand",
-          "Sikkim"
-        ],
-        "answer": 3,
-        "explanation": "Tshering Choden, who scaled Mount Elbrus, hails from Sikkim."
-      },
-      {
-        "q": "Mount Elbrus, a dormant stratovolcano featuring twin summits, is located in which mountain range?",
-        "options": [
-          "Alps mountain range",
-          "Ural mountain range",
-          "Carpathian mountain range",
-          "Caucasus mountain range"
-        ],
-        "answer": 3,
-        "explanation": "Mount Elbrus is located in the Caucasus mountain range."
-      },
-      {
-        "q": "Under the 'Seven Summits' challenge, mountaineer Tshering Choden scaled her first peak, Mount Kilimanjaro, in August 2025. What is the height of Mount Kilimanjaro?",
-        "options": [
-          "6,961 metres",
-          "5,895 metres",
-          "5,642 metres",
-          "6,190 metres"
-        ],
-        "answer": 1,
-        "explanation": "Mount Kilimanjaro stands at 5,895 metres."
-      },
-      {
-        "q": "Which of the following is incorrectly matched with respect to the highest peaks of the continents?\nEurope - Mount Elbrus\nAntarctica - Mount Vinson\nAustralia - Mount Kosciuszko\nNorth America - Aconcagua",
-        "options": [
-          "Australia - Mount Kosciuszko",
-          "North America - Aconcagua",
-          "Antarctica - Mount Vinson",
-          "Europe - Mount Elbrus"
-        ],
-        "answer": 1,
-        "explanation": "Denali is North America's highest peak; Aconcagua is actually South America's highest peak, making this pairing incorrect."
-      },
-      {
-        "q": "In July 2026, ISRO successfully conducted the first ground test of which solid motor-based test vehicle to validate the Gaganyaan Crew Module's parachute trials?",
-        "options": [
-          "PSLV Test Vehicle (TV-D1)",
-          "SOLVE (Sub-Orbital Launch Vehicle for Experiments)",
-          "Crew Escape System Test Vehicle (CESTV)",
-          "SMART (Solid Motor Aerial Recovery Test)"
-        ],
-        "answer": 1,
-        "explanation": "ISRO's SOLVE (Sub-Orbital Launch Vehicle for Experiments) conducted the first ground test for Gaganyaan's parachute trials."
-      },
-      {
-        "q": "The first ground test of the SOLVE vehicle was conducted at the Satish Dhawan Space Centre (SDSC). In which state is SDSC located?",
-        "options": [
-          "Andhra Pradesh (Sriharikota)",
-          "Karnataka (Bengaluru)",
-          "Tamil Nadu (Mahendragiri)",
-          "Odisha (Chandipur)"
-        ],
-        "answer": 0,
-        "explanation": "SDSC is located at Sriharikota, Andhra Pradesh."
-      },
-      {
-        "q": "The SOLVE test vehicle is engineered to simulate deceleration for Gaganyaan's parachute system at what altitude range?",
-        "options": [
-          "Between 20 km and 30 km",
-          "Between 10 km and 17 km",
-          "Between 5 km and 10 km",
-          "Between 15 km and 25 km"
-        ],
-        "answer": 1,
-        "explanation": "SOLVE simulates deceleration conditions between 10 km and 17 km altitude for the parachute trials."
-      },
-      {
-        "q": "Consider the following statements regarding ISRO's SOLVE platform:\n1. It is equipped with a modified Polar Satellite Launch Vehicle (PSLV) strap-on motor.\n2. It utilizes a 10-stage parachute deployment system to test the safe recovery of the Crew Module.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 2 is correct",
-          "Both 1 and 2 are correct",
-          "Neither 1 nor 2 is correct",
-          "Only 1 is correct"
-        ],
-        "answer": 1,
-        "explanation": "SOLVE uses a modified PSLV strap-on motor and a 10-stage parachute deployment system for the Crew Module recovery test."
-      },
-      {
-        "q": "Which country won the 10th edition of the ICC Women's T20 World Cup held in June-July 2026?",
-        "options": [
-          "South Africa (defeating England in the final)",
-          "India (defeating Australia in the final)",
-          "England (defeating Australia in the final)",
-          "Australia (defeating England in the final)"
-        ],
-        "answer": 3,
-        "explanation": "Australia won the 10th edition of the ICC Women's T20 World Cup, defeating England in the final."
-      },
-      {
-        "q": "Who became the first player in T20 World Cup history to win two 'Player of the Tournament' awards after securing the title in both 2023 and 2026?",
-        "options": [
-          "Beth Mooney (Australia)",
-          "Ashleigh Gardner (Australia)",
-          "Alyssa Healy (Australia)",
-          "Meg Lanning (Australia)"
-        ],
-        "answer": 0,
-        "explanation": "Beth Mooney became the first player to win 'Player of the Tournament' twice, in 2023 and 2026."
-      },
-      {
-        "q": "Indian bowler Shree Charani set a new national record at the 2026 Women's T20 World Cup by taking how many wickets?",
-        "options": [
-          "11 wickets",
-          "14 wickets",
-          "9 wickets",
-          "17 wickets"
-        ],
-        "answer": 1,
-        "explanation": "Shree Charani set a new Indian record by taking 14 wickets at the 2026 Women's T20 World Cup."
-      },
-      {
-        "q": "Consider the following statements regarding the 2026 ICC Women's T20 World Cup:\n1. The final of the tournament was played at Lord's Cricket Ground in London.\n2. A total of 12 teams competed in the tournament divided into two groups of six.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 1 is correct",
-          "Only 2 is correct",
-          "Both 1 and 2 are correct",
-          "Neither 1 nor 2 is correct"
-        ],
-        "answer": 2,
-        "explanation": "The final was held at Lord's, and 12 teams competed divided into two groups of six."
-      },
-      {
-        "q": "Who became India's youngest international cricket debutant in July 2026, debuting at the age of 15 years and 99 days?",
-        "options": [
-          "Vaibhav Sooryavanshi",
-          "Sachin Tendulkar",
-          "Prithvi Shaw",
-          "Yashasvi Jaiswal"
-        ],
-        "answer": 0,
-        "explanation": "Vaibhav Sooryavanshi became India's youngest international debutant at 15 years and 99 days."
-      },
-      {
-        "q": "Against which country did Vaibhav Sooryavanshi make his senior T20I international debut in July 2026?",
-        "options": [
-          "Australia (at the MCG)",
-          "England (at Old Trafford, Manchester)",
-          "New Zealand (at Eden Park)",
-          "South Africa (at the Wanderers)"
-        ],
-        "answer": 1,
-        "explanation": "Sooryavanshi debuted against England at Old Trafford, Manchester."
-      },
-      {
-        "q": "Playing for which IPL franchise did Vaibhav Sooryavanshi win the Orange Cap, MVP, and Emerging Player awards in the same season in 2026?",
-        "options": [
-          "Chennai Super Kings (CSK)",
-          "Rajasthan Royals (RR)",
-          "Mumbai Indians (MI)",
-          "Delhi Capitals (DC)"
-        ],
-        "answer": 1,
-        "explanation": "Vaibhav Sooryavanshi won multiple awards playing for Rajasthan Royals in the 2026 IPL season."
-      },
-      {
-        "q": "Consider the following statements regarding cricketer Vaibhav Sooryavanshi:\n1. He hails from Tajpur, Bihar, and made his first-class debut in the year 2024.\n2. He broke Sachin Tendulkar's 36-year-old record to become India's youngest international debutant.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 1 is correct",
-          "Neither 1 nor 2 is correct",
-          "Only 2 is correct",
-          "Both 1 and 2 are correct"
-        ],
-        "answer": 3,
-        "explanation": "Both statements about Sooryavanshi's background and record-breaking debut are correct."
-      },
-      {
-        "q": "Which indigenous stealth frigate is set to be commissioned by the Indian Navy at Visakhapatnam on July 11, 2026?",
-        "options": [
-          "INS Himgiri (F39)",
-          "INS Vindhyagiri (F42)",
-          "INS Udaygiri (F35)",
-          "INS Mahendragiri (F38)"
-        ],
-        "answer": 3,
-        "explanation": "INS Mahendragiri (F38) is set to be commissioned at Visakhapatnam on July 11, 2026."
-      },
-      {
-        "q": "INS Mahendragiri, built by Mazagon Dock Shipbuilders Limited (MDL), is the sixth warship of which prestigious shipbuilding project of the Indian Navy?",
-        "options": [
-          "Project 28",
-          "Project 17A",
-          "Project 75I",
-          "Project 15B"
-        ],
-        "answer": 1,
-        "explanation": "INS Mahendragiri is the sixth and final warship of Project 17A."
-      },
-      {
-        "q": "What is the approximate percentage of indigenous content incorporated in the newly built stealth frigate INS Mahendragiri to promote the 'Aatmanirbhar Bharat' initiative?",
-        "options": [
-          "Over 75 percent",
-          "Over 90 percent",
-          "Over 60 percent",
-          "Over 50 percent"
-        ],
-        "answer": 0,
-        "explanation": "INS Mahendragiri incorporates over 75 percent indigenous content."
-      },
-      {
-        "q": "Consider the following statements regarding the stealth frigate INS Mahendragiri:\n1. She is named after a majestic mountain range in the Western Ghats.\n2. She is powered by a modern Combined Diesel or Gas (CODOG) propulsion system.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Both 1 and 2 are correct",
-          "Neither 1 nor 2 is correct",
-          "Only 2 is correct",
-          "Only 1 is correct"
-        ],
-        "answer": 2,
-        "explanation": "Mahendragiri is actually located in the Eastern Ghats, so statement 1 is incorrect; the CODOG propulsion detail in statement 2 is correct."
-      },
-      {
-        "q": "India is hosting the high-level BRICS Women Ministerial Meeting on 8–9 July 2026 under its BRICS Chairship. Which of the following Indian cities is the venue for this meeting?",
-        "options": [
-          "Guwahati, Assam",
-          "Kochi, Kerala",
-          "Bhubaneswar, Odisha",
-          "Jaipur, Rajasthan"
-        ],
-        "answer": 1,
-        "explanation": "Kochi, Kerala is hosting the BRICS Women Ministerial Meeting 2026."
-      },
-      {
-        "q": "What is the official theme of the BRICS Women Ministerial Meeting 2026 being hosted under India's BRICS Chairship?",
-        "options": [
-          "Empowering Women for a Resilient and Inclusive Future",
-          "Building for Resilience, Innovation, Cooperation and Sustainability",
-          "Women-Led Development for a Sustainable World",
-          "Strengthening Multilateralism for Gender Equity"
-        ],
-        "answer": 1,
-        "explanation": "The theme, consistent with India's overall BRICS Chairship, is 'Building for Resilience, Innovation, Cooperation and Sustainability'."
-      },
-      {
-        "q": "The BRICS Women Ministerial Meeting in July 2026 is administered by which nodal Union Ministry of India?",
-        "options": [
-          "Ministry of External Affairs",
-          "Ministry of Women and Child Development",
-          "Ministry of Rural Development",
-          "Ministry of Social Justice and Empowerment"
-        ],
-        "answer": 1,
-        "explanation": "The Ministry of Women and Child Development is the nodal ministry for this meeting."
-      },
-      {
-        "q": "Which museum has recently been officially notified as India's 21st Designated Repository under the Biological Diversity Act, 2002?",
-        "options": [
-          "National Museum of Natural History, New Delhi",
-          "Assam State Museum, Guwahati",
-          "Zoological Survey of India Museum, Kolkata",
-          "Mizoram's Natural History Museum"
-        ],
-        "answer": 3,
-        "explanation": "Mizoram's Natural History Museum was notified as India's 21st Designated Repository under the Biological Diversity Act, 2002."
-      },
-      {
-        "q": "Consider the following statements regarding India's BRICS Chairship in 2026:\n1. The Chairship is anchored in four pillars: Resilience, Innovation, Cooperation, and Sustainability.\n2. The BRICS Women Working Group Meeting was held on 6–7 July 2026.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Both 1 and 2 are correct",
-          "Only 2 is correct",
-          "Neither 1 nor 2 is correct",
-          "Only 1 is correct"
-        ],
-        "answer": 0,
-        "explanation": "Both the four pillars of India's BRICS Chairship and the dates of the Women Working Group Meeting are correctly stated."
-      }
-    ]
-  },
-  "2026-07-08": {
-    "label": "8 July 2026",
-    "source": "PIB",
-    "resourceLink": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
-    "questions": [
-      {
-        "q": "Which organization released the 5th annual edition of the Global Passport Index (GPI) in July 2026?",
-        "options": [
-          "Henley & Partners",
-          "World Economic Forum (WEF)",
-          "International Air Transport Association (IATA)",
-          "Global Citizen Solutions (GCS)"
-        ],
-        "answer": 3,
-        "explanation": "Global Citizen Solutions (GCS) released the 5th annual edition of the Global Passport Index in July 2026."
-      },
-      {
-        "q": "What is India's overall rank among the 197 countries featured in the Global Passport Index 2026?",
-        "options": [
-          "105th",
-          "125th",
-          "138th",
-          "144th"
-        ],
-        "answer": 1,
-        "explanation": "India ranked 125th among 197 countries in the Global Passport Index 2026."
-      },
-      {
-        "q": "Which country has topped the Global Passport Index 2026 as the world's strongest passport with a score of 96.05?",
-        "options": [
-          "Japan",
-          "Germany",
-          "Singapore",
-          "Sweden"
-        ],
-        "answer": 3,
-        "explanation": "Sweden topped the Global Passport Index 2026 with a score of 96.05."
-      },
-      {
-        "q": "Consider the following statements regarding the Global Passport Index (GPI) 2026:\n1. The index ranks passports across three main categories, with the Enhanced Mobility index carrying a 50% weightage.\n2. India showed its most significant category-wise improvement in the Quality of Life index, jumping 11 places compared to 2025.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Neither 1 nor 2 is correct",
-          "Only 1 is correct",
-          "Both 1 and 2 are correct",
-          "Only 2 is correct"
-        ],
-        "answer": 2,
-        "explanation": "Both the weightage detail and India's Quality of Life index improvement are correctly stated."
-      },
-      {
-        "q": "In the Global Passport Index 2026, India moved up by 3 places to secure which rank in the Investment Index category?",
-        "options": [
-          "97th",
-          "101st",
-          "94th",
-          "88th"
-        ],
-        "answer": 2,
-        "explanation": "India moved up 3 places to rank 94th in the Investment Index category."
-      },
-      {
-        "q": "Which historic 17th-century Buddhist monastery in Nepal has been conferred with the 2025 UNESCO Asia-Pacific Heritage Award of Merit in July 2026?",
-        "options": [
-          "Swayambhunath Stupa",
-          "Itum Bahal Monastery",
-          "Jestha Varna Mahavihar (also known as Jyaba Bahi or Chakrabahil)",
-          "Kwa Bahal (Golden Temple)"
-        ],
-        "answer": 2,
-        "explanation": "Jestha Varna Mahavihar received the 2025 UNESCO Asia-Pacific Heritage Award of Merit."
-      },
-      {
-        "q": "The Government of India funded the restoration of Nepal's Jestha Varna Mahavihar under its post-earthquake cultural heritage reconstruction grant. What was the total financial outlay of this grant?",
-        "options": [
-          "NPR 13.78 crore",
-          "NPR 8.5 crore",
-          "NPR 10.2 crore",
-          "NPR 20.4 crore"
-        ],
-        "answer": 0,
-        "explanation": "India funded the restoration with a grant of NPR 13.78 crore."
-      },
-      {
-        "q": "The restoration of Jestha Varna Mahavihar was highly recognized by UNESCO for preserving the architectural heritage and woodcarvings of which specific Buddhist community?",
-        "options": [
-          "Sherpa community",
-          "Newar (or Newari community)",
-          "Gurung community",
-          "Tamang community"
-        ],
-        "answer": 1,
-        "explanation": "UNESCO recognized the restoration for preserving the heritage of the Newar (Newari) Buddhist community."
-      },
-      {
-        "q": "In July 2026, Alok Kumar Mittal was appointed as the Director General of the Bureau of Police Research & Development (BPR&D). He is an IPS officer belonging to which state cadre?",
-        "options": [
-          "Punjab",
-          "Haryana",
-          "Uttar Pradesh",
-          "Rajasthan"
-        ],
-        "answer": 1,
-        "explanation": "Alok Kumar Mittal, appointed DG of BPR&D, belongs to the Haryana IPS cadre."
-      },
-      {
-        "q": "Who has been appointed as the new Director of the National Crime Records Bureau (NCRB) to succeed Alok Ranjan?",
-        "options": [
-          "Amit Garg",
-          "Alok Kumar Mittal",
-          "Rajesh Kumar",
-          "Sujeet Pandey"
-        ],
-        "answer": 0,
-        "explanation": "Amit Garg has been appointed as the new Director of NCRB, succeeding Alok Ranjan."
-      },
-      {
-        "q": "Senior IPS officer Sujeet Pandey has been appointed as the Director of which premier national police training academy?",
-        "options": [
-          "Central Detective Training School (CDTS)",
-          "National Institute of Criminology and Forensic Science (NICFS)",
-          "National Police Academy, Hyderabad",
-          "Sardar Vallabhbhai Patel National Police Academy (SVPNPA)"
-        ],
-        "answer": 3,
-        "explanation": "Sujeet Pandey was appointed Director of the Sardar Vallabhbhai Patel National Police Academy (SVPNPA)."
-      },
-      {
-        "q": "Consider the following statements regarding the leadership reshuffle in July 2026:\n1. The appointments of the new police chiefs were approved by the Appointments Committee of the Cabinet (ACC) based on proposals by the Ministry of Home Affairs.\n2. Sujeet Pandey, a 1994-batch IPS officer of the Uttar Pradesh cadre, was appointed as the Director of SVPNPA.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Both 1 and 2 are correct",
-          "Only 1 is correct",
-          "Neither 1 nor 2 is correct",
-          "Only 2 is correct"
-        ],
-        "answer": 0,
-        "explanation": "Both the ACC approval process and Sujeet Pandey's cadre/batch details are correctly stated."
-      },
-      {
-        "q": "In July 2026, NPCI's MD & CEO Dilip Asbe was appointed to the newly formed Supervisory Board of which global financial messaging organization?",
-        "options": [
-          "Bank for International Settlements (BIS)",
-          "SWIFT (Society for Worldwide Interbank Financial Telecommunication)",
-          "International Organization for Standardization (ISO)",
-          "Financial Action Task Force (FATF)"
-        ],
-        "answer": 1,
-        "explanation": "Dilip Asbe was appointed to SWIFT's newly formed Supervisory Board."
-      },
-      {
-        "q": "In which year was the National Payments Corporation of India (NPCI) established, and where is its headquarters located?",
-        "options": [
-          "Established in 2010; Headquartered in Bengaluru, Karnataka",
-          "Established in 2005; Headquartered in New Delhi",
-          "Established in 2008; Headquartered in Mumbai, Maharashtra",
-          "Established in 2012; Headquartered in Mumbai, Maharashtra"
-        ],
-        "answer": 2,
-        "explanation": "NPCI was established in 2008 and is headquartered in Mumbai, Maharashtra."
-      },
-      {
-        "q": "Which of the following bodies jointly promoted the National Payments Corporation of India (NPCI) as the umbrella organization for retail payments?",
-        "options": [
-          "Ministry of Finance and RBI",
-          "SEBI and RBI",
-          "Reserve Bank of India (RBI) and Indian Banks' Association (IBA)",
-          "IBA and Ministry of Electronics and IT"
-        ],
-        "answer": 2,
-        "explanation": "NPCI was jointly promoted by the RBI and the Indian Banks' Association (IBA)."
-      },
-      {
-        "q": "In July 2026, China launched its latest marine monitoring satellite named _________.",
-        "options": [
-          "Shijian-21",
-          "Gaofen-5B",
-          "Fengyun-4C",
-          "Haiyang-2E (HY-2E)"
-        ],
-        "answer": 3,
-        "explanation": "China launched its latest marine monitoring satellite, Haiyang-2E (HY-2E), in July 2026."
-      },
-      {
-        "q": "Where were the U15 and U20 Asian Wrestling Championships 2026 hosted by United World Wrestling (UWW)?",
-        "options": [
-          "Almaty, Kazakhstan",
-          "Ulaanbaatar, Mongolia",
-          "Bishkek, Kyrgyzstan",
-          "Pattaya, Thailand"
-        ],
-        "answer": 3,
-        "explanation": "The U15 and U20 Asian Wrestling Championships 2026 were hosted in Pattaya, Thailand."
-      },
-      {
-        "q": "How many total medals did the Indian contingent win in the Under-20 (U20) category at the Asian Wrestling Championships 2026?",
-        "options": [
-          "22 medals (3 gold, 9 silver, 10 bronze)",
-          "18 medals (5 gold, 6 silver, 7 bronze)",
-          "20 medals (4 gold, 7 silver, 9 bronze)",
-          "16 medals (4 gold, 5 silver, 7 bronze)"
-        ],
-        "answer": 2,
-        "explanation": "India won 20 medals in the U20 category: 4 gold, 7 silver, and 9 bronze."
-      },
-      {
-        "q": "India won the bronze team trophy in the Under-15 category at the 2026 Asian Wrestling Championships with 150 points. Which country topped the U15 standings?",
-        "options": [
-          "Kazakhstan (160 points)",
-          "Japan (155 points)",
-          "Uzbekistan (171 points)",
-          "Iran (165 points)"
-        ],
-        "answer": 2,
-        "explanation": "Uzbekistan topped the U15 standings with 171 points; India took bronze with 150 points."
-      },
-      {
-        "q": "Consider the following statements regarding India's performance in the Under-20 category at the Asian Wrestling Championships 2026:\n1. India finished second in Women's Wrestling (WW) with 184 points, behind China.\n2. India secured third place in Men's Freestyle (FS), finishing behind Kazakhstan and Iran.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 2 is correct",
-          "Both 1 and 2 are correct",
-          "Neither 1 nor 2 is correct",
-          "Only 1 is correct"
-        ],
-        "answer": 1,
-        "explanation": "Both India's WW runner-up finish and its third-place FS finish are correctly stated."
-      },
-      {
-        "q": "Social worker and engineer Girish Bharadwaj, who passed away in July 2026, was famously known by which of the following sobriquets?",
-        "options": [
-          "Water Man of India",
-          "Bridge Man of India",
-          "Metro Man of India",
-          "Green Man of India"
-        ],
-        "answer": 1,
-        "explanation": "Girish Bharadwaj was famously known as the 'Bridge Man of India'."
-      },
-      {
-        "q": "In which year was the 'Bridge Man of India' Girish Bharadwaj conferred the prestigious Padma Shri award for his contributions to social work?",
-        "options": [
-          "2021",
-          "2015",
-          "2017",
-          "2019"
-        ],
-        "answer": 2,
-        "explanation": "Girish Bharadwaj was conferred the Padma Shri in 2017."
-      },
-      {
-        "q": "Girish Bharadwaj constructed over 150 low-cost hanging footbridges. Which of the following is NOT one of the five states where his bridge projects were executed?",
-        "options": [
-          "Maharashtra",
-          "Odisha",
-          "Andhra Pradesh",
-          "Kerala"
-        ],
-        "answer": 0,
-        "explanation": "Maharashtra was not among the five states where Girish Bharadwaj's bridge projects were executed."
-      },
-      {
-        "q": "Consider the following statements regarding Girish Bharadwaj:\n1. He constructed his very first bridge in 1989 following a request from the villagers of Aramburu.\n2. He founded Ayasshilpa Industries in Sullia, Karnataka, to manufacture and design his low-cost suspension bridges.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 1 is correct",
-          "Only 2 is correct",
-          "Neither 1 nor 2 is correct",
-          "Both 1 and 2 are correct"
-        ],
-        "answer": 3,
-        "explanation": "Both his first bridge in 1989 and the founding of Ayasshilpa Industries are correctly stated."
-      },
-      {
-        "q": "In July 2026, a historic agreement was signed to resolve the cost-sharing dispute of which major river valley project?",
-        "options": [
-          "Indira Sagar Project",
-          "Sardar Sarovar Project",
-          "Tehri Dam Project",
-          "Polavaram Project"
-        ],
-        "answer": 1,
-        "explanation": "The historic cost-sharing settlement agreement was signed for the Sardar Sarovar Project."
-      },
-      {
-        "q": "Which of the following is NOT one of the four Narmada Award beneficiary states that signed the cost-sharing settlement agreement in New Delhi?",
-        "options": [
-          "Madhya Pradesh",
-          "Maharashtra",
-          "Haryana",
-          "Gujarat"
-        ],
-        "answer": 2,
-        "explanation": "Haryana is not a Narmada Award beneficiary state; the four signatories are Maharashtra, Gujarat, Rajasthan, and Madhya Pradesh."
-      },
-      {
-        "q": "Under whose presence was the historic one-time settlement agreement on Narmada Award payments signed by the Chief Ministers in New Delhi?",
-        "options": [
-          "Prime Minister Narendra Modi",
-          "Union Home Minister Amit Shah and Union Minister of Jal Shakti C. R. Patil",
-          "NITI Aayog Vice Chairman",
-          "Union Minister of Jal Shakti alone"
-        ],
-        "answer": 1,
-        "explanation": "The settlement was signed in the presence of Union Home Minister Amit Shah and Union Minister of Jal Shakti C. R. Patil."
-      },
-      {
-        "q": "Consider the following statements regarding the Narmada Award settlement:\n1. Devendra Fadnavis (CM of Maharashtra) and Dr. Mohan Yadav (CM of Madhya Pradesh) were among the signatories.\n2. The Union Home Minister cited the Kishau Dam Project as another successful example of cooperative federalism.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Neither 1 nor 2 is correct",
-          "Only 1 is correct",
-          "Both 1 and 2 are correct",
-          "Only 2 is correct"
-        ],
-        "answer": 2,
-        "explanation": "Both the listed signatories and the Kishau Dam Project reference are correctly stated."
-      },
-      {
-        "q": "In July 2026, which country hosted the 13th ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee meeting?",
-        "options": [
-          "Indonesia",
-          "Vietnam",
-          "India (at Vanijya Bhawan, New Delhi)",
-          "Singapore"
-        ],
-        "answer": 2,
-        "explanation": "India hosted the 13th AITIGA Joint Committee meeting at Vanijya Bhawan, New Delhi."
-      },
-      {
-        "q": "What is the total value of bilateral trade recorded between India and ASEAN during the 2025–26 financial year?",
-        "options": [
-          "USD 98 billion",
-          "USD 110 billion",
-          "USD 128 billion",
-          "USD 145 billion"
-        ],
-        "answer": 2,
-        "explanation": "India-ASEAN bilateral trade stood at USD 128 billion during 2025-26."
-      },
-      {
-        "q": "Who co-chaired the 13th AITIGA Joint Committee meeting on behalf of India's Ministry of Commerce and Industry?",
-        "options": [
-          "Shri Nitin Kumar Yadav (Additional Secretary, Department of Commerce)",
-          "Shri Sunil Barthwal (Commerce Secretary)",
-          "Shri Piyush Goyal (Union Minister)",
-          "Smt. Rajesh Bhushan (Commerce Secretary)"
-        ],
-        "answer": 0,
-        "explanation": "Shri Nitin Kumar Yadav, Additional Secretary, Department of Commerce, co-chaired the meeting for India."
-      },
-      {
-        "q": "What percentage of India's overall global trade is accounted for by the ASEAN region as of the latest figures?",
-        "options": [
-          "Around 18 per cent",
-          "Around 8 per cent",
-          "Around 15 per cent",
-          "Around 11 per cent"
-        ],
-        "answer": 3,
-        "explanation": "ASEAN accounts for around 11 per cent of India's overall global trade."
-      },
-      {
-        "q": "Consider the following statements regarding the 13th AITIGA Joint Committee meeting held in July 2026:\n1. The meeting was co-chaired by Ms. Mastura Ahmad Mustafa representing the Ministry of Investment, Trade and Industry of Malaysia.\n2. Three of the eight Sub-Committees, including the Sub-Committee on Rules of Origin (SC-ROO), held meetings on the sidelines.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 2 is correct",
-          "Neither 1 nor 2 is correct",
-          "Both 1 and 2 are correct",
-          "Only 1 is correct"
-        ],
-        "answer": 2,
-        "explanation": "Both the Malaysian co-chair detail and the Sub-Committee meetings are correctly stated."
-      },
-      {
-        "q": "Following the successful completion of its ₹440 crore Capital Dredging Phase VI project, which port has become India's second Major Port to offer an 18-metre draft capability?",
-        "options": [
-          "Kamarajar Port (Tamil Nadu)",
-          "Chennai Port (Tamil Nadu)",
-          "Paradip Port (Odisha)",
-          "Kandla Port (Gujarat)"
-        ],
-        "answer": 0,
-        "explanation": "Kamarajar Port became India's second Major Port with 18-metre draft capability after its Phase VI dredging project."
-      },
-      {
-        "q": "Which Indian port was the first in the country to offer a draft of 18 metres?",
-        "options": [
-          "Paradip Port",
-          "Mundra Port",
-          "Chennai Port",
-          "Visakhapatnam Port"
-        ],
-        "answer": 3,
-        "explanation": "Visakhapatnam Port was the first Indian port to offer an 18-metre draft."
-      },
-      {
-        "q": "Kamarajar Port has been declared 'Cape Compliant' and can now handle fully laden Capesize vessels carrying cargo parcels of up to what maximum DWT?",
-        "options": [
-          "1,50,000 DWT",
-          "1,70,000 DWT",
-          "2,00,000 DWT",
-          "1,20,000 DWT"
-        ],
-        "answer": 1,
-        "explanation": "Kamarajar Port can now handle Capesize vessels carrying cargo of up to 1,70,000 DWT."
-      },
-      {
-        "q": "Who is the current Union Minister for Ports, Shipping & Waterways?",
-        "options": [
-          "Sarbananda Sonowal",
-          "Mansukh Mandaviya",
-          "Jyotiraditya Scindia",
-          "Nitin Gadkari"
-        ],
-        "answer": 0,
-        "explanation": "Sarbananda Sonowal is the current Union Minister for Ports, Shipping & Waterways."
-      },
-      {
-        "q": "Consider the following statements regarding the infrastructure upgrade of Kamarajar Port in July 2026:\n1. The project involved deepening the outer approach channel from 20.0 m to 23.0 m.\n2. The upgrade is designed to support the goals of the national roadmap 'Maritime India Vision 2030'.\nWhich of the statements given above is/are correct?",
-        "options": [
-          "Only 1 is correct",
-          "Only 2 is correct",
-          "Neither 1 nor 2 is correct",
-          "Both 1 and 2 are correct"
-        ],
-        "answer": 3,
-        "explanation": "Both the channel deepening detail and the Maritime India Vision 2030 alignment are correctly stated."
       }
     ]
   }

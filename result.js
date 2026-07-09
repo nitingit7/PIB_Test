@@ -2,7 +2,7 @@
 
 const app = document.getElementById('app');
 const dateKey = getDateParam();
-const test = dateKey && window.MOCK_TESTS ? window.MOCK_TESTS[dateKey] : null;
+const test   = dateKey && window.MOCK_TESTS ? window.MOCK_TESTS[dateKey] : null;
 const record = dateKey ? getStore()[dateKey] : null;
 
 if (!test || !record || !record.lastResult) {
@@ -11,33 +11,63 @@ if (!test || !record || !record.lastResult) {
 
 function renderResult() {
   const answers = record.lastAnswers;
-  const result = record.lastResult;
+  const result  = record.lastResult;
 
+  const totalQ   = test.questions.length;
+  const maxScore = totalQ * MARK_CORRECT;
+  const accuracy = totalQ > 0
+    ? Math.round(((result.correct) / (result.correct + result.wrong || 1)) * 100)
+    : 0;
+  const attempted = result.correct + result.wrong;
+  // SVG ring: circumference of r=46 circle = 2π×46 ≈ 289
+  const CIRC = 289;
+  const ringPct    = maxScore > 0 ? Math.max(0, Math.min(1, result.score / maxScore)) : 0;
+  const ringOffset = CIRC - ringPct * CIRC;
+
+  // ---- Question-wise overview grid ----
   const overviewHtml = test.questions.map((q, i) => {
     const st = statusOf(q, answers[i]);
-    return `<a href="#rev-${i}" class="palette-cell status-${st}">${i + 1}</a>`;
+    return `<a href="#rev-${i}" class="palette-cell status-${st}" title="Q${i+1}: ${st}">${i + 1}</a>`;
   }).join('');
 
+  // ---- Review list ----
   const reviewHtml = test.questions.map((q, i) => {
-    const userAns = answers[i];
-    const st = statusOf(q, userAns);
-    const pillLabel = st === 'skipped' ? 'Skipped' : (st === 'correct' ? 'Correct' : 'Incorrect');
+    const userAns   = answers[i];
+    const st        = statusOf(q, userAns);
+    const pillLabel = st === 'skipped' ? 'Skipped' : (st === 'correct' ? '✓ Correct' : '✗ Incorrect');
+
     const optionsHtml = q.options.map((opt, j) => {
       let cls = 'option';
-      if (j === q.answer) cls += ' correct-answer';
+      if (j === q.answer)     cls += ' correct-answer';
       else if (j === userAns) cls += ' wrong-answer';
       return `<div class="${cls}"><div class="bubble">${String.fromCharCode(65 + j)}</div><div class="otext">${opt}</div></div>`;
     }).join('');
+
     return `
-      <div class="review-item" id="rev-${i}">
-        <div class="q-number-row"><div class="qn">QUESTION ${i + 1}</div>
-          <div class="status-pill status-${st}">${pillLabel}</div>
+      <div class="review-item ri-${st}" id="rev-${i}">
+        <div class="review-item-header">
+          <span class="review-item-qnum">QUESTION ${i + 1} OF ${totalQ}</span>
+          <span class="status-pill status-${st}">${pillLabel}</span>
         </div>
-        <div class="q-text" style="font-size:16px">${formatQuestionText(q.q)}</div>
-        <div class="options">${optionsHtml}</div>
-        ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ''}
+        <div class="review-item-body">
+          <div class="q-text">${formatQuestionText(q.q)}</div>
+          <div class="options">${optionsHtml}</div>
+          ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ''}
+        </div>
       </div>`;
   }).join('');
+
+  // ---- Notes banner: uses gate modal instead of direct href ----
+  const notesBannerHtml = test.resourceLink
+    ? `<div class="notes-banner" role="button" tabindex="0" data-notes-url="${test.resourceLink}">
+        <span class="notes-banner-icon">N</span>
+        <div class="notes-banner-content">
+          <div class="notes-banner-title">Study Notes &amp; Revision</div>
+          <div class="notes-banner-sub">Open the source notes to reinforce what you just practised.</div>
+        </div>
+        <span class="notes-banner-arrow">&rarr;</span>
+      </div>`
+    : '';
 
   app.innerHTML = `
     <div class="masthead">
@@ -45,146 +75,130 @@ function renderResult() {
         <div class="brand">Practice<span>King</span></div>
         <div class="brand-slogan">Daily Current Affairs</div>
       </a>
-      <div class="tagline">Result · ${test.label}</div>
+      <div class="masthead-right">
+        <div class="tagline">Result · ${test.label}</div>
+        ${themeToggleBtnHtml()}
+      </div>
     </div>
+
     <div class="wrap">
-      <div class="scorecard">
-        <div class="headline serif">${result.autoSubmitted ? 'Time up — test auto-submitted' : 'Test submitted'}</div>
-        <div class="sub">${test.label} · ${test.questions.length} questions · +${MARK_CORRECT} correct, −${MARK_NEGATIVE} wrong</div>
-        <div class="stat-grid">
-          <div class="stat score"><div class="num">${result.score.toFixed(2)}</div><div class="lbl">Score</div></div>
-          <div class="stat correct"><div class="num">${result.correct}</div><div class="lbl">Correct</div></div>
-          <div class="stat wrong"><div class="num">${result.wrong}</div><div class="lbl">Wrong</div></div>
-          <div class="stat skipped"><div class="num">${result.skipped}</div><div class="lbl">Skipped</div></div>
+
+      <!-- ① HERO SCORE BANNER -->
+      <div class="result-hero">
+        <div class="result-hero-label">${result.autoSubmitted ? 'Time Up — Auto Submitted' : 'Test Submitted'}</div>
+        <div class="result-hero-title">${test.label}</div>
+        <div class="result-hero-test">${totalQ} questions · +${MARK_CORRECT} correct  −${MARK_NEGATIVE} wrong</div>
+
+        <div class="score-ring-wrap">
+          <div class="score-ring">
+            <svg viewBox="0 0 100 100">
+              <circle class="ring-bg"   cx="50" cy="50" r="46"/>
+              <circle class="ring-fill" cx="50" cy="50" r="46"
+                style="stroke-dashoffset:${CIRC}px"
+                data-offset="${ringOffset}"/>
+            </svg>
+            <div class="score-ring-inner">
+              <div class="score-ring-num">${result.score.toFixed(1)}</div>
+              <div class="score-ring-total">/ ${maxScore}</div>
+            </div>
+          </div>
         </div>
 
-        <div class="palette-title" style="margin-top:22px">Question-wise Status</div>
-        <div class="palette-grid overview-grid">${overviewHtml}</div>
-        <div class="legend" style="flex-direction:row;flex-wrap:wrap;gap:16px;margin-top:12px">
-          <div class="row"><span class="swatch" style="background:var(--green)"></span> Correct</div>
-          <div class="row"><span class="swatch" style="background:var(--red)"></span> Wrong</div>
-          <div class="row"><span class="swatch" style="background:var(--mustard)"></span> Skipped</div>
-        </div>
-
-        <div class="top-actions">
-          <a class="btn" href="instructions.html?date=${encodeURIComponent(dateKey)}">Retake Test</a>
-          <a class="btn btn-outline" href="index.html">Back to Test List</a>
-          ${test.resourceLink ? `<button class="btn btn-outline" data-action="notes" data-link="${test.resourceLink}">See the Notes and Revise</button>` : ''}
+        <div class="hero-stats">
+          <div class="hero-stat-item hs-correct">
+            <div class="hero-stat-num">${result.correct}</div>
+            <div class="hero-stat-lbl">Correct</div>
+          </div>
+          <div class="hero-stat-item hs-wrong">
+            <div class="hero-stat-num">${result.wrong}</div>
+            <div class="hero-stat-lbl">Wrong</div>
+          </div>
+          <div class="hero-stat-item hs-skipped">
+            <div class="hero-stat-num">${result.skipped}</div>
+            <div class="hero-stat-lbl">Skipped</div>
+          </div>
         </div>
       </div>
-      <div class="section-label">Answer Review</div>
+
+      <!-- ② META CARDS -->
+      <div class="result-meta-cards">
+        <div class="result-meta-card">
+          <span class="rmc-icon rmc-accuracy">%</span>
+          <div class="rmc-val">${accuracy}%</div>
+          <div class="rmc-lbl">Accuracy</div>
+        </div>
+        <div class="result-meta-card">
+          <span class="rmc-icon rmc-attempted">A</span>
+          <div class="rmc-val">${attempted}</div>
+          <div class="rmc-lbl">Attempted</div>
+        </div>
+        <div class="result-meta-card">
+          <span class="rmc-icon rmc-best">B</span>
+          <div class="rmc-val">${record.best.toFixed(1)}</div>
+          <div class="rmc-lbl">Best Score</div>
+        </div>
+      </div>
+
+      <!-- ③ ACTION BUTTONS -->
+      <div class="result-actions">
+        <a class="btn" href="test.html?date=${encodeURIComponent(dateKey)}">Retake Test</a>
+        <a class="btn btn-outline" href="index.html">Test List</a>
+        ${test.resourceLink ? `<button class="btn btn-notes" id="viewNotesBtn" type="button">View Notes</button>` : ''}
+      </div>
+
+      <!-- ④ QUESTION-WISE STATUS -->
+      <div class="result-section">
+        <div class="result-section-title">
+          <span class="section-icon">Q</span>
+          Question-wise Status
+        </div>
+        <div class="palette-grid overview-grid">${overviewHtml}</div>
+        <div class="legend" style="flex-direction:row;flex-wrap:wrap;gap:14px;margin-top:10px;margin-bottom:0">
+          <div class="row"><span class="swatch" style="background:var(--green);border-color:var(--green)"></span>Correct</div>
+          <div class="row"><span class="swatch" style="background:var(--red);border-color:var(--red)"></span>Wrong</div>
+          <div class="row"><span class="swatch" style="background:var(--amber);border-color:var(--amber)"></span>Skipped</div>
+        </div>
+      </div>
+
+      <!-- ⑤ ANSWER REVIEW LIST -->
+      <div class="result-section-title" style="margin-bottom:12px;margin-top:4px">
+        <span class="section-icon" style="width:28px;height:28px;border-radius:8px;background:var(--brand-soft);display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;margin-right:8px">A</span>
+        Answer Review
+      </div>
       <div class="review-list">${reviewHtml}</div>
+
+      <!-- ⑥ NOTES BANNER (at the very end) -->
+      ${notesBannerHtml ? `<div style="margin-top:24px">${notesBannerHtml}</div>` : ''}
+
     </div>
   `;
 
-  const notesBtn = app.querySelector('[data-action="notes"]');
-  if (notesBtn) {
-    notesBtn.addEventListener('click', () => {
-      const link = notesBtn.dataset.link;
-      const needsGate = dateKey >= NOTES_GATE_START_DATE;
-      const alreadySubmitted = localStorage.getItem(NOTES_SUBMITTED_KEY) === 'true';
-      if (!needsGate || alreadySubmitted) {
-        window.open(link, '_blank', 'noopener');
-      } else {
-        showNotesGate(link);
-      }
+  bindThemeToggle();
+
+  // Bind notes gate to the View Notes button (top)
+  const viewNotesBtn = app.querySelector('#viewNotesBtn');
+  if (viewNotesBtn) {
+    viewNotesBtn.addEventListener('click', () => openNotesWithGate(test.resourceLink));
+  }
+
+  // Bind notes gate to the notes banner (bottom)
+  const notesBanner = app.querySelector('[data-notes-url]');
+  if (notesBanner) {
+    notesBanner.addEventListener('click', () => openNotesWithGate(test.resourceLink));
+    notesBanner.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') openNotesWithGate(test.resourceLink);
     });
   }
-}
 
-// Notes gate (name/state/mobile form) only applies from this date onward.
-// Tests before this date always open the notes link directly, no form.
-const NOTES_GATE_START_DATE = '2026-07-06';
-
-/* ---------------- NOTES ACCESS GATE ----------------
-   Collects Name / State / Mobile before opening the notes doc, and logs it
-   to a Google Form response sheet (see setup instructions in the README
-   note below) so there's a record of who accessed the notes.
-
-   SETUP REQUIRED — replace the placeholders below with your own Google
-   Form's response URL and field entry IDs:
-   1. Create a Google Form with three short-answer questions: Name, State, Mobile Number.
-   2. Click the three-dot menu → "Get pre-filled link", fill dummy values, click "Get link".
-   3. The pre-filled URL will look like:
-      https://docs.google.com/forms/d/e/FORM_ID/viewform?entry.111=X&entry.222=Y&entry.333=Z
-      Copy the FORM_ID, and note which entry.NNN number belongs to which field.
-   4. Set NOTES_FORM_CONFIG.actionUrl to:
-      https://docs.google.com/forms/d/e/FORM_ID/formResponse
-      and fill in nameField / stateField / mobileField below with the matching entry.NNN.
-   Until this is configured, the modal still lets users through — it just
-   won't have anywhere to log the submission. */
-
-const NOTES_FORM_CONFIG = {
-  actionUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSegkOgVHi7J3LSnDQG5IDjhhcfZHd1gxnqxe7gw92pAZUT-xw/formResponse',
-  nameField: 'entry.363822048',
-  stateField: 'entry.648388663',
-  mobileField: 'entry.1868111279'
-};
-
-const VISITOR_KEY = 'ga_practice_visitor';
-const NOTES_SUBMITTED_KEY = 'ga_practice_notes_submitted';
-
-function showNotesGate(link) {
-  let saved = {};
-  try { saved = JSON.parse(localStorage.getItem(VISITOR_KEY)) || {}; } catch (e) {}
-
-  const overlay = document.createElement('div');
-  overlay.className = 'modal-overlay';
-  overlay.innerHTML = `
-    <div class="modal-box">
-      <div class="modal-title serif">Before you head to the notes</div>
-      <div class="modal-sub">Just a quick detail so we know who's using these notes — takes 5 seconds.</div>
-      <label class="modal-label" for="mf-name">Name *</label>
-      <input class="modal-input" id="mf-name" type="text" value="${saved.name ? saved.name.replace(/"/g, '&quot;') : ''}" placeholder="Your full name">
-      <label class="modal-label" for="mf-state">State *</label>
-      <input class="modal-input" id="mf-state" type="text" value="${saved.state ? saved.state.replace(/"/g, '&quot;') : ''}" placeholder="e.g. Uttar Pradesh">
-      <label class="modal-label" for="mf-mobile">Mobile Number (optional)</label>
-      <input class="modal-input" id="mf-mobile" type="tel" inputmode="numeric" maxlength="10" value="${saved.mobile ? saved.mobile.replace(/"/g, '&quot;') : ''}" placeholder="10-digit number">
-      <div class="modal-error" id="mf-error"></div>
-      <div class="modal-actions">
-        <button class="btn btn-outline" id="mf-cancel" type="button">Cancel</button>
-        <button class="btn" id="mf-submit" type="button">Continue to Notes</button>
-      </div>
-    </div>
-  `;
-  document.body.appendChild(overlay);
-  document.getElementById('mf-name').focus();
-
-  const close = () => overlay.remove();
-  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
-  document.getElementById('mf-cancel').addEventListener('click', close);
-
-  document.getElementById('mf-submit').addEventListener('click', () => {
-    const name = document.getElementById('mf-name').value.trim();
-    const state = document.getElementById('mf-state').value.trim();
-    const mobile = document.getElementById('mf-mobile').value.trim();
-    const errorEl = document.getElementById('mf-error');
-
-    if (!name || !state) {
-      errorEl.textContent = 'Please enter your name and state to continue.';
-      return;
-    }
-
-    if (mobile && !/^\d{10}$/.test(mobile)) {
-      errorEl.textContent = 'Mobile number must be exactly 10 digits.';
-      return;
-    }
-
-    localStorage.setItem(VISITOR_KEY, JSON.stringify({ name, state, mobile }));
-    localStorage.setItem(NOTES_SUBMITTED_KEY, 'true');
-    logNotesAccess(name, state, mobile);
-    close();
-    window.open(link, '_blank', 'noopener');
+  // Animate the score ring after DOM paint
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const ring = app.querySelector('.ring-fill');
+      if (ring) {
+        ring.style.strokeDashoffset = parseFloat(ring.dataset.offset) + 'px';
+      }
+    });
   });
-}
-
-function logNotesAccess(name, state, mobile) {
-  if (NOTES_FORM_CONFIG.actionUrl.includes('FORM_ID')) return; // not configured yet
-  const body = new FormData();
-  body.append(NOTES_FORM_CONFIG.nameField, name);
-  body.append(NOTES_FORM_CONFIG.stateField, state);
-  if (mobile) body.append(NOTES_FORM_CONFIG.mobileField, mobile);
-  fetch(NOTES_FORM_CONFIG.actionUrl, { method: 'POST', mode: 'no-cors', body }).catch(() => {});
 }
 
 renderResult();
