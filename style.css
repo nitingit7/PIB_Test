@@ -54,36 +54,36 @@
 }
 
 [data-theme="dark"] {
-  --bg:           #13151F;
-  --surface:      #1C1F2E;
-  --surface-alt:  #252839;
-  --border:       #2E3248;
-  --ink:          #E8EAF2;
-  --ink-soft:     #9AA3C0;
-  --ink-muted:    #5D6585;
+  --bg:           #1E2130;
+  --surface:      #262A3D;
+  --surface-alt:  #2E3248;
+  --border:       #3A3F5C;
+  --ink:          #EDF0FA;
+  --ink-soft:     #A0AABF;
+  --ink-muted:    #6B748F;
 
   --brand:        #7B6FF8;
-  --brand-soft:   #2A2655;
+  --brand-soft:   #2E2A5E;
   --brand-dark:   #9389FA;
 
   --green:        #22C55E;
-  --green-soft:   #0D2E1A;
+  --green-soft:   #122B1C;
   --green-mid:    #16A34A;
 
   --red:          #F87171;
-  --red-soft:     #2D1212;
+  --red-soft:     #3A1A1A;
   --red-mid:      #EF4444;
 
   --amber:        #FBBF24;
-  --amber-soft:   #2D200A;
+  --amber-soft:   #3A2810;
   --amber-mid:    #F59E0B;
 
   --blue:         #60A5FA;
-  --blue-soft:    #0D1E3A;
+  --blue-soft:    #142040;
 
-  --shadow-sm:    0 1px 3px rgba(0,0,0,0.3);
-  --shadow-md:    0 4px 16px rgba(0,0,0,0.4);
-  --shadow-lg:    0 8px 32px rgba(0,0,0,0.5);
+  --shadow-sm:    0 1px 3px rgba(0,0,0,0.25);
+  --shadow-md:    0 4px 16px rgba(0,0,0,0.35);
+  --shadow-lg:    0 8px 32px rgba(0,0,0,0.45);
 }
 
 /* ============================================================
@@ -664,9 +664,14 @@ img { max-width: 100%; }
 
 .q-number-row .qn {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
-  color: var(--ink-muted);
-  letter-spacing: 0.06em;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+  background: var(--brand-soft);
+  border: 1px solid rgba(91,76,245,0.25);
+  padding: 4px 10px;
+  border-radius: 20px;
 }
 
 .q-toolbar-right {
@@ -812,8 +817,16 @@ img { max-width: 100%; }
 .q-footer button.primary:hover { background: var(--brand-dark); }
 .q-footer button.review { border-color: var(--amber); color: var(--amber); }
 .q-footer button.review:hover { background: var(--amber-soft); }
-.q-footer button.clear { color: var(--ink-muted); }
-.q-footer button.clear:hover { border-color: var(--red); color: var(--red); }
+.q-footer button.clear {
+  color: var(--red);
+  border-color: var(--red);
+  background: var(--red-soft);
+  font-weight: 700;
+}
+.q-footer button.clear:hover {
+  background: var(--red);
+  color: #fff;
+}
 
 /* ============================================================
    8. QUESTION PALETTE PANEL
@@ -939,6 +952,19 @@ img { max-width: 100%; }
 .legend { display: flex; flex-direction: column; gap: 6px; font-size: 11px; color: var(--ink-soft); margin-bottom: 16px; }
 .legend .row { display: flex; align-items: center; gap: 7px; }
 .legend .swatch { width: 12px; height: 12px; border-radius: 3px; border: 1px solid var(--border); flex-shrink: 0; }
+.legend-count {
+  margin-left: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1px 7px;
+  min-width: 22px;
+  text-align: center;
+}
 
 .submit-btn {
   width: 100%;
@@ -1395,8 +1421,23 @@ img { max-width: 100%; }
   .option { padding: 10px 11px; gap: 10px; }
   .option .bubble { width: 26px; height: 26px; min-width: 26px; font-size: 11px; }
   .option .otext { font-size: calc(13.5px * var(--font-scale)); }
-  .q-footer { gap: 6px; }
-  .q-footer button { flex: 1 1 calc(50% - 6px); padding: 9px 6px; font-size: 11.5px; }
+  .q-footer {
+    gap: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  /* Row 1: secondary action buttons side-by-side */
+  .q-footer button.clear  { grid-column: 1; grid-row: 1; }
+  .q-footer button.review { grid-column: 2; grid-row: 1; }
+  /* Row 2: navigation buttons — full width, large tap targets */
+  .q-footer button[data-action="prev"] { grid-column: 1; grid-row: 2; }
+  .q-footer button.primary            { grid-column: 2; grid-row: 2; }
+  .q-footer button {
+    padding: 13px 8px;
+    font-size: 12px;
+    min-height: 48px;
+  }
 
   /* Palette FAB + bottom sheet */
   .palette-fab { display: flex; }

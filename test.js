@@ -210,6 +210,10 @@ function renderExam() {
   const { current, answers, marked } = exam;
   const q = test.questions[current];
   const unanswered = answers.filter(a => a === null).length;
+  const countAnswered  = answers.filter((a, i) => a !== null && !marked[i]).length;
+  const countReview    = marked.filter(Boolean).length;
+  const countNotAns    = exam.visited.filter((v, i) => v && answers[i] === null).length;
+  const countNotVisit  = totalQ - exam.visited.filter(Boolean).length;
 
   const optionsHtml = q.options.map((opt, i) => `
     <div class="option ${answers[current] === i ? 'selected' : ''}" data-opt="${i}">
@@ -266,10 +270,10 @@ function renderExam() {
           }).join('')}
         </div>
         <div class="legend">
-          <div class="row"><span class="swatch" style="background:var(--green);border-color:var(--green)"></span> Answered</div>
-          <div class="row"><span class="swatch" style="background:var(--amber);border-color:var(--amber)"></span> Marked for review</div>
-          <div class="row"><span class="swatch" style="background:var(--red-soft);border-color:var(--red)"></span> Not answered</div>
-          <div class="row"><span class="swatch" style="background:var(--surface-alt);border-color:var(--border)"></span> Not visited</div>
+          <div class="row"><span class="swatch" style="background:var(--green);border-color:var(--green)"></span> Answered <span class="legend-count">${countAnswered}</span></div>
+          <div class="row"><span class="swatch" style="background:var(--amber);border-color:var(--amber)"></span> Marked for review <span class="legend-count">${countReview}</span></div>
+          <div class="row"><span class="swatch" style="background:var(--red-soft);border-color:var(--red)"></span> Not answered <span class="legend-count">${countNotAns}</span></div>
+          <div class="row"><span class="swatch" style="background:var(--surface-alt);border-color:var(--border)"></span> Not visited <span class="legend-count">${countNotVisit}</span></div>
         </div>
         <button class="submit-btn" data-action="submit">Submit Test</button>
         <button class="exit-btn" data-action="exit">Cancel / Exit Test</button>
