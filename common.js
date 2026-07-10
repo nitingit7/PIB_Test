@@ -279,53 +279,62 @@ function _showNotesGateModal(url) {
    Shown when user clicks Save & Next on the last question.
    ============================================================ */
 
-function showEndOfTestModal(onSubmit, onReview) {
-  const old = document.getElementById('end-test-overlay');
+function showSubmitModal(stats, onSubmit, onCancel) {
+  const old = document.getElementById('submit-modal-overlay');
   if (old) old.remove();
 
   const overlay = document.createElement('div');
-  overlay.id = 'end-test-overlay';
-  overlay.className = 'modal-overlay';
+  overlay.id = 'submit-modal-overlay';
+  overlay.className = 'submit-modal-overlay';
   overlay.setAttribute('role', 'dialog');
   overlay.setAttribute('aria-modal', 'true');
+  
   overlay.innerHTML = `
-    <div class="modal-box modal-box--narrow">
-      <div class="modal-eot-icon">&#10003;</div>
-      <div class="modal-header modal-header--center">
-        <div class="modal-title">Last Question Reached</div>
-        <div class="modal-sub">
-          You have answered or skipped all questions.<br>
-          What would you like to do next?
-        </div>
+    <div class="submit-modal-box">
+      <div class="sm-row">
+        <span class="sm-label">⏱ Time Left</span>
+        <span class="sm-val sm-blue">${stats.timeLeftStr}</span>
       </div>
-      <div class="modal-footer modal-footer--col">
-        <button id="eotSubmitBtn" class="instr-begin-btn" type="button">Submit Test</button>
-        <button id="eotReviewBtn" class="btn btn-ghost" type="button">Review Answers</button>
+      <div class="sm-row">
+        <span class="sm-label">✓ Attempted</span>
+        <span class="sm-val">${stats.attempted}</span>
+      </div>
+      <div class="sm-row">
+        <span class="sm-label">⊝ Unattempted</span>
+        <span class="sm-val">${stats.unattempted}</span>
+      </div>
+      <div class="sm-row">
+        <span class="sm-label">☆ Marked</span>
+        <span class="sm-val">${stats.marked}</span>
+      </div>
+      
+      <div class="sm-title">Are you sure you want to submit the test?</div>
+      
+      <div class="sm-actions">
+        <button id="smYesBtn" class="sm-btn sm-yes">Yes</button>
+        <button id="smNoBtn" class="sm-btn sm-no">No</button>
       </div>
     </div>
   `;
 
   document.body.appendChild(overlay);
   document.body.style.overflow = 'hidden';
-  requestAnimationFrame(() => overlay.classList.add('modal-visible'));
 
-  function closeEot() {
-    overlay.classList.remove('modal-visible');
-    setTimeout(() => {
-      overlay.remove();
-      document.body.style.overflow = '';
-    }, 220);
+  function closeModal() {
+    overlay.remove();
+    document.body.style.overflow = '';
   }
 
-  document.getElementById('eotSubmitBtn').addEventListener('click', () => {
-    closeEot();
+  document.getElementById('smYesBtn').addEventListener('click', () => {
+    closeModal();
     onSubmit();
   });
-  document.getElementById('eotReviewBtn').addEventListener('click', () => {
-    closeEot();
-    if (onReview) onReview();
+  
+  document.getElementById('smNoBtn').addEventListener('click', () => {
+    closeModal();
+    if(onCancel) onCancel();
   });
-
+}
   // Escape closes and stays on last question
   function onEsc(e) {
     if (e.key === 'Escape') {

@@ -217,7 +217,7 @@ function renderExam() {
 
   const optionsHtml = q.options.map((opt, i) => `
     <div class="option ${answers[current] === i ? 'selected' : ''}" data-opt="${i}">
-      <div class="bubble">${String.fromCharCode(65 + i)}</div>
+      <div class="opt-num"><i>${i + 1}.</i></div>
       <div class="otext">${opt}</div>
     </div>
   `).join('');
@@ -236,7 +236,7 @@ function renderExam() {
     <div class="exam-layout">
       <div class="q-panel">
         <div class="q-number-row">
-          <div class="qn">QUESTION ${current + 1} OF ${totalQ}</div>
+          <div class="qn-badge">${current + 1}</div>
           <div class="q-toolbar-right">
             <div class="qn">+${MARK_CORRECT} / −${MARK_NEGATIVE}</div>
             <div class="font-controls">
@@ -248,10 +248,10 @@ function renderExam() {
         <div class="q-text">${formatQuestionText(q.q)}</div>
         <div class="options">${optionsHtml}</div>
         <div class="q-footer">
-          <button class="clear" data-action="clear">Clear Response</button>
+          <button class="clear" data-action="clear" ${current === 0 ? 'style="display:none;"' : ''}>Clear Response</button>
           <button class="review" data-action="mark">${marked[current] ? 'Unmark Review' : 'Mark for Review'}</button>
-          <button data-action="prev" ${current === 0 ? 'disabled' : ''}>Previous</button>
-          <button class="primary" data-action="next">${current === totalQ - 1 ? 'Save' : 'Save & Next'}</button>
+          <button class="outline" data-action="prev" ${current === 0 ? 'style="display:none;"' : ''}>Previous</button>
+          <button class="primary" data-action="next">${current === totalQ - 1 ? 'Submit' : 'Save & Next'}</button>
         </div>
       </div>
       <div class="palette-panel">
@@ -311,26 +311,33 @@ function renderExam() {
   app.querySelector('[data-action="prev"]').addEventListener('click', () => {
     if (current > 0) { exam.current--; exam.visited[exam.current] = true; renderExam(); }
   });
-  app.querySelector('[data-action="next"]').addEventListener('click', () => {
-    if (current < totalQ - 1) {
-      exam.current++;
-      exam.visited[exam.current] = true;
-      renderExam();
-    } else {
-      // Last question — show end-of-test modal
-      showEndOfTestModal(
-        () => submitTest(false),           // Submit
-        () => { /* stay on last Q */ }      // Review
-      );
+  function getExamStats() {
+    const { answers, marked, visited, timeLeft } = exam;
+    const attempted = answers.filter((a, i) => a !== null && !marked[i]).length;
+    const countReview = marked.filter(Boolean).length;
+    const unattempted = totalQ - attempted - countReview;
+    return { timeLeftStr: fmtTime(timeLeft), attempted, unattempted, marked: countReview };
+  }
+
+  app.addEventListener('click', e => {
+    if (e.target.closest('[data-action="next"]')) {
+      if (exam.current < totalQ - 1) {
+        exam.current++;
+        exam.visited[exam.current] = true;
+        renderExam();
+      } else {
+        showSubmitModal(getExamStats(), () => submitTest(false), () => {});
+      }
     }
   });
-  app.querySelector('[data-action="submit"]').addEventListener('click', () => {
-    showEndOfTestModal(
-      () => submitTest(false),
-      () => { /* close modal, stay on current Q */ }
-    );
+
+  const subBtn = app.querySelector('[data-action="submit"]');
+  if(subBtn) subBtn.addEventListener('click', () => {
+    showSubmitModal(getExamStats(), () => submitTest(false), () => {});
   });
-  app.querySelector('[data-action="exit"]').addEventListener('click', exitToHome);
+  
+  const exitBtn = app.querySelector('[data-action="exit"]');
+  if(exitBtn) exitBtn.addEventListener('click', exitToHome);
 
   app.querySelector('[data-action="font-inc"]').addEventListener('click', () => {
     fontScale = Math.min(FONT_SCALE_MAX, +(fontScale + 0.1).toFixed(2));

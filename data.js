@@ -2410,4 +2410,595 @@ window.MOCK_TESTS = {
       }
     ]
   }
+    ,
+  "2026-07-10": {
+    "label": "10 July 2026",
+    "notes": "https://docs.google.com/document/d/1yCqtdRgGr7gAK0ORmPskoO_nQGuGuEw0WvTxdWp0_cA/edit?usp=sharing",
+    "questions": [
+  {
+    "q": "In July 2026, the Ministry of Education released the PGI 2.0-S report for the academic year 2025–26. In which year was the Performance Grading Index (PGI) first introduced in India?",
+    "options": [
+      "2017",
+      "2015",
+      "2018",
+      "2020"
+    ],
+    "answer": 0,
+    "explanation": "2017."
+  },
+  {
+    "q": "Which department under the Ministry of Education is the nodal agency responsible for undertaking the Performance Grading Index (PGI) reports?",
+    "options": [
+      "Department of School Education & Literacy (DoSEL)",
+      "Department of Higher Education",
+      "National Council of Educational Research and Training (NCERT)",
+      "University Grants Commission (UGC)"
+    ],
+    "answer": 0,
+    "explanation": "Department of School Education & Literacy (DoSEL)."
+  },
+  {
+    "q": "What is the total weightage and number of indicators used to evaluate the State/UT structure under the PGI 2.0 framework?",
+    "options": [
+      "Total weightage of 1000 points across 70 indicators",
+      "Total weightage of 1000 points across 50 indicators",
+      "Total weightage of 500 points across 70 indicators",
+      "Total weightage of 500 points across 50 indicators"
+    ],
+    "answer": 0,
+    "explanation": "Total weightage of 1000 points across 70 indicators."
+  },
+  {
+    "q": "Consider the following statements regarding the PGI 2.0-S and PGI-D reports for 2025–26:\n1. Not a single State or Union Territory (UT) secured the highest performance grade.\n2. The indicators of the index are grouped under two broad categories: Outcome, and Governance and Management.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "In July 2026, which Indian laboratory developed the country’s first indigenous process technology for the green refrigerant HFO-1234yf?",
+    "options": [
+      "CSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad",
+      "CSIR-National Chemical Laboratory (CSIR-NCL), Pune",
+      "CSIR-Central Drug Research Institute (CSIR-CDRI), Lucknow",
+      "Defence Research and Development Organisation (DRDO)"
+    ],
+    "answer": 0,
+    "explanation": "CSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad."
+  },
+  {
+    "q": "What class of chemical compounds will the newly developed indigenous HFO-1234yf replace in domestic refrigeration and air-conditioning systems?",
+    "options": [
+      "Hydrofluorocarbons (HFCs)",
+      "Chlorofluorocarbons (CFCs)",
+      "Hydrochlorofluorocarbons (HCFCs)",
+      "Perfluorocarbons (PFCs)"
+    ],
+    "answer": 0,
+    "explanation": "Hydrofluorocarbons (HFCs)."
+  },
+  {
+    "q": "The patented air-purification technology 'Smart Algal Liquid Tree' (SALT) has been developed by which CSIR institute?",
+    "options": [
+      "CSIR-Central Institute of Mining and Fuel Research (CSIR-CIMFR)",
+      "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI)",
+      "CSIR-Indian Institute of Toxicology Research (CSIR-IITR)",
+      "CSIR-Institute of Genomics and Integrative Biology (CSIR-IGIB)"
+    ],
+    "answer": 0,
+    "explanation": "CSIR-Central Institute of Mining and Fuel Research (CSIR-CIMFR)."
+  },
+  {
+    "q": "Consider the following statements regarding the \"Smart Algal Liquid Tree\" (SALT) technology:\n1. It is a mobile photobioreactor that uses microalgae to absorb carbon dioxide and release oxygen.\n2. It has been successfully installed at Northern Coalfields Limited (NCL) in Singrauli, Madhya Pradesh.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "In July 2026, Prime Minister Narendra Modi was conferred with the “Bintang Adipurna” (Medal of Honour). This is the highest civilian award of which of the following countries?",
+    "options": [
+      "Indonesia",
+      "Malaysia",
+      "Singapore",
+      "Thailand"
+    ],
+    "answer": 0,
+    "explanation": "Indonesia."
+  },
+  {
+    "q": "PM Narendra Modi visited Indonesia in July 2026 at the official invitation of the newly elected Indonesian President. Name the President.",
+    "options": [
+      "Prabowo Subianto",
+      "Joko Widodo",
+      "Megawati Sukarnoputri",
+      "Susilo Bambang Yudhoyono"
+    ],
+    "answer": 0,
+    "explanation": "Prabowo Subianto."
+  },
+  {
+    "q": "How many total Memorandums of Understanding (MoUs) and agreements were signed between India and Indonesia during PM Modi's state visit in July 2026?",
+    "options": [
+      "14 MoUs (with 20 total key outcomes, including 6 announcements)",
+      "10 MoUs (with 15 total key outcomes, including 5 announcements)",
+      "20 MoUs (with 25 total key outcomes, including 5 announcements)",
+      "12 MoUs (with 18 total key outcomes, including 6 announcements)"
+    ],
+    "answer": 0,
+    "explanation": "14 MoUs (with 20 total key outcomes, including 6 announcements)."
+  },
+  {
+    "q": "Consider the following statements regarding PM Modi's visit to Indonesia in July 2026:\n1. Bilateral talks were held between the two leaders at the Istana Merdeka in Jakarta.\n2. Among the 14 MoUs signed, strategic areas included space, healthcare, and critical minerals.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "In July 2026, which multinational company announced it would acquire the remaining 26% stake from Dabur Invest Corp. to become India's first fully foreign-owned life insurer?",
+    "options": [
+      "Aviva Plc (United Kingdom)",
+      "Prudential Financial",
+      "AIA Group",
+      "MetLife"
+    ],
+    "answer": 0,
+    "explanation": "Aviva Plc (United Kingdom)."
+  },
+  {
+    "q": "Following a landmark policy change in May 2026, the Government of India has allowed what percentage of Foreign Direct Investment (FDI) in the insurance sector?",
+    "options": [
+      "100% FDI",
+      "74% FDI",
+      "49% FDI",
+      "26% FDI"
+    ],
+    "answer": 0,
+    "explanation": "100% FDI."
+  },
+  {
+    "q": "Consider the following statements regarding Aviva India’s transition in July 2026:\n1. The acquisition will raise Aviva's shareholding in the company from the existing 74% to 100%.\n2. This transaction ends an association of more than 20 years between Aviva and Dabur Invest Corp.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "According to the IMF's World Economic Outlook Update released in July 2026, what is India's projected GDP growth rate for the Financial Year 2026-27 (FY27)?",
+    "options": [
+      "6.4%",
+      "6.7%",
+      "7.0%",
+      "7.2%"
+    ],
+    "answer": 0,
+    "explanation": "6.4%."
+  },
+  {
+    "q": "What is the official title of the IMF World Economic Outlook (WEO) Update published in July 2026?",
+    "options": [
+      "Global Economy in Crosscurrents of War and Technology",
+      "Navigating Global Divergences",
+      "A Rocky Recovery",
+      "Countering the Cost-of-Living Crisis"
+    ],
+    "answer": 0,
+    "explanation": "Global Economy in Crosscurrents of War and Technology."
+  },
+  {
+    "q": "According to the July 2026 IMF update, what was the actual GDP growth rate achieved by India during the financial year ending March 2026 (FY26)?",
+    "options": [
+      "7.7%",
+      "7.2%",
+      "8.0%",
+      "6.8%"
+    ],
+    "answer": 0,
+    "explanation": "7.7%."
+  },
+  {
+    "q": "Consider the following statements regarding the IMF's July 2026 World Economic Outlook Update:\n1. The IMF projected India's economy to grow by 6.7% in FY28, which is higher than its previous projection.\n2. Global headline inflation is projected to rise to 4.7% in 2026 before easing to 3.9% in 2027.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "In July 2026, the Asian Development Bank (ADB) lowered India’s GDP growth forecast for the Financial Year 2026–27 (FY27) to what percentage?",
+    "options": [
+      "6.6%",
+      "6.8%",
+      "7.0%",
+      "6.4%"
+    ],
+    "answer": 0,
+    "explanation": "6.6%."
+  },
+  {
+    "q": "Citing higher global oil prices and a weaker rupee, the ADB raised India's FY27 inflation forecast to which of the following figures?",
+    "options": [
+      "5.2% (up from 4.5%)",
+      "5.5% (up from 4.8%)",
+      "4.8% (up from 4.2%)",
+      "6.0% (up from 5.5%)"
+    ],
+    "answer": 0,
+    "explanation": "5.2% (up from 4.5%)."
+  },
+  {
+    "q": "According to the July 2026 ADB Economic Outlook, what is the retained GDP growth forecast for India for the Financial Year 2027–28 (FY28)?",
+    "options": [
+      "7.3%",
+      "7.0%",
+      "7.5%",
+      "7.8%"
+    ],
+    "answer": 0,
+    "explanation": "7.3%."
+  },
+  {
+    "q": "Consider the following statements regarding the July 2026 ADB India Economic Outlook:\n1. High energy prices squeezing household incomes was cited as a major reason for lowering the FY27 GDP growth forecast.\n2. The 2026 growth forecast for South Asia was revised down to 6.0% from 6.3%.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "In July 2026, who among the following former Indian tennis players was appointed as the Player Ambassador of the Asian Tennis Federation (ATF)?",
+    "options": [
+      "Leander Paes",
+      "Mahesh Bhupathi",
+      "Somdev Devvarman",
+      "Rohan Bopanna"
+    ],
+    "answer": 0,
+    "explanation": "Leander Paes."
+  },
+  {
+    "q": "Legendary tennis player Leander Paes won an Olympic bronze medal in men's singles in 1996. Which city hosted these Olympic Games?",
+    "options": [
+      "Atlanta, USA",
+      "Sydney, Australia",
+      "Barcelona, Spain",
+      "Athens, Greece"
+    ],
+    "answer": 0,
+    "explanation": "Atlanta, USA."
+  },
+  {
+    "q": "In which year was Leander Paes inducted into the International Tennis Hall of Fame under the player category?",
+    "options": [
+      "2024",
+      "2022",
+      "2025",
+      "2020"
+    ],
+    "answer": 0,
+    "explanation": "2024."
+  },
+  {
+    "q": "Consider the following statements regarding the awards received by Leander Paes:\n1. He received India's highest sporting honor, the Rajiv Gandhi Khel Ratna Award (now Major Dhyan Chand Khel Ratna Award), in 1996–97.\n2. He was conferred with the Padma Bhushan, India's third-highest civilian award, in the year 2014.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "Who became India's 98th Chess Grandmaster in July 2026?",
+    "options": [
+      "Aswath S",
+      "R Praggnanandhaa",
+      "D Gukesh",
+      "Nihal Sarin"
+    ],
+    "answer": 0,
+    "explanation": "Aswath S."
+  },
+  {
+    "q": "India's 98th Grandmaster, Aswath S, hails from which Indian state?",
+    "options": [
+      "Tamil Nadu",
+      "Maharashtra",
+      "Kerala",
+      "Karnataka"
+    ],
+    "answer": 0,
+    "explanation": "Tamil Nadu."
+  },
+  {
+    "q": "At which tournament did Aswath S secure his third and final Grandmaster norm to seal the title?",
+    "options": [
+      "Pune International Grandmaster Round Robin Tournament",
+      "Chennai Open Grandmaster Tournament",
+      "Delhi International Chess Festival",
+      "Tata Steel Chess India"
+    ],
+    "answer": 0,
+    "explanation": "Pune International Grandmaster Round Robin Tournament."
+  },
+  {
+    "q": "Aswath S achieved his first Grandmaster norm in April 2025 by winning which international tournament?",
+    "options": [
+      "Grenke Open A in Germany",
+      "Reykjavik Open in Iceland",
+      "Gibraltar Chess Festival",
+      "Dubai Open Chess Tournament"
+    ],
+    "answer": 0,
+    "explanation": "Grenke Open A in Germany."
+  },
+  {
+    "q": "Which opponent did Aswath S defeat with black pieces in the final round of the Pune tournament to secure his Grandmaster title?",
+    "options": [
+      "FIDE Master (FM) Kannan Vaidyanathan of the USA",
+      "Grandmaster (GM) Alexander Motylev",
+      "International Master (IM) P Shyaamnikhil",
+      "FIDE Master (FM) Prraneeth Vuppala"
+    ],
+    "answer": 0,
+    "explanation": "FIDE Master (FM) Kannan Vaidyanathan of the USA."
+  },
+  {
+    "q": "Who won the 2026 Formula One Pirelli British Grand Prix held at the Silverstone Circuit?",
+    "options": [
+      "Charles Leclerc",
+      "Max Verstappen",
+      "Lando Norris",
+      "Carlos Sainz"
+    ],
+    "answer": 0,
+    "explanation": "Charles Leclerc."
+  },
+  {
+    "q": "Formula One driver Charles Leclerc, who secured his first victory of the 2026 season at the British GP, represents which country and racing team?",
+    "options": [
+      "Monaco and Ferrari",
+      "Spain and Ferrari",
+      "Britain and Mercedes",
+      "Netherlands and Red Bull"
+    ],
+    "answer": 0,
+    "explanation": "Monaco and Ferrari."
+  },
+  {
+    "q": "Who secured second and third places respectively at the 2026 F1 British Grand Prix?",
+    "options": [
+      "George Russell (Mercedes) and Lewis Hamilton (Ferrari)",
+      "Max Verstappen (Red Bull) and Lando Norris (McLaren)",
+      "Carlos Sainz (Ferrari) and Sergio Perez (Red Bull)",
+      "Oscar Piastri (McLaren) and Fernando Alonso (Aston Martin)"
+    ],
+    "answer": 0,
+    "explanation": "George Russell (Mercedes) and Lewis Hamilton (Ferrari)."
+  },
+  {
+    "q": "Which state has been announced as the host for the 8th Khelo India Youth Games (KIYG) scheduled for November 2026?",
+    "options": [
+      "Telangana",
+      "Karnataka",
+      "Gujarat",
+      "Odisha"
+    ],
+    "answer": 0,
+    "explanation": "Telangana."
+  },
+  {
+    "q": "Who is the current Union Minister of Youth Affairs and Sports who announced the hosting of the 8th KIYG?",
+    "options": [
+      "Mansukh Mandaviya",
+      "Anurag Thakur",
+      "Kiren Rijiju",
+      "Jyotiraditya Scindia"
+    ],
+    "answer": 0,
+    "explanation": "Mansukh Mandaviya."
+  },
+  {
+    "q": "Which state won the overall championship title at the 7th edition of the Khelo India Youth Games held in Bihar?",
+    "options": [
+      "Maharashtra",
+      "Haryana",
+      "Tamil Nadu",
+      "Punjab"
+    ],
+    "answer": 0,
+    "explanation": "Maharashtra."
+  },
+  {
+    "q": "In which year was the flagship Khelo India Programme launched by the central government?",
+    "options": [
+      "2018",
+      "2016",
+      "2020",
+      "2014"
+    ],
+    "answer": 0,
+    "explanation": "2018."
+  },
+  {
+    "q": "Which two states finished second and third in the overall medal tally behind Maharashtra at the 7th Khelo India Youth Games?",
+    "options": [
+      "Haryana and Rajasthan respectively",
+      "Tamil Nadu and Karnataka respectively",
+      "Delhi and Punjab respectively",
+      "Kerala and Gujarat respectively"
+    ],
+    "answer": 0,
+    "explanation": "Haryana and Rajasthan respectively."
+  },
+  {
+    "q": "Which Union Ministry oversees the Department for Promotion of Industry and Internal Trade (DPIIT), which recently issued amendments to the Footwear Quality Control Orders?",
+    "options": [
+      "Ministry of Commerce & Industry",
+      "Ministry of Micro, Small and Medium Enterprises",
+      "Ministry of Consumer Affairs, Food and Public Distribution",
+      "Ministry of Textiles"
+    ],
+    "answer": 0,
+    "explanation": "Ministry of Commerce & Industry."
+  },
+  {
+    "q": "What is the maximum number of footwear samples that a manufacturer can import annually for Research and Development (R&D) purposes under the latest DPIIT amendments?",
+    "options": [
+      "Up to 4,500 pairs per year",
+      "Up to 2,000 pairs per year",
+      "Up to 1,000 pairs per year",
+      "Up to 5,000 pairs per year"
+    ],
+    "answer": 0,
+    "explanation": "Up to 4,500 pairs per year."
+  },
+  {
+    "q": "Consider the following statements regarding the July 2026 Footwear QCO amendments:\n1. Imported R&D samples are allowed to be sold commercially after a period of one year.\n2. All imported footwear samples must be embossed with the words \"NOT FOR SALE\" and disposed of as scrap after evaluation.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 1,
+    "explanation": "Only 2 is correct."
+  },
+  {
+    "q": "In July 2026, India signed an agreement with which country to grant its patent office access to India's Traditional Knowledge Digital Library (TKDL)?",
+    "options": [
+      "Australia",
+      "United States",
+      "United Kingdom",
+      "Germany"
+    ],
+    "answer": 0,
+    "explanation": "Australia."
+  },
+  {
+    "q": "In which year was the Traditional Knowledge Digital Library (TKDL) established by the Government of India?",
+    "options": [
+      "2001",
+      "1998",
+      "2005",
+      "2010"
+    ],
+    "answer": 0,
+    "explanation": "2001."
+  },
+  {
+    "q": "The Traditional Knowledge Digital Library (TKDL) is a collaborative initiative between the Council of Scientific and Industrial Research (CSIR) and which Union Ministry?",
+    "options": [
+      "Ministry of AYUSH",
+      "Ministry of Health and Family Welfare",
+      "Ministry of Science and Technology",
+      "Ministry of Culture"
+    ],
+    "answer": 0,
+    "explanation": "Ministry of AYUSH."
+  },
+  {
+    "q": "How many international languages are used to translate the database formulations in the TKDL?",
+    "options": [
+      "Five languages (English, German, French, Japanese, and Spanish)",
+      "Three languages (English, French, and Spanish)",
+      "Six languages (English, German, French, Japanese, Spanish, and Russian)",
+      "Four languages (English, French, Spanish, and Mandarin)"
+    ],
+    "answer": 0,
+    "explanation": "Five languages (English, German, French, Japanese, and Spanish)."
+  },
+  {
+    "q": "Consider the following statements regarding the CSIR-TKDL database:\n1. It contains information on over 5.2 lakh formulations and practices across systems like Ayurveda, Siddha, Unani, Sowa Rigpa, and Yoga.\n2. Following the agreement with IP Australia, a total of 18 patent offices globally now have access to the database under Non-Disclosure Agreements.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  },
+  {
+    "q": "The \"Land Border Districts’ Superintendents of Police Conference-2026,\" which institutionalized a comprehensive approach to border security, was hosted in which city?",
+    "options": [
+      "New Delhi",
+      "Guwahati",
+      "Srinagar",
+      "Chandigarh"
+    ],
+    "answer": 0,
+    "explanation": "New Delhi."
+  },
+  {
+    "q": "How many kilometers of the India-Myanmar border is the Government of India planning to fence under the strategic plan highlighted in July 2026?",
+    "options": [
+      "1,610 km",
+      "1,200 km",
+      "2,500 km",
+      "800 km"
+    ],
+    "answer": 0,
+    "explanation": "1,610 km."
+  },
+  {
+    "q": "What is the total estimated cost allocated for the complete fencing of the India-Myanmar border?",
+    "options": [
+      "₹31,000 crore",
+      "₹25,000 crore",
+      "₹40,000 crore",
+      "₹15,000 crore"
+    ],
+    "answer": 0,
+    "explanation": "₹31,000 crore."
+  },
+  {
+    "q": "Under which specific central initiative is the development of border regions prioritized by designating the \"last village\" of the country as the \"first village\"?",
+    "options": [
+      "Vibrant Villages Programme (VVP)",
+      "Border Area Development Programme (BADP)",
+      "PM-DevINE",
+      "Swadesh Darshan Scheme"
+    ],
+    "answer": 0,
+    "explanation": "Vibrant Villages Programme (VVP)."
+  },
+  {
+    "q": "Consider the following statements regarding the decisions highlighted at the Land Border Districts’ SP Conference-2026:\n1. The government has increased investment in border infrastructure by 400 percent.\n2. The Demography Mission has been launched to study demographic changes, identifying illegal infiltration as the primary cause of these shifts in border areas.",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "Both 1 and 2 are correct",
+      "Neither 1 nor 2 is correct"
+    ],
+    "answer": 2,
+    "explanation": "Both 1 and 2 are correct."
+  }
+]
+
+  }
 };
