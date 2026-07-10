@@ -334,12 +334,12 @@ function showSubmitModal(stats, onSubmit, onCancel) {
     closeModal();
     if(onCancel) onCancel();
   });
-}
-  // Escape closes and stays on last question
+
+  // Escape closes and stays on current question
   function onEsc(e) {
     if (e.key === 'Escape') {
-      closeEot();
-      if (onReview) onReview();
+      closeModal();
+      if (onCancel) onCancel();
       document.removeEventListener('keydown', onEsc);
     }
   }

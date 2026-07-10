@@ -319,8 +319,9 @@ function renderExam() {
     return { timeLeftStr: fmtTime(timeLeft), attempted, unattempted, marked: countReview };
   }
 
-  app.addEventListener('click', e => {
-    if (e.target.closest('[data-action="next"]')) {
+  const nextBtn = app.querySelector('[data-action="next"]');
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
       if (exam.current < totalQ - 1) {
         exam.current++;
         exam.visited[exam.current] = true;
@@ -328,8 +329,8 @@ function renderExam() {
       } else {
         showSubmitModal(getExamStats(), () => submitTest(false), () => {});
       }
-    }
-  });
+    });
+  }
 
   const subBtn = app.querySelector('[data-action="submit"]');
   if(subBtn) subBtn.addEventListener('click', () => {
