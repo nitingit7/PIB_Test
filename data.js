@@ -1458,585 +1458,585 @@ window.MOCK_TESTS = {
             {
                 "q": "In July 2026, the Ministry of Education released the PGI 2.0-S report for the academic year 2025\u201326. In which year was the Performance Grading Index (PGI) first introduced in India?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "2015",
+                    "2017",
+                    "2019",
+                    "2016"
                 ],
-                "answer": 0,
-                "explanation": "2017."
+                "answer": 1,
+                "explanation": "Answer: 2017."
             },
             {
                 "q": "Which department under the Ministry of Education is the nodal agency responsible for undertaking the Performance Grading Index (PGI) reports?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Department of School Education & Literacy (DoSEL)",
+                    "Department of Higher Education",
+                    "NITI Aayog",
+                    "National Council of Educational Research and Training (NCERT)"
                 ],
                 "answer": 0,
-                "explanation": "Department of School Education & Literacy (DoSEL)."
+                "explanation": "Answer: Department of School Education & Literacy (DoSEL)."
             },
             {
                 "q": "What is the total weightage and number of indicators used to evaluate the State/UT structure under the PGI 2.0 framework?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
-                ],
-                "answer": 0,
-                "explanation": "Total weightage of 1000 points across 70 indicators."
-            },
-            {
-                "q": "Consider the following statements regarding the PGI 2.0-S and PGI-D reports for 2025\u201326:\nNot a single State or Union Territory (UT) secured the highest performance grade.\nThe indicators of the index are grouped under two broad categories: Outcome, and Governance and Management. \nWhich of the statements given above is/are correct?",
-                "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Total weightage of 1000 points across 100 indicators",
+                    "Total weightage of 1200 points across 80 indicators",
+                    "Total weightage of 1000 points across 70 indicators",
+                    "Total weightage of 800 points across 60 indicators"
                 ],
                 "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "explanation": "Answer: Total weightage of 1000 points across 70 indicators."
+            },
+            {
+                "q": "Consider the following statements regarding the PGI 2.0-S and PGI-D reports for 2025\u201326:\n1. Not a single State or Union Territory (UT) secured the highest performance grade.\n2. The indicators of the index are grouped under two broad categories: Outcome, and Governance and Management.\nWhich of the statements given above is/are correct?",
+                "options": [
+                    "Both 1 and 2",
+                    "Only 1",
+                    "Neither 1 nor 2",
+                    "Only 2"
+                ],
+                "answer": 0,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "In July 2026, which Indian laboratory developed the country\u2019s first indigenous process technology for the green refrigerant HFO-1234yf?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "CSIR-National Chemical Laboratory (CSIR-NCL), Pune",
+                    "Defence Research and Development Organisation (DRDO), Delhi",
+                    "CSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad",
+                    "Indian Institute of Science (IISc), Bengaluru"
                 ],
-                "answer": 0,
-                "explanation": "CSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad."
+                "answer": 2,
+                "explanation": "Answer: CSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad."
             },
             {
                 "q": "What class of chemical compounds will the newly developed indigenous HFO-1234yf replace in domestic refrigeration and air-conditioning systems?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Hydrochlorofluorocarbons (HCFCs)",
+                    "Perfluorocarbons (PFCs)",
+                    "Chlorofluorocarbons (CFCs)",
+                    "Hydrofluorocarbons (HFCs)"
                 ],
-                "answer": 0,
-                "explanation": "Hydrofluorocarbons (HFCs)."
+                "answer": 3,
+                "explanation": "Answer: Hydrofluorocarbons (HFCs)."
             },
             {
                 "q": "The patented air-purification technology 'Smart Algal Liquid Tree' (SALT) has been developed by which CSIR institute?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
-                ],
-                "answer": 0,
-                "explanation": "CSIR-Central Institute of Mining and Fuel Research (CSIR-CIMFR)."
-            },
-            {
-                "q": "Consider the following statements regarding the \"Smart Algal Liquid Tree\" (SALT) technology:\nIt is a mobile photobioreactor that uses microalgae to absorb carbon dioxide and release oxygen.\nIt has been successfully installed at Northern Coalfields Limited (NCL) in Singrauli, Madhya Pradesh. \nWhich of the statements given above is/are correct?",
-                "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "CSIR-Central Leather Research Institute (CSIR-CLRI)",
+                    "CSIR-Indian Institute of Toxicology Research (CSIR-IITR)",
+                    "CSIR-Central Institute of Mining and Fuel Research (CSIR-CIMFR)",
+                    "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI)"
                 ],
                 "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "explanation": "Answer: CSIR-Central Institute of Mining and Fuel Research (CSIR-CIMFR)."
+            },
+            {
+                "q": "Consider the following statements regarding the \"Smart Algal Liquid Tree\" (SALT) technology:\n1. It is a mobile photobioreactor that uses microalgae to absorb carbon dioxide and release oxygen.\n2. It has been successfully installed at Northern Coalfields Limited (NCL) in Singrauli, Madhya Pradesh.\nWhich of the statements given above is/are correct?",
+                "options": [
+                    "Only 2",
+                    "Neither 1 nor 2",
+                    "Only 1",
+                    "Both 1 and 2"
+                ],
+                "answer": 3,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "In July 2026, Prime Minister Narendra Modi was conferred with the \u201cBintang Adipurna\u201d (Medal of Honour). This is the highest civilian award of which of the following countries?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Malaysia",
+                    "Indonesia",
+                    "Singapore",
+                    "Brunei"
                 ],
-                "answer": 0,
-                "explanation": "Indonesia."
+                "answer": 1,
+                "explanation": "Answer: Indonesia."
             },
             {
                 "q": "PM Narendra Modi visited Indonesia in July 2026 at the official invitation of the newly elected Indonesian President. Name the President.",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Megawati Sukarnoputri",
+                    "Prabowo Subianto",
+                    "Susilo Bambang Yudhoyono",
+                    "Joko Widodo"
                 ],
-                "answer": 0,
-                "explanation": "Prabowo Subianto."
+                "answer": 1,
+                "explanation": "Answer: Prabowo Subianto."
             },
             {
                 "q": "How many total Memorandums of Understanding (MoUs) and agreements were signed between India and Indonesia during PM Modi's state visit in July 2026?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
-                ],
-                "answer": 0,
-                "explanation": "14 MoUs (with 20 total key outcomes, including 6 announcements)."
-            },
-            {
-                "q": "Consider the following statements regarding PM Modi's visit to Indonesia in July 2026:\nBilateral talks were held between the two leaders at the Istana Merdeka in Jakarta.\nAmong the 14 MoUs signed, strategic areas included space, healthcare, and critical minerals. \nWhich of the statements given above is/are correct?",
-                "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "10 MoUs",
+                    "12 MoUs",
+                    "14 MoUs",
+                    "18 MoUs"
                 ],
                 "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "explanation": "Answer: 14 MoUs (with 20 total key outcomes, including 6 announcements)."
+            },
+            {
+                "q": "Consider the following statements regarding PM Modi's visit to Indonesia in July 2026:\n1. Bilateral talks were held between the two leaders at the Istana Merdeka in Jakarta.\n2. Among the 14 MoUs signed, strategic areas included space, healthcare, and critical minerals.\nWhich of the statements given above is/are correct?",
+                "options": [
+                    "Both 1 and 2",
+                    "Only 1",
+                    "Only 2",
+                    "Neither 1 nor 2"
+                ],
+                "answer": 0,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "In July 2026, which multinational company announced it would acquire the remaining 26% stake from Dabur Invest Corp. to become India's first fully foreign-owned life insurer?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "AIA Group",
+                    "Prudential Financial",
+                    "MetLife",
+                    "Aviva Plc"
                 ],
-                "answer": 0,
-                "explanation": "Aviva Plc (United Kingdom)."
+                "answer": 3,
+                "explanation": "Answer: Aviva Plc (United Kingdom)."
             },
             {
                 "q": "Following a landmark policy change in May 2026, the Government of India has allowed what percentage of Foreign Direct Investment (FDI) in the insurance sector?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
-                ],
-                "answer": 0,
-                "explanation": "100% FDI."
-            },
-            {
-                "q": "Consider the following statements regarding Aviva India\u2019s transition in July 2026:\nThe acquisition will raise Aviva's shareholding in the company from the existing 74% to 100%.\nThis transaction ends an association of more than 20 years between Aviva and Dabur Invest Corp. \nWhich of the statements given above is/are correct?",
-                "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "51% FDI",
+                    "49% FDI",
+                    "100% FDI",
+                    "74% FDI"
                 ],
                 "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "explanation": "Answer: 100% FDI."
+            },
+            {
+                "q": "Consider the following statements regarding Aviva India\u2019s transition in July 2026:\n1. The acquisition will raise Aviva's shareholding in the company from the existing 74% to 100%.\n2. This transaction ends an association of more than 20 years between Aviva and Dabur Invest Corp.\nWhich of the statements given above is/are correct?",
+                "options": [
+                    "Only 1",
+                    "Only 2",
+                    "Neither 1 nor 2",
+                    "Both 1 and 2"
+                ],
+                "answer": 3,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "According to the IMF's World Economic Outlook Update released in July 2026, what is India's projected GDP growth rate for the Financial Year 2026-27 (FY27)?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "6.4%",
+                    "6.7%",
+                    "7.0%",
+                    "6.1%"
                 ],
                 "answer": 0,
-                "explanation": "6.4%."
+                "explanation": "Answer: 6.4%."
             },
             {
                 "q": "What is the official title of the IMF World Economic Outlook (WEO) Update published in July 2026?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "A Rocky Recovery",
+                    "Global Economy in Crosscurrents of War and Technology",
+                    "Resilience Amidst Global Challenges",
+                    "Navigating Global Divergences"
                 ],
-                "answer": 0,
-                "explanation": "\"Global Economy in Crosscurrents of War and Technology\"."
+                "answer": 1,
+                "explanation": "Answer: \"Global Economy in Crosscurrents of War and Technology\"."
             },
             {
                 "q": "According to the July 2026 IMF update, what was the actual GDP growth rate achieved by India during the financial year ending March 2026 (FY26)?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "7.2%",
+                    "7.7%",
+                    "8.2%",
+                    "6.8%"
                 ],
-                "answer": 0,
-                "explanation": "7.7%."
+                "answer": 1,
+                "explanation": "Answer: 7.7%."
             },
             {
-                "q": "Consider the following statements regarding the IMF's July 2026 World Economic Outlook Update:\nThe IMF projected India's economy to grow by 6.7% in FY28, which is higher than its previous projection.\nGlobal headline inflation is projected to rise to 4.7% in 2026 before easing to 3.9% in 2027. \nWhich of the statements given above is/are correct?",
+                "q": "Consider the following statements regarding the IMF's July 2026 World Economic Outlook Update:\n1. The IMF projected India's economy to grow by 6.7% in FY28, which is higher than its previous projection.\n2. Global headline inflation is projected to rise to 4.7% in 2026 before easing to 3.9% in 2027.\nWhich of the statements given above is/are correct?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Only 1",
+                    "Both 1 and 2",
+                    "Neither 1 nor 2",
+                    "Only 2"
                 ],
-                "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "answer": 1,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "In July 2026, the Asian Development Bank (ADB) lowered India\u2019s GDP growth forecast for the Financial Year 2026\u201327 (FY27) to what percentage?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "6.6%",
+                    "6.8%",
+                    "6.4%",
+                    "7.0%"
                 ],
                 "answer": 0,
-                "explanation": "6.6%."
+                "explanation": "Answer: 6.6%."
             },
             {
                 "q": "Citing higher global oil prices and a weaker rupee, the ADB raised India's FY27 inflation forecast to which of the following figures?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "5.5%",
+                    "5.0%",
+                    "4.8%",
+                    "5.2%"
                 ],
-                "answer": 0,
-                "explanation": "5.2% (up from 4.5%)."
+                "answer": 3,
+                "explanation": "Answer: 5.2% (up from 4.5%)."
             },
             {
                 "q": "According to the July 2026 ADB Economic Outlook, what is the retained GDP growth forecast for India for the Financial Year 2027\u201328 (FY28)?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
-                ],
-                "answer": 0,
-                "explanation": "7.3%."
-            },
-            {
-                "q": "Consider the following statements regarding the July 2026 ADB India Economic Outlook:\nHigh energy prices squeezing household incomes was cited as a major reason for lowering the FY27 GDP growth forecast.\nThe 2026 growth forecast for South Asia was revised down to 6.0% from 6.3%. \nWhich of the statements given above is/are correct?",
-                "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "7.5%",
+                    "7.0%",
+                    "7.3%",
+                    "7.1%"
                 ],
                 "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "explanation": "Answer: 7.3%."
+            },
+            {
+                "q": "Consider the following statements regarding the July 2026 ADB India Economic Outlook:\n1. High energy prices squeezing household incomes was cited as a major reason for lowering the FY27 GDP growth forecast.\n2. The 2026 growth forecast for South Asia was revised down to 6.0% from 6.3%.\nWhich of the statements given above is/are correct?",
+                "options": [
+                    "Neither 1 nor 2",
+                    "Only 1",
+                    "Both 1 and 2",
+                    "Only 2"
+                ],
+                "answer": 2,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "In July 2026, who among the following former Indian tennis players was appointed as the Player Ambassador of the Asian Tennis Federation (ATF)?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Leander Paes",
+                    "Somdev Devvarman",
+                    "Mahesh Bhupathi",
+                    "Rohan Bopanna"
                 ],
                 "answer": 0,
-                "explanation": "Leander Paes."
+                "explanation": "Answer: Leander Paes."
             },
             {
                 "q": "Legendary tennis player Leander Paes won an Olympic bronze medal in men's singles in 1996. Which city hosted these Olympic Games?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Atlanta, USA",
+                    "Athens, Greece",
+                    "Barcelona, Spain",
+                    "Sydney, Australia"
                 ],
                 "answer": 0,
-                "explanation": "Atlanta, USA."
+                "explanation": "Answer: Atlanta, USA."
             },
             {
                 "q": "In which year was Leander Paes inducted into the International Tennis Hall of Fame under the player category?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "2024",
+                    "2023",
+                    "2025",
+                    "2022"
                 ],
                 "answer": 0,
-                "explanation": "2024."
+                "explanation": "Answer: 2024."
             },
             {
-                "q": "Consider the following statements regarding the awards received by Leander Paes:\nHe received India's highest sporting honor, the Rajiv Gandhi Khel Ratna Award (now Major Dhyan Chand Khel Ratna Award), in 1996\u201397.\nHe was conferred with the Padma Bhushan, India's third-highest civilian award, in the year 2014. \nWhich of the statements given above is/are correct?",
+                "q": "Consider the following statements regarding the awards received by Leander Paes:\n1. He received India's highest sporting honor, the Rajiv Gandhi Khel Ratna Award (now Major Dhyan Chand Khel Ratna Award), in 1996\u201397.\n2. He was conferred with the Padma Bhushan, India's third-highest civilian award, in the year 2014.\nWhich of the statements given above is/are correct?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Only 2",
+                    "Only 1",
+                    "Neither 1 nor 2",
+                    "Both 1 and 2"
                 ],
-                "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "answer": 3,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "Who became India's 98th Chess Grandmaster in July 2026?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Aswath S",
+                    "Pranav V",
+                    "Bharath Subramaniyam",
+                    "Aditya Samant"
                 ],
                 "answer": 0,
-                "explanation": "Aswath S."
+                "explanation": "Answer: Aswath S."
             },
             {
                 "q": "India's 98th Grandmaster, Aswath S, hails from which Indian state?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Kerala",
+                    "Karnataka",
+                    "Maharashtra",
+                    "Tamil Nadu"
                 ],
-                "answer": 0,
-                "explanation": "Tamil Nadu."
+                "answer": 3,
+                "explanation": "Answer: Tamil Nadu."
             },
             {
                 "q": "At which tournament did Aswath S secure his third and final Grandmaster norm to seal the title?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Kolkata Open",
+                    "Chennai Grand Masters",
+                    "Pune International Grandmaster Round Robin Tournament",
+                    "Delhi International Open"
                 ],
-                "answer": 0,
-                "explanation": "Pune International Grandmaster Round Robin Tournament."
+                "answer": 2,
+                "explanation": "Answer: Pune International Grandmaster Round Robin Tournament."
             },
             {
                 "q": "Aswath S achieved his first Grandmaster norm in April 2025 by winning which international tournament?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Grenke Open A in Germany",
+                    "Aeroflot Open",
+                    "Gibraltar Chess Festival",
+                    "Dubai Open"
                 ],
                 "answer": 0,
-                "explanation": "Grenke Open A in Germany."
+                "explanation": "Answer: Grenke Open A in Germany."
             },
             {
                 "q": "Which opponent did Aswath S defeat with black pieces in the final round of the Pune tournament to secure his Grandmaster title?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "FIDE Master (FM) Kannan Vaidyanathan",
+                    "GM Rameshbabu Praggnanandhaa",
+                    "GM Hans Niemann",
+                    "IM Levy Rozman"
                 ],
                 "answer": 0,
-                "explanation": "FIDE Master (FM) Kannan Vaidyanathan of the USA."
+                "explanation": "Answer: FIDE Master (FM) Kannan Vaidyanathan of the USA."
             },
             {
                 "q": "Who won the 2026 Formula One Pirelli British Grand Prix held at the Silverstone Circuit?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Charles Leclerc",
+                    "Lando Norris",
+                    "Max Verstappen",
+                    "Lewis Hamilton"
                 ],
                 "answer": 0,
-                "explanation": "Charles Leclerc."
+                "explanation": "Answer: Charles Leclerc."
             },
             {
                 "q": "Formula One driver Charles Leclerc, who secured his first victory of the 2026 season at the British GP, represents which country and racing team?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Monaco and Ferrari",
+                    "Spain and Aston Martin",
+                    "United Kingdom and McLaren",
+                    "France and Alpine"
                 ],
                 "answer": 0,
-                "explanation": "Monaco and Ferrari."
+                "explanation": "Answer: Monaco and Ferrari."
             },
             {
                 "q": "Who secured second and third places respectively at the 2026 F1 British Grand Prix?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Carlos Sainz and Fernando Alonso",
+                    "George Russell and Lewis Hamilton",
+                    "Max Verstappen and Sergio Perez",
+                    "Lando Norris and Oscar Piastri"
                 ],
-                "answer": 0,
-                "explanation": "George Russell (Mercedes) and Lewis Hamilton (Ferrari)."
+                "answer": 1,
+                "explanation": "Answer: George Russell (Mercedes) and Lewis Hamilton (Ferrari)."
             },
             {
                 "q": "Which state has been announced as the host for the 8th Khelo India Youth Games (KIYG) scheduled for November 2026?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Uttar Pradesh",
+                    "Maharashtra",
+                    "Gujarat",
+                    "Telangana"
                 ],
-                "answer": 0,
-                "explanation": "Telangana."
+                "answer": 3,
+                "explanation": "Answer: Telangana."
             },
             {
                 "q": "Who is the current Union Minister of Youth Affairs and Sports who announced the hosting of the 8th KIYG?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Kiren Rijiju",
+                    "Rajyavardhan Singh Rathore",
+                    "Anurag Thakur",
+                    "Mansukh Mandaviya"
                 ],
-                "answer": 0,
-                "explanation": "Mansukh Mandaviya."
+                "answer": 3,
+                "explanation": "Answer: Mansukh Mandaviya."
             },
             {
                 "q": "Which state won the overall championship title at the 7th edition of the Khelo India Youth Games held in Bihar?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Haryana",
+                    "Karnataka",
+                    "Maharashtra",
+                    "Tamil Nadu"
                 ],
-                "answer": 0,
-                "explanation": "Maharashtra."
+                "answer": 2,
+                "explanation": "Answer: Maharashtra."
             },
             {
                 "q": "In which year was the flagship Khelo India Programme launched by the central government?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "2019",
+                    "2016",
+                    "2018",
+                    "2017"
                 ],
-                "answer": 0,
-                "explanation": "2018."
+                "answer": 2,
+                "explanation": "Answer: 2018."
             },
             {
                 "q": "Which two states finished second and third in the overall medal tally behind Maharashtra at the 7th Khelo India Youth Games?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Karnataka and Gujarat",
+                    "Haryana and Rajasthan",
+                    "Punjab and Delhi",
+                    "Tamil Nadu and Kerala"
                 ],
-                "answer": 0,
-                "explanation": "Haryana and Rajasthan respectively."
+                "answer": 1,
+                "explanation": "Answer: Haryana and Rajasthan respectively."
             },
             {
                 "q": "Which Union Ministry oversees the Department for Promotion of Industry and Internal Trade (DPIIT), which recently issued amendments to the Footwear Quality Control Orders?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Ministry of Micro, Small and Medium Enterprises",
+                    "Ministry of Commerce & Industry",
+                    "Ministry of Finance",
+                    "Ministry of Corporate Affairs"
                 ],
-                "answer": 0,
-                "explanation": "Ministry of Commerce & Industry."
+                "answer": 1,
+                "explanation": "Answer: Ministry of Commerce & Industry."
             },
             {
                 "q": "What is the maximum number of footwear samples that a manufacturer can import annually for Research and Development (R&D) purposes under the latest DPIIT amendments?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Up to 10,000 pairs per year",
+                    "Up to 5,000 pairs per year",
+                    "Up to 2,000 pairs per year",
+                    "Up to 4,500 pairs per year"
                 ],
-                "answer": 0,
-                "explanation": "Up to 4,500 pairs per year."
+                "answer": 3,
+                "explanation": "Answer: Up to 4,500 pairs per year."
             },
             {
-                "q": "Consider the following statements regarding the July 2026 Footwear QCO amendments:\nImported R&D samples are allowed to be sold commercially after a period of one year.\nAll imported footwear samples must be embossed with the words \"NOT FOR SALE\" and disposed of as scrap after evaluation.\nWhich of the statements given above is/are correct?",
+                "q": "Consider the following statements regarding the July 2026 Footwear QCO amendments:\n1. Imported R&D samples are allowed to be sold commercially after a period of one year.\n2. All imported footwear samples must be embossed with the words \"NOT FOR SALE\" and disposed of as scrap after evaluation.\nWhich of the statements given above is/are correct?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Neither 1 nor 2",
+                    "Only 2",
+                    "Both 1 and 2",
+                    "Only 1"
                 ],
                 "answer": 1,
-                "explanation": "Only 2 is correct."
+                "explanation": "Answer: Only 2 is correct."
             },
             {
                 "q": "In July 2026, India signed an agreement with which country to grant its patent office access to India's Traditional Knowledge Digital Library (TKDL)?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Australia",
+                    "United Kingdom",
+                    "Japan",
+                    "USA"
                 ],
                 "answer": 0,
-                "explanation": "Australia."
+                "explanation": "Answer: Australia."
             },
             {
                 "q": "In which year was the Traditional Knowledge Digital Library (TKDL) established by the Government of India?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "2001",
+                    "2005",
+                    "1999",
+                    "2010"
                 ],
                 "answer": 0,
-                "explanation": "2001."
+                "explanation": "Answer: 2001."
             },
             {
                 "q": "The Traditional Knowledge Digital Library (TKDL) is a collaborative initiative between the Council of Scientific and Industrial Research (CSIR) and which Union Ministry?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Ministry of Environment, Forest and Climate Change",
+                    "Ministry of Culture",
+                    "Ministry of Health and Family Welfare",
+                    "Ministry of AYUSH"
                 ],
-                "answer": 0,
-                "explanation": "Ministry of AYUSH."
+                "answer": 3,
+                "explanation": "Answer: Ministry of AYUSH."
             },
             {
                 "q": "How many international languages are used to translate the database formulations in the TKDL?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Five languages",
+                    "Three languages",
+                    "Four languages",
+                    "Six languages"
                 ],
                 "answer": 0,
-                "explanation": "Five languages (English, German, French, Japanese, and Spanish)."
+                "explanation": "Answer: Five languages (English, German, French, Japanese, and Spanish)."
             },
             {
-                "q": "Consider the following statements regarding the CSIR-TKDL database:\nIt contains information on over 5.2 lakh formulations and practices across systems like Ayurveda, Siddha, Unani, Sowa Rigpa, and Yoga.\nFollowing the agreement with IP Australia, a total of 18 patent offices globally now have access to the database under Non-Disclosure Agreements.\nWhich of the statements given above is/are correct?",
+                "q": "Consider the following statements regarding the CSIR-TKDL database:\n1. It contains information on over 5.2 lakh formulations and practices across systems like Ayurveda, Siddha, Unani, Sowa Rigpa, and Yoga.\n2. Following the agreement with IP Australia, a total of 18 patent offices globally now have access to the database under Non-Disclosure Agreements.\nWhich of the statements given above is/are correct?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Neither 1 nor 2",
+                    "Only 1",
+                    "Only 2",
+                    "Both 1 and 2"
                 ],
-                "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "answer": 3,
+                "explanation": "Answer: Both 1 and 2 are correct."
             },
             {
                 "q": "The \"Land Border Districts\u2019 Superintendents of Police Conference-2026,\" which institutionalized a comprehensive approach to border security, was hosted in which city?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Guwahati",
+                    "Dehradun",
+                    "New Delhi",
+                    "Shimla"
                 ],
-                "answer": 0,
-                "explanation": "New Delhi."
+                "answer": 2,
+                "explanation": "Answer: New Delhi."
             },
             {
                 "q": "How many kilometers of the India-Myanmar border is the Government of India planning to fence under the strategic plan highlighted in July 2026?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "1,050 km",
+                    "1,610 km",
+                    "3,488 km",
+                    "2,100 km"
                 ],
-                "answer": 0,
-                "explanation": "1,610 km."
+                "answer": 1,
+                "explanation": "Answer: 1,610 km."
             },
             {
                 "q": "What is the total estimated cost allocated for the complete fencing of the India-Myanmar border?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "\u20b915,000 crore",
+                    "\u20b945,000 crore",
+                    "\u20b920,000 crore",
+                    "\u20b931,000 crore"
                 ],
-                "answer": 0,
-                "explanation": "\u20b931,000 crore."
+                "answer": 3,
+                "explanation": "Answer: \u20b931,000 crore."
             },
             {
                 "q": "Under which specific central initiative is the development of border regions prioritized by designating the \"last village\" of the country as the \"first village\"?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Samagra Shiksha",
+                    "PM-DevINE",
+                    "Border Area Development Programme (BADP)",
+                    "Vibrant Villages Programme (VVP)"
                 ],
-                "answer": 0,
-                "explanation": "Vibrant Villages Programme (VVP)."
+                "answer": 3,
+                "explanation": "Answer: Vibrant Villages Programme (VVP)."
             },
             {
-                "q": "Consider the following statements regarding the decisions highlighted at the Land Border Districts\u2019 SP Conference-2026:\nThe government has increased investment in border infrastructure by 400 percent.\nThe Demography Mission has been launched to study demographic changes, identifying illegal infiltration as the primary cause of these shifts in border areas.\nWhich of the statements given above is/are correct?",
+                "q": "Consider the following statements regarding the decisions highlighted at the Land Border Districts\u2019 SP Conference-2026:\n1. The government has increased investment in border infrastructure by 400 percent.\n2. The Demography Mission has been launched to study demographic changes, identifying illegal infiltration as the primary cause of these shifts in border areas.\nWhich of the statements given above is/are correct?",
                 "options": [
-                    "Option A",
-                    "Option B",
-                    "Option C",
-                    "Option D"
+                    "Only 1",
+                    "Only 2",
+                    "Both 1 and 2",
+                    "Neither 1 nor 2"
                 ],
                 "answer": 2,
-                "explanation": "Both 1 and 2 are correct."
+                "explanation": "Answer: Both 1 and 2 are correct."
             }
         ]
     }

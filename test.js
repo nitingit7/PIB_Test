@@ -248,7 +248,7 @@ function renderExam() {
         <div class="q-text">${formatQuestionText(q.q)}</div>
         <div class="options">${optionsHtml}</div>
         <div class="q-footer">
-          <button class="clear" data-action="clear" ${current === 0 ? 'style="display:none;"' : ''}>Clear Response</button>
+          <button class="clear" data-action="clear">Clear Response</button>
           <button class="review" data-action="mark">${marked[current] ? 'Unmark Review' : 'Mark for Review'}</button>
           <button class="outline" data-action="prev" ${current === 0 ? 'style="display:none;"' : ''}>Previous</button>
           <button class="primary" data-action="next">${current === totalQ - 1 ? 'Submit' : 'Save & Next'}</button>
