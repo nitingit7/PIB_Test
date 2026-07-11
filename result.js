@@ -27,7 +27,7 @@ function renderResult() {
   // ---- Question-wise overview grid ----
   const overviewHtml = test.questions.map((q, i) => {
     const st = statusOf(q, answers[i]);
-    return `<a href="#rev-${i}" class="palette-cell status-${st}" title="Q${i+1}: ${st}">${i + 1}</a>`;
+    return `<button type="button" data-scroll-to="rev-${i}" class="palette-cell status-${st}" title="Q${i+1}: ${st}">${i + 1}</button>`;
   }).join('');
 
   // ---- Review list ----
@@ -53,6 +53,9 @@ function renderResult() {
           <div class="q-text">${formatQuestionText(q.q)}</div>
           <div class="options">${optionsHtml}</div>
           ${q.explanation ? `<div class="explanation">${q.explanation}</div>` : ''}
+          <div style="text-align: right; margin-top: 16px;">
+            <button type="button" class="btn btn-outline" style="font-size: 12px; padding: 6px 16px" data-action="back-to-palette">↑ Back to Palette</button>
+          </div>
         </div>
       </div>`;
   }).join('');
@@ -147,7 +150,7 @@ function renderResult() {
       </div>
 
       <!-- ④ QUESTION-WISE STATUS -->
-      <div class="result-section">
+      <div class="result-section" id="result-palette-section">
         <div class="result-section-title">
           <span class="section-icon">Q</span>
           Question-wise Status
@@ -180,6 +183,29 @@ function renderResult() {
   if (viewNotesBtn) {
     viewNotesBtn.addEventListener('click', () => openNotesWithGate(test.resourceLink));
   }
+
+  // Bind palette cell scrolling without history push
+  app.querySelectorAll('[data-scroll-to]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById(btn.dataset.scrollTo);
+      if (target) {
+        // Account for masthead offset
+        const y = target.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Bind back to palette buttons
+  app.querySelectorAll('[data-action="back-to-palette"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = document.getElementById('result-palette-section');
+      if (target) {
+        const y = target.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    });
+  });
 
   // Bind notes gate to the notes banner (bottom)
   const notesBanner = app.querySelector('[data-notes-url]');

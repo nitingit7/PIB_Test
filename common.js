@@ -293,7 +293,7 @@ function showSubmitModal(stats, onSubmit, onCancel) {
     <div class="submit-modal-box">
       <div class="sm-row">
         <span class="sm-label">⏱ Time Left</span>
-        <span class="sm-val sm-blue">${stats.timeLeftStr}</span>
+        <span class="sm-val sm-blue" id="submitModalTime">${stats.timeLeftStr}</span>
       </div>
       <div class="sm-row">
         <span class="sm-label">✓ Attempted</span>

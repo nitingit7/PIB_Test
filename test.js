@@ -199,10 +199,16 @@ function startTimer() {
       submitTest(true);
       return;
     }
+    const tStr = fmtTime(exam.timeLeft);
     const t = document.querySelector('.timer');
     if (t) {
-      t.textContent = fmtTime(exam.timeLeft);
+      t.textContent = tStr;
       t.classList.toggle('low', exam.timeLeft <= 60);
+    }
+    const smt = document.getElementById('submitModalTime');
+    if (smt) {
+      smt.textContent = tStr;
+      smt.classList.toggle('sm-red', exam.timeLeft <= 60);
     }
   }, 1000);
 }
