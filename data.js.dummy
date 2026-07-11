@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 window.MOCK_TESTS = { '2026-07-10': { label: 'Test', questions: [{q: 'Test', options: ['A','B','C','D'], answer: 0}] } };
-=======
-window.MOCK_TESTS = { '2026-07-10': { label: 'Test', questions: [{q: 'Test', options: ['A','B','C','D'], answer: 0}] } };
->>>>>>> 1cd7e21ab49511d0bdc3bc0f76514a2f5d584da4

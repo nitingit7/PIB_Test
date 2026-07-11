@@ -168,10 +168,7 @@ function renderInstructions() {
 
   document.getElementById('beginTestBtn').addEventListener('click', () => {
     initExam();
-<<<<<<< HEAD
     window.scrollTo(0, 0);
-=======
->>>>>>> 1cd7e21ab49511d0bdc3bc0f76514a2f5d584da4
     renderExam();
     startTimer();
     // Only attach the unload warning once the test has started
@@ -330,10 +327,7 @@ function renderExam() {
       if (exam.current < totalQ - 1) {
         exam.current++;
         exam.visited[exam.current] = true;
-<<<<<<< HEAD
         window.scrollTo(0, 0);
-=======
->>>>>>> 1cd7e21ab49511d0bdc3bc0f76514a2f5d584da4
         renderExam();
       } else {
         showSubmitModal(getExamStats(), () => submitTest(false), () => {});
