@@ -1,0 +1,1 @@
+window.MOCK_TESTS = { '2026-07-10': { label: 'Test', questions: [{q: 'Test', options: ['A','B','C','D'], answer: 0}] } };
